@@ -3,6 +3,7 @@ layout: default
 ---
 {% include json-ld.html tool=page %}
 
+<div class="tool-detail-wrap">
 <article class="tool-detail">
   {% include breadcrumbs.html name=page.name categories=page.categories current_item=page.url %}
 
@@ -13,7 +14,7 @@ layout: default
       <a href="{{ '/' | relative_url }}?pricing={{ page.pricing }}" class="tool-card__pricing pricing-{{ page.pricing }}">{{ page.pricing }}</a>
       {% if page.api %}<a href="{{ '/' | relative_url }}?api=true" class="tag">API</a>{% endif %}
       {% if page.self_hosted %}<a href="{{ '/' | relative_url }}?self_hosted=true" class="tag">Self-hosted</a>{% endif %}
-      {% if page.verified %}<span class="tag" style="background:var(--ctp-green);color:var(--ctp-crust)">Verified</span>{% endif %}
+      {% if page.verified %}<span class="tag" style="background:rgba(61,250,154,0.12);color:var(--success);border-color:rgba(61,250,154,0.25)">Verified</span>{% endif %}
       </div>
     </div>
 
@@ -48,7 +49,7 @@ layout: default
   </header>
 
   {% if page.features and page.features.size > 0 %}
-  <section class="tool-detail__features">
+  <section class="tool-detail__features hud-corners hud-corners--always">
     <h2>Features</h2>
     <ul>
       {% for feature in page.features %}
@@ -90,3 +91,4 @@ layout: default
   </section>
   {% endif %}
 </article>
+</div>

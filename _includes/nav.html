@@ -1,10 +1,16 @@
 <nav class="site-nav" role="navigation" aria-label="Main navigation">
   <div class="site-nav__brand">
-    <a href="{{ '/' | relative_url }}" class="site-nav__logo"><span class="logo-num">8</span><span class="logo-text">ai<span class="logo-tld">.ac</span></span></a>
-    {% if page.url == '/' %}<h1 class="site-nav__tagline">Actively curated AI tools directory. Browse and discover free and paid AI tools across every category.</h1>{% endif %}
+    <a href="{{ '/' | relative_url }}" class="site-nav__logo glitch-hover" aria-label="ai.vocino.com home">
+      {% include brandmark.html %}
+    </a>
+    <div class="site-nav__identity">
+      <a href="{{ '/' | relative_url }}" class="site-nav__domain">ai<span>.vocino.com</span></a>
+      <p class="site-nav__tagline">Actively curated AI tools directory</p>
+    </div>
   </div>
   <ul class="site-nav__links">
-    <li><a href="https://github.com/vocino/8ai.ac" target="_blank" rel="noopener noreferrer"><iconify-icon icon="catppuccin:git" class="nav-icon" aria-hidden="true"></iconify-icon><span class="nav-text">GitHub</span></a></li>
+    <li><a href="https://vocino.com" target="_blank" rel="noopener noreferrer"><span class="nav-text">vocino.com</span><iconify-icon icon="tabler:external-link" class="nav-icon" aria-hidden="true"></iconify-icon></a></li>
+    <li><a href="https://github.com/vocino/8ai.ac" target="_blank" rel="noopener noreferrer"><iconify-icon icon="tabler:brand-github" class="nav-icon" aria-hidden="true"></iconify-icon><span class="nav-text">GitHub</span></a></li>
     <li><a href="https://github.com/vocino/8ai.ac?tab=contributing-ov-file" class="btn-contribute" target="_blank" rel="noopener noreferrer"><iconify-icon icon="tabler:plus" class="btn-contribute__icon" aria-hidden="true"></iconify-icon>Contribute</a></li>
   </ul>
 </nav>

@@ -1,4 +1,4 @@
-<article class="tool-card"
+<article class="tool-card hud-corners"
   data-name="{{ include.tool.name }}"
   data-description="{{ include.tool.description }}"
   data-categories="{{ include.tool.categories | join: ',' }}"
@@ -24,8 +24,8 @@
     <div class="tool-card__footer">
       <span class="tool-card__cta">View details →</span>
       <div class="tool-card__meta">
-        {% if include.tool.api %}<span class="meta-badge"><iconify-icon icon="catppuccin:api-blueprint" class="meta-badge__icon" aria-hidden="true"></iconify-icon>API</span>{% endif %}
-        {% if include.tool.self_hosted %}<span class="meta-badge"><iconify-icon icon="catppuccin:docker" class="meta-badge__icon" aria-hidden="true"></iconify-icon>Self-hosted</span>{% endif %}
+        {% if include.tool.api %}<span class="meta-badge"><iconify-icon icon="tabler:code" class="meta-badge__icon" aria-hidden="true"></iconify-icon>API</span>{% endif %}
+        {% if include.tool.self_hosted %}<span class="meta-badge"><iconify-icon icon="tabler:server" class="meta-badge__icon" aria-hidden="true"></iconify-icon>Self-hosted</span>{% endif %}
       </div>
     </div>
   </a>
