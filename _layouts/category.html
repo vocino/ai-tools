@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="category-page">
-  <div class="category-page__eyebrow">Category</div>
+  <div class="category-page__eyebrow"><span style="color:var(--brand)">//</span> Category — curated by Vocino</div>
   {% include breadcrumbs.html name=page.title current_item=page.url %}
 
   <h1 class="category-page__title">{{ page.title }}</h1>
@@ -14,5 +14,9 @@ layout: default
         {% include tool-card.html tool=tool %}
       {% endif %}
     {% endfor %}
+  </div>
+
+  <div style="margin-top:3rem;padding:1.5rem;border:1px solid var(--border);background:var(--surface-1)" class="hud-corners">
+    <p style="margin:0;color:var(--text-secondary)">Missing a tool in {{ page.title }}? <a href="https://github.com/vocino/ai-tools?tab=contributing-ov-file" target="_blank" rel="noopener noreferrer" style="color:var(--brand)">Add it — curated by Vocino</a> →</p>
   </div>
 </div>

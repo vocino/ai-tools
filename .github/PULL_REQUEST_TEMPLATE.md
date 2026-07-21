@@ -1,14 +1,21 @@
-## New Tool Submission
+## New Tool Submission — ai.vocino.com by Vocino
 
-**Tool name:** <!-- e.g., ChatGPT -->
+**Tool name:**
 
-### Checklist
+### Checklist — helps Vocino curate fast
 
-- [ ] I added **one file** to the `_tools/` directory
-- [ ] The filename matches the `slug` field (e.g., `openai-chatgpt.md`)
-- [ ] All required front matter fields are filled in
-- [ ] `categories`, `use_cases`, and `modalities` use values from the controlled vocabulary
-- [ ] `pricing` is one of: `free`, `freemium`, `paid`, `open-source`
-- [ ] `description` is under 160 characters
-- [ ] The tool website URL is valid and publicly accessible
-- [ ] I have not modified any existing files (unless adding a new taxonomy value)
+- [ ] One file added to `_tools/` (slug = filename, e.g. `openai-chatgpt.md`)
+- [ ] `slug` matches filename
+- [ ] All required front matter filled (name, slug, website, description <160 chars, categories, use_cases, modalities, pricing, api, self_hosted)
+- [ ] `categories`, `use_cases`, `modalities` from controlled vocab in CONTRIBUTING.md
+- [ ] `pricing` is free/freemium/paid/open-source
+- [ ] Website URL valid + publicly accessible
+- [ ] No existing files modified unless adding taxonomy value
+
+### What does it do? (1-2 sentences)
+
+### Why should Vocino include it? (helps shipping how?)
+
+Becoming part of **ai.vocino.com** — curated by [Vocino](https://vocino.com), successor to 8ai.ac. By submitting you agree MIT licensed, listing fact-checked.
+
+Repo: https://github.com/vocino/ai-tools
