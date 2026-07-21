@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://8ai.ac/sitemap.xml
+Sitemap: https://ai.vocino.com/sitemap.xml

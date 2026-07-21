@@ -1,6 +1,6 @@
-title: "8ai.ac — AI Tools Directory"
-description: "The open-source directory of AI tools, services, and platforms. Free and paid. Community-driven."
-url: "https://8ai.ac"
+title: "AI Tools by Vocino"
+description: "A curated directory of AI tools, services and platforms — by Vocino. Discover the best AI tools for building, creating, and shipping."
+url: "https://ai.vocino.com"
 baseurl: ""
 
 author:
@@ -14,8 +14,8 @@ twitter:
 social:
   name: "Vocino"
   links:
-    - https://threads.com/vocino
-    - https://x.com/vocino
+    - https://threads.com/@vocino
+    - https://vocino.com
 
 collections:
   tools:
@@ -29,7 +29,6 @@ defaults:
       type: "tools"
     values:
       layout: "tool"
-  # Default OG/social image for all pages (used when sharing links)
   - scope:
       path: ""
     values:

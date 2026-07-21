@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 # Sets page.title from page.name for tools collection so jekyll-seo-tag
-# outputs unique, query-aligned meta titles (e.g. "LlamaIndex — AI Tool | 8ai.ac").
+# outputs unique, query-aligned meta titles (e.g. "LlamaIndex — AI Tool | ai.vocino.com").
 Jekyll::Hooks.register :site, :post_read do |site|
   tools = site.collections["tools"]
   next unless tools

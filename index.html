@@ -1,22 +1,22 @@
 ---
 layout: default
-title: "8ai.ac — AI Tools Directory"
-description: "The open-source directory of AI tools, services, and platforms. Browse, filter, and discover free and paid AI tools across every category."
+title: "AI Tools by Vocino — ai.vocino.com"
+description: "205+ AI tools curated by Vocino. The directory for builders who ship — coding, video, writing, agents. Part of vocino.com"
 ---
 <div class="page-layout">
   {% include sidebar.html %}
 
   <main class="main-content" role="main">
     <button class="filter-toggle" onclick="openSidebar()" aria-label="Open filters">
-      <iconify-icon icon="catppuccin:folder" class="filter-toggle__icon" aria-hidden="true"></iconify-icon>Filters
+      <iconify-icon icon="tabler:filter" class="filter-toggle__icon" aria-hidden="true"></iconify-icon>Filters
     </button>
 
-    <section class="results-shell" aria-label="AI tools directory">
+    <section class="results-shell" aria-label="AI tools directory by Vocino">
       <div class="results-shell__panel">
         <div class="results-header">
           <span class="results-count-wrap">
             <span class="results-count" id="resultsCount">
-              Showing <strong>{{ site.tools | size }}</strong> of <strong>{{ site.tools | size }}</strong> tools
+              Showing <strong>{{ site.tools | size }}</strong> of <strong>{{ site.tools | size }}</strong> tools curated by Vocino
             </span>
             <button type="button" class="results-clear" id="clearFiltersBtn" aria-label="Clear all filters" style="display:none">Clear filters</button>
           </span>
@@ -27,7 +27,7 @@ description: "The open-source directory of AI tools, services, and platforms. Br
           </select>
         </div>
 
-        <p class="results-helper" id="resultsHelper">Keep scrolling to reveal more tools, or refine the list with filters.</p>
+        <p class="results-helper" id="resultsHelper">Built by Vocino — 205+ tools that help you ship. Keep scrolling to reveal more, or filter by what you build.</p>
         <div class="applied-filters" id="appliedFilters" aria-live="polite" aria-label="Active filters"></div>
       </div>
 
@@ -39,17 +39,17 @@ description: "The open-source directory of AI tools, services, and platforms. Br
 
       <div class="tools-reveal" id="toolsReveal" aria-live="polite" style="display:none">
         <div class="tools-reveal__fade" aria-hidden="true"></div>
-        <p class="tools-reveal__eyebrow">Keep exploring</p>
+        <p class="tools-reveal__eyebrow">Keep exploring — curated by Vocino</p>
         <p class="tools-reveal__summary" id="toolsRevealSummary"></p>
         <button type="button" class="tools-reveal__button" id="showMoreToolsBtn">Show more tools</button>
         <div class="tools-reveal__sentinel" id="toolsRevealSentinel" aria-hidden="true"></div>
       </div>
 
       <div class="empty-state" id="emptyState" style="display:none">
-        <iconify-icon icon="catppuccin:search" class="empty-state__icon" aria-hidden="true"></iconify-icon>
+        <iconify-icon icon="tabler:search" class="empty-state__icon" aria-hidden="true"></iconify-icon>
         <p class="empty-state__title">No tools match your filters</p>
         <p>Try removing some filters or broadening your search.</p>
-        <p><a href="https://github.com/vocino/8ai.ac?tab=contributing-ov-file" target="_blank" rel="noopener noreferrer">Add a tool by contributing</a> →</p>
+        <p><a href="https://github.com/vocino/ai-tools?tab=contributing-ov-file" target="_blank" rel="noopener noreferrer">Add a tool — curated by Vocino</a> →</p>
       </div>
     </section>
   </main>

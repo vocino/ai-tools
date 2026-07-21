@@ -1,7 +1,9 @@
-# Redirect old category .html URLs to pretty URLs (Cloudflare Pages / Netlify)
+# Old 8ai.ac -> ai.vocino.com (if Cloudflare Pages fallback)
+https://8ai.ac/* https://ai.vocino.com/:splat 301
+http://8ai.ac/* https://ai.vocino.com/:splat 301
+
+# Category pretty URLs
 /category/:slug.html /category/:slug/ 301
 
-# Trailing slash: ensure /tools/name redirects to /tools/name/ (canonical)
+# Tools trailing slash canonical
 /tools/*  /tools/:splat/  301
-
-# HTTP→HTTPS is handled at the host (Cloudflare Pages). Ensure "Always Use HTTPS" is on.

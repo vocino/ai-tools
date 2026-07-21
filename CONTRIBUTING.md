@@ -1,138 +1,88 @@
-# Contributing to 8ai.ac
+# Contributing to AI Tools by Vocino
 
-Thanks for wanting to add to the AI tools directory! This project is community-driven — anyone can submit a tool by opening a pull request.
+Thanks for contributing to **ai.vocino.com** — a curated directory by **[Vocino](https://vocino.com)**.
+
+This is community-driven but curated with taste. I include tools that help you ship something real — not SEO filler.
 
 ## Scope
 
-Every tool should **help you do something useful**. We list AI tools that are built for AI and enable a productive outcome—writing, creating, coding, designing, researching, automating, and so on. We exclude tools that are primarily passive services (e.g. entertainment chat, character roleplay with no productive use case). When in doubt, ask: does this tool help someone accomplish a task?
+Every tool should **help you do something useful**. We list AI tools that enable a productive outcome — coding, creating, designing, researching, automating. We exclude passive entertainment (character chat with no work outcome). Ask: does this tool help someone accomplish a task?
+
+Curated by Vocino = you get my filter. I build AI products daily, I live in Claude Code. If it's on here, it's worth tracking.
 
 ## Adding a New Tool
 
-### 1. Copy the template
+### 1. Copy template
 
-Copy `_tools/_template.md` and rename it to match your tool's slug (e.g., `_tools/your-tool-name.md`). The slug must be lowercase with hyphens only.
+Copy `_tools/_template.md` → `_tools/your-tool-slug.md` (lowercase hyphens).
 
-### 2. Fill in the front matter
+### 2. Fill front matter
 
-Every field marked **REQUIRED** must be filled in. Here's a quick reference:
+Required fields:
 
-| Field | Required | Type | Description |
-|-------|----------|------|-------------|
-| `name` | Yes | string | Official tool name |
-| `slug` | Yes | string | URL-safe identifier (must match filename) |
-| `website` | Yes | string | Official website URL |
-| `description` | Yes | string | One sentence, under 160 characters |
-| `categories` | Yes | list | 1–3 from the category list below |
-| `use_cases` | Yes | list | 1–3 from the use case list below |
-| `modalities` | Yes | list | From: text, image, video, audio, code |
-| `pricing` | Yes | string | One of: free, freemium, paid, open-source |
-| `api` | Yes | boolean | Does it have a public API? |
-| `self_hosted` | Yes | boolean | Can it be self-hosted? |
-| `features` | No | list | Key feature highlights |
-| `launch_date` | No | string | YYYY-MM format |
-| `verified` | No | boolean | Leave as false (maintainers set this) |
+| Field | Type | Notes |
+|-------|------|-------|
+| `name` | string | Official name |
+| `slug` | string | Must match filename |
+| `website` | string | Clean URL (we add UTM) |
+| `description` | string | <160 chars, one sentence |
+| `categories` | list | 1–3 from list below |
+| `use_cases` | list | 1–3 from list below |
+| `modalities` | list | text, image, video, audio, code |
+| `pricing` | string | free, freemium, paid, open-source |
+| `api` | bool | Has public API? |
+| `self_hosted` | bool | Self-hostable? |
 
-**Sorting:** The "Latest" sort on the directory is by when the tool was added to the repo (file date at build time), not by product launch. `launch_date` is optional and used for display/reference only.
+### 3. Write description
 
-**Website URL:** Use the tool’s clean URL (e.g. `https://example.com`). The site automatically appends UTM parameters for referral attribution when users click “Visit”; you don’t need to add them. If a listing already includes campaign-specific UTMs, those are left unchanged.
+2–4 sentences, natural, includes keywords like "AI writing assistant" without stuffing.
 
-### 3. Write a description
+### 4. PR it
 
-Below the front matter, write an optional Markdown description. This appears on the tool's detail page and helps with search engine visibility. Tips:
+- One file to `_tools/`
+- CI validates via `node validate.js`
+- I merge if it passes and fits my bar
 
-- Write naturally and include relevant search terms (e.g., "AI writing assistant", "code completion tool")
-- Avoid keyword stuffing — focus on being helpful and accurate
-- 2–4 sentences is ideal
+## Contributing with AI — fast path
 
-### 4. Submit a pull request
-
-- Your PR should add **one file** to the `_tools/` directory
-- Use the PR template checklist to verify everything is correct
-- A GitHub Action will automatically validate your front matter
-
-## Contributing with AI
-
-You can use ChatGPT, Claude, Cursor, or any AI assistant to draft your tool listing. Give it the right context and it can produce a valid listing in one go.
-
-**What to provide:**
-- The contents of `_tools/_template.md` (so it knows the structure)
-- The Categories, Use Cases, and Modalities tables/lists from this CONTRIBUTING.md (so it picks valid slugs)
-- The tool’s name and website (and any other info you have)
-
-**Ready-made prompt** — copy, fill in the bracketed parts, and paste:
+Use Claude/ChatGPT to draft:
 
 ```
-I'm contributing an AI tool to the 8ai.ac directory (https://github.com/vocino/8ai.ac). 
-Create a complete tool listing file for me.
+I'm contributing to ai.vocino.com (https://github.com/vocino/ai-tools) — curated by Vocino.
 
-CONTEXT — Use this template structure and taxonomy:
+Create tool listing for:
+- Name: [Name]
+- Website: [URL]
+- Description: [what it does]
 
-[Paste the full contents of _tools/_template.md here]
+Use template:
+[Paste _tools/_template.md]
 
-VALID VALUES (from CONTRIBUTING.md):
+Valid values:
 - Categories: chat, image-generation, image-editing, video-generation, video-editing, audio-generation, audio-editing, speech, coding, writing, productivity, research, search, customer-service, design, marketing, education, data-analysis, 3d, agents, api-platform, prompt-tools
 - Use cases: content-creation, development, design, research, automation, support, sales, marketing, education, personal, data-analysis, video-production, audio-production, legal, healthcare, finance, enterprise
 - Modalities: text, image, video, audio, code
 - Pricing: free, freemium, paid, open-source
 
-TOOL TO ADD:
-- Name: [Tool name]
-- Website: [URL]
-- [Any other details: what it does, pricing model, has API, etc.]
-
-Output a complete .md file with valid YAML front matter and a 2–4 sentence Markdown description below. 
-The slug must be lowercase with hyphens only and match the filename (e.g. my-tool-name.md).
+Output complete .md with YAML front matter. Slug hyphenated, matches filename.
 ```
 
-After you get the output, save it as `_tools/[slug].md`. From the repo root run `npm install` then `node validate.js` to confirm it passes, and open a pull request.
+Then `npm install && node validate.js` → PR.
 
-## Categories
+## Categories / Use Cases / Modalities
 
-Pick 1–3 that describe what the tool **does**:
+**Categories:** chat, image-generation, image-editing, video-generation, video-editing, audio-generation, audio-editing, speech, coding, writing, productivity, research, search, customer-service, design, marketing, education, data-analysis, 3d, agents, api-platform, prompt-tools
 
-| Slug | Label |
-|------|-------|
-| `chat` | Chat & Conversational |
-| `image-generation` | Image Generation |
-| `image-editing` | Image Editing |
-| `video-generation` | Video Generation |
-| `video-editing` | Video Editing |
-| `audio-generation` | Audio & Music Generation |
-| `audio-editing` | Audio Editing |
-| `speech` | Speech & Voice |
-| `coding` | Coding & Development |
-| `writing` | Writing |
-| `productivity` | Productivity |
-| `research` | Research & Analysis |
-| `search` | Search & Discovery |
-| `customer-service` | Customer Service |
-| `design` | Design |
-| `marketing` | Marketing & Sales |
-| `education` | Education |
-| `data-analysis` | Data & Analytics |
-| `3d` | 3D & Spatial |
-| `agents` | Agents & Automation |
-| `api-platform` | APIs & Platforms |
-| `prompt-tools` | Prompt Engineering |
+**Use cases:** content-creation, development, design, research, automation, support, sales, marketing, education, personal, data-analysis, video-production, audio-production, legal, healthcare, finance, enterprise
 
-**Note:** Use `*-generation` for tools that create from scratch and `*-editing` for tools that modify existing content.
+**Modalities:** text, image, video, audio, code
 
-## Use Cases
+## About This Project
 
-Pick 1–3 that describe **what you use it for**:
+- **URL:** https://ai.vocino.com
+- **Repo:** https://github.com/vocino/ai-tools (formerly 8ai.ac)
+- **Built by:** [Vocino](https://vocino.com) — indie AI builder, part of vocino.com ecosystem
+- **Stack:** Jekyll + GitHub Pages, 205+ tools, vocino.com design system (--bg #0F1419 / --brand #00CCFF)
+- **Legacy:** 8ai.ac → ai.vocino.com — same curation, more brand equity with vocino
 
-`content-creation`, `development`, `design`, `research`, `automation`, `support`, `sales`, `marketing`, `education`, `personal`, `data-analysis`, `video-production`, `audio-production`, `legal`, `healthcare`, `finance`, `enterprise`
-
-## Modalities
-
-Pick all that apply for what the tool **accepts or produces**:
-
-`text`, `image`, `video`, `audio`, `code`
-
-## Adding a New Category or Use Case
-
-If the existing taxonomies don't cover a tool, open an issue or include changes to `_data/categories.yml`, `_data/use_cases.yml`, or `_data/modalities.yml` in your PR. New taxonomy values need maintainer approval.
-
-## Code of Conduct
-
-Be respectful. Don't submit spam, fake tools, or affiliate-heavy descriptions. Listings should be factual and helpful.
+Be respectful. No spam, fake tools, or affiliate-heavy descriptions.

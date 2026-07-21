@@ -27,7 +27,7 @@ layout: default
       {% if base_url contains "utm_source=" %}
         {% assign outbound_url = page.website %}
       {% else %}
-        {% assign utm_params = "utm_source=8ai.ac&utm_medium=referral&utm_campaign=tool_directory" %}
+        {% assign utm_params = "utm_source=ai.vocino.com&utm_medium=referral&utm_campaign=vocino-tools" %}
         {% if base_url contains "?" %}
           {% assign outbound_url = base_url | append: "&" | append: utm_params %}
         {% else %}
@@ -41,8 +41,8 @@ layout: default
         Visit {{ page.name }} →
       </a>
       <p class="tool-detail__edit">
-        <a href="https://github.com/vocino/8ai.ac/edit/main/_tools/{{ page.slug }}.md" target="_blank" rel="noopener noreferrer">
-          See something wrong? Edit this page on GitHub
+        <a href="https://github.com/vocino/ai-tools/edit/main/_tools/{{ page.slug }}.md" target="_blank" rel="noopener noreferrer">
+          See something wrong? Edit on GitHub — curated by Vocino
         </a>
       </p>
     </div>
@@ -74,7 +74,7 @@ layout: default
     {% endif %}
   {% endfor %}
   <section class="tool-detail__similar">
-    <h2>Similar tools</h2>
+    <h2>Similar tools — more from Vocino's directory</h2>
     {% if similar_count > 0 %}
     <div class="tools-grid">
       {% assign count = 0 %}
@@ -86,7 +86,7 @@ layout: default
       {% endfor %}
     </div>
     {% else %}
-    <p class="tool-detail__similar-empty">No similar tools yet. <a href="https://github.com/vocino/8ai.ac?tab=contributing-ov-file" target="_blank" rel="noopener noreferrer">Add one by contributing</a> →</p>
+    <p class="tool-detail__similar-empty">No similar tools yet. <a href="https://github.com/vocino/ai-tools?tab=contributing-ov-file" target="_blank" rel="noopener noreferrer">Add one — help Vocino curate</a> →</p>
     {% endif %}
   </section>
   {% endif %}
