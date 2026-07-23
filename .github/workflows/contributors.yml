@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   contrib-readme:
@@ -13,21 +14,50 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - run: mkdir -p build
+      - name: Update contributors avatars (filter bots)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          echo "Fetching contributors (filter bots/claude/CJWTRUST)..."
+          gh api repos/vocino/ai-tools/contributors --jq '[.[] | select(.login != "claude" and .login != "CJWTRUST" and (.type != "Bot")) | .login] | unique' > /tmp/contribs.json || echo '["vocino"]' > /tmp/contribs.json
+          cat /tmp/contribs.json
+          python3 <<'PY'
+          import json, pathlib, re, subprocess
+          try:
+              contribs = json.loads(open('/tmp/contribs.json').read())
+          except:
+              contribs = ["vocino"]
+          # Ensure vocino first
+          if "vocino" in contribs:
+              contribs = ["vocino"] + [c for c in contribs if c != "vocino"]
+          html_parts=[]
+          for login in contribs:
+              if login == "vocino":
+                  html_parts.append('<a href="https://github.com/vocino" title="Vocino — curator"><img src="https://avatars.githubusercontent.com/u/65593?v=4" width="36" alt="Vocino" style="border-radius:50%"/></a>')
+              else:
+                  try:
+                      uid = subprocess.check_output(["gh","api",f"users/{login}","--jq",".id"], text=True).strip()
+                      if uid:
+                          html_parts.append(f'<a href="https://github.com/{login}" title="{login}"><img src="https://avatars.githubusercontent.com/u/{uid}?v=4" width="36" alt="{login}" style="border-radius:50%"/></a>')
+                  except Exception as e:
+                      print(f"skip {login}: {e}")
+          html = "\n".join(html_parts)
+          txt = pathlib.Path("README.md").read_text()
+          new = f"<!-- readme: contributors -start -->\n<div style=\"display:flex;flex-wrap:wrap;gap:6px;align-items:center\">\n{html}\n</div>\n<!-- readme: contributors -end -->"
+          txt = re.sub(r"<!-- readme: contributors -start -->.*<!-- readme: contributors -end -->", new, txt, flags=re.DOTALL)
+          pathlib.Path("README.md").write_text(txt)
+          print("Updated contributors:", contribs)
+          PY
 
-      - name: Generate contributors (avatars only)
-        id: contributors
-        uses: jaywcjlove/github-action-contributors@main
-        with:
-          output: build/CONTRIBUTORS.svg
-          avatarSize: "36"
-
-      - name: Update README with contributors
-        uses: jaywcjlove/github-action-modify-file-content@main
-        with:
-          path: README.md
-          body: |
-            <div style="display:flex;flex-wrap:wrap;gap:6px;align-items:center">${{ steps.contributors.outputs.htmlList }}</div>
-          openDelimiter: "<!-- readme: contributors -start -->"
-          closeDelimiter: "<!-- readme: contributors -end -->"
-          message: "docs(contributor): update contributors in README"
+      - name: Commit if changed
+        run: |
+          if git diff --quiet README.md; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "Vocino"
+          git config user.email "travis@vocino.com"
+          git add README.md
+          git commit -m "docs(contributor): update contributors in README"
+          git push origin main

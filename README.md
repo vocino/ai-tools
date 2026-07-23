@@ -1,12 +1,12 @@
 # AI Tools by Vocino — ai.vocino.com
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]](LICENSE)
+[![Website](https://img.shields.io/badge/Website-ai.vocino.com-00CCFF?style=flat-square&labelColor=161B22)](https://ai.vocino.com)
+[![Tools](https://img.shields.io/badge/Tools-209-4DA3FF?style=flat-square&labelColor=161B22)](https://ai.vocino.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-3DFA9A?style=flat-square&labelColor=161B22)](LICENSE)
+[![Built with Jekyll](https://img.shields.io/badge/Built%20with-Jekyll-%23CC0000?style=flat-square&labelColor=161B22)](https://jekyllrb.com/)
+[![Curated by Vocino](https://img.shields.io/badge/Curated%20by-Vocino-00CCFF?style=flat-square&labelColor=161B22)](https://vocino.com)
 
-A curated directory of **205+ AI tools** — built and maintained by **[Vocino](https://vocino.com)**. Part of the [vocino.com](https://vocino.com) ecosystem.
+A curated directory of **209 AI tools** — built and maintained by **[Vocino](https://vocino.com)**. Part of the [vocino.com](https://vocino.com) ecosystem.
 
 **[Browse at ai.vocino.com →](https://ai.vocino.com)**
 
@@ -40,7 +40,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for full instructions, AI-assisted prompt
 - **One file per tool** — `_tools/*.md` with YAML front matter
 - **Jekyll + GitHub Pages** — static, fast, free
 - **Client-side filtering** — JS sidebar filters (categories, use cases, modalities, pricing)
-- **205+ tools validated** — `node validate.js` on every PR
+- **209 tools validated** — `node validate.js` on every PR
 - **Vocino design system** — `--bg #0F1419 / --brand #00CCFF` dark hacker theme, HUD corners, V brandmark
 
 ## Local Development
@@ -73,7 +73,7 @@ assets/        → CSS (vocino.com tokens) + JS
 ## The Vocino Ecosystem
 
 - **[vocino.com](https://vocino.com)** — home
-- **[ai.vocino.com](https://ai.vocino.com)** — this directory (205 tools)
+- **[ai.vocino.com](https://ai.vocino.com)** — this directory (209 tools)
 - **[@vocino on Threads](https://threads.com/@vocino)** — daily updates
 - **GitHub: [vocino/ai-tools](https://github.com/vocino/ai-tools)**
 
@@ -81,23 +81,13 @@ Part of my path to building great AI-tools in public — Karpathy-style deep div
 
 ## Contributors
 
-<!-- readme: contributors -start --><div style="display:flex;flex-wrap:wrap;gap:6px;align-items:center">
-<a href="https://github.com/vocino" title="Vocino"><img src="https://avatars.githubusercontent.com/u/65593?v=4" width="36;" alt="Vocino"/></a>
-<a href="https://github.com/claude" title="Claude"><img src="https://avatars.githubusercontent.com/u/81847?v=4" width="36;" alt="Claude"/></a>
-<a href="https://github.com/CJWTRUST" title="CJWTRUST"><img src="https://avatars.githubusercontent.com/u/235565898?v=4" width="36;" alt="CJWTRUST"/></a>
-
-</div><!-- readme: contributors -end -->
+<!-- readme: contributors -start -->
+<div style="display:flex;flex-wrap:wrap;gap:6px;align-items:center">
+<a href="https://github.com/vocino" title="Vocino — curator"><img src="https://avatars.githubusercontent.com/u/65593?v=4" width="36" alt="Vocino" style="border-radius:50%"/></a>
+<a href="https://github.com/fpy5627" title="fpy5627 — 4 tools"><img src="https://avatars.githubusercontent.com/u/fpy5627?v=4" width="36" alt="fpy5627" style="border-radius:50%"/></a>
+</div>
+<!-- readme: contributors -end -->
 
 ## License
 
 MIT — see [LICENSE](LICENSE). Listings are community contributed.
-
-[contributors-shield]: https://img.shields.io/github/contributors/vocino/ai-tools?style=flat-square&color=00CCFF&labelColor=161B22
-[contributors-url]: https://github.com/vocino/ai-tools/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/vocino/ai-tools?style=flat-square&color=4DA3FF&labelColor=161B22
-[forks-url]: https://github.com/vocino/ai-tools/network/members
-[stars-shield]: https://img.shields.io/github/stars/vocino/ai-tools?style=flat-square&color=00CCFF&labelColor=161B22
-[stars-url]: https://github.com/vocino/ai-tools/stargazers
-[issues-shield]: https://img.shields.io/github/issues/vocino/ai-tools?style=flat-square&color=FF5C5C&labelColor=161B22
-[issues-url]: https://github.com/vocino/ai-tools/issues
-[license-shield]: https://img.shields.io/github/license/vocino/ai-tools?style=flat-square&color=3DFA9A&labelColor=161B22
