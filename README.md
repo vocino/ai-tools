@@ -84,7 +84,6 @@ Part of my path to building great AI-tools in public — Karpathy-style deep div
 <!-- readme: contributors -start -->
 <div style="display:flex;flex-wrap:wrap;gap:6px;align-items:center">
 <a href="https://github.com/vocino" title="Vocino — curator"><img src="https://avatars.githubusercontent.com/u/65593?v=4" width="36" alt="Vocino" style="border-radius:50%"/></a>
-<a href="https://github.com/fpy5627" title="fpy5627 — 4 tools"><img src="https://avatars.githubusercontent.com/u/fpy5627?v=4" width="36" alt="fpy5627" style="border-radius:50%"/></a>
 </div>
 <!-- readme: contributors -end -->
 
