@@ -6,6 +6,7 @@ import sharp from "sharp";
 
 const ROOT = path.resolve(process.cwd());
 const OUT_DIR = path.join(ROOT, "assets", "images", "og", "category");
+const OUT_SITE = path.join(ROOT, "assets", "images", "og-image.png");
 const DATA_DIR = path.join(ROOT, "_data");
 const TOOLS_DIR = path.join(ROOT, "_tools");
 
@@ -70,6 +71,57 @@ function categoryOverlay({ title, subtitle, description, count }) {
 </svg>`.trim();
 }
 
+function siteOverlay({ count }) {
+  const logo = vocinoLogoSvg({ accent: "#00CCFF", width: 150 * SUPERSAMPLE });
+  const badge = `${count}+ tools`;
+  const tagline = "Curated for builders who ship";
+  return `
+<svg xmlns="http://www.w3.org/2000/svg" width="${RENDER_WIDTH}" height="${RENDER_HEIGHT}" viewBox="0 0 ${RENDER_WIDTH} ${RENDER_HEIGHT}">
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="rgba(0,0,0,0.12)"/>
+      <stop offset="1" stop-color="rgba(0,0,0,0.58)"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00CCFF"/>
+      <stop offset="1" stop-color="#4DA3FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#fade)"/>
+  <!-- HUD corner accents -->
+  <g stroke="rgba(0,204,255,0.35)" stroke-width="${2 * SUPERSAMPLE}" fill="none">
+    <path d="M ${40*SUPERSAMPLE} ${40*SUPERSAMPLE} h ${32*SUPERSAMPLE} v 0 h 0 v ${32*SUPERSAMPLE}" />
+    <path d="M ${RENDER_WIDTH-40*SUPERSAMPLE} ${40*SUPERSAMPLE} h ${-32*SUPERSAMPLE} v 0 h 0 v ${32*SUPERSAMPLE}" />
+    <path d="M ${40*SUPERSAMPLE} ${RENDER_HEIGHT-40*SUPERSAMPLE} h ${32*SUPERSAMPLE} v 0 h 0 v ${-32*SUPERSAMPLE}" />
+    <path d="M ${RENDER_WIDTH-40*SUPERSAMPLE} ${RENDER_HEIGHT-40*SUPERSAMPLE} h ${-32*SUPERSAMPLE} v 0 h 0 v ${-32*SUPERSAMPLE}" />
+  </g>
+  <!-- Header: logo + wordmark -->
+  <g transform="translate(${80*SUPERSAMPLE} ${72*SUPERSAMPLE})">
+    ${logo}
+    <g transform="translate(${210*SUPERSAMPLE} 14)">
+      <text font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="${22*SUPERSAMPLE}" font-weight="700" letter-spacing="1.5" fill="rgba(230,237,243,0.95)">AI.TOOLS  //  VOCINO</text>
+      <text y="${32*SUPERSAMPLE}" font-family="system-ui, sans-serif" font-size="${15*SUPERSAMPLE}" font-weight="500" letter-spacing="0.8" fill="rgba(107,119,133,0.95)">ai.vocino.com</text>
+    </g>
+  </g>
+  <!-- Hero -->
+  <g transform="translate(${80*SUPERSAMPLE} ${250*SUPERSAMPLE})">
+    <text font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="${74*SUPERSAMPLE}" font-weight="900" letter-spacing="-1" fill="rgba(255,255,255,0.97)">AI Tools</text>
+    <text y="${78*SUPERSAMPLE}" font-family="system-ui, sans-serif" font-size="${28*SUPERSAMPLE}" font-weight="700" letter-spacing="2" fill="#00CCFF">BY VOCINO — CURATED DIRECTORY</text>
+    <text y="${118*SUPERSAMPLE}" font-family="system-ui, sans-serif" font-size="${20*SUPERSAMPLE}" font-weight="400" fill="rgba(155,167,180,0.95)">Discover the best AI tools for building, creating &amp; shipping.</text>
+    <text y="${148*SUPERSAMPLE}" font-family="monospace, ui-monospace, monospace" font-size="${15*SUPERSAMPLE}" font-weight="500" letter-spacing="0.6" fill="rgba(107,119,133,0.9)">coding • video • writing • agents • chat • design • research</text>
+  </g>
+  <!-- Bottom bar -->
+  <g transform="translate(${80*SUPERSAMPLE} ${RENDER_HEIGHT-98*SUPERSAMPLE})">
+    <rect width="${210*SUPERSAMPLE}" height="${38*SUPERSAMPLE}" rx="${19*SUPERSAMPLE}" fill="rgba(0,204,255,0.14)" stroke="rgba(0,204,255,0.32)"/>
+    <text x="${24*SUPERSAMPLE}" y="${25*SUPERSAMPLE}" font-family="system-ui, sans-serif" font-size="${16*SUPERSAMPLE}" font-weight="700" fill="#00CCFF">${escapeXml(badge)} — ${escapeXml(tagline)}</text>
+    <g transform="translate(${860*SUPERSAMPLE} 10)">
+      <text font-family="monospace, ui-monospace, monospace" font-size="${13*SUPERSAMPLE}" font-weight="600" letter-spacing="0.8" fill="rgba(107,119,133,0.9)">vocino.com</text>
+    </g>
+  </g>
+  <rect x="0" y="${RENDER_HEIGHT - 6*SUPERSAMPLE}" width="${RENDER_WIDTH}" height="${6*SUPERSAMPLE}" fill="url(#accentLine)" opacity="0.98"/>
+</svg>`.trim();
+}
+
 async function buildBackground() {
   const base = sharp({ create: { width: RENDER_WIDTH, height: RENDER_HEIGHT, channels: 4, background: { r: 15, g: 20, b: 25, alpha: 1 } } });
   const bgSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="${RENDER_WIDTH}" height="${RENDER_HEIGHT}"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B0F14"/><stop offset="1" stop-color="#151E29"/></linearGradient></defs><rect width="100%" height="100%" fill="url(#g)"/></svg>`;
@@ -79,6 +131,15 @@ async function buildBackground() {
 async function renderOne({ title, subtitle, description, count, out }) {
   const bg = await buildBackground();
   const overlay = categoryOverlay({ title, subtitle, description, count });
+  const bgPng = await bg.png().toBuffer();
+  const overlayPng = await sharp(Buffer.from(overlay), { density: 72 }).resize(RENDER_WIDTH, RENDER_HEIGHT).png().toBuffer();
+  const merged = await sharp(bgPng).composite([{ input: overlayPng, top: 0, left: 0 }]).png().toBuffer();
+  await sharp(merged).resize(WIDTH, HEIGHT).png({ compressionLevel: 9 }).toFile(out);
+}
+
+async function renderSite({ count, out }) {
+  const bg = await buildBackground();
+  const overlay = siteOverlay({ count });
   const bgPng = await bg.png().toBuffer();
   const overlayPng = await sharp(Buffer.from(overlay), { density: 72 }).resize(RENDER_WIDTH, RENDER_HEIGHT).png().toBuffer();
   const merged = await sharp(bgPng).composite([{ input: overlayPng, top: 0, left: 0 }]).png().toBuffer();
@@ -104,6 +165,16 @@ async function main() {
     if (!fm?.categories) continue;
     for (const c of fm.categories) counts[c] = (counts[c] || 0) + 1;
   }
+
+  const totalCount = files.length;
+
+  // Site OG — always generate unless --no-site (covers stale 1024×544 JPEG → 1200×630 HUD PNG)
+  if (!args.includes("--no-site")) {
+    await fs.mkdir(path.dirname(OUT_SITE), { recursive: true });
+    await renderSite({ count: totalCount, out: OUT_SITE });
+    console.log(`OG site og-image.png (${totalCount}) → ${path.relative(ROOT, OUT_SITE)}`);
+  }
+  if (args.includes("--site-only")) return;
 
   for (const cat of categories) {
     const count = counts[cat.slug] || 0;

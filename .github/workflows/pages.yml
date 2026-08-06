@@ -22,8 +22,8 @@ jobs:
       - name: Generate added dates
         run: node scripts/generate-added-dates.js
 
-      - name: Generate OG images (categories)
-        run: node scripts/generate-og.mjs --categories-only
+      - name: Generate OG images
+        run: node scripts/generate-og.mjs
 
       - name: Setup Pages
         id: pages

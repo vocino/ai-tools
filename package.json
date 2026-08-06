@@ -1,7 +1,7 @@
 {
   "name": "ai-tools",
   "description": "AI Tools by Vocino — ai.vocino.com — curated directory of AI tools (210+). Part of vocino.com",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "homepage": "https://ai.vocino.com",
   "repository": {
     "type": "git",
@@ -12,7 +12,9 @@
   "license": "MIT",
   "scripts": {
     "generate-added-dates": "node scripts/generate-added-dates.js",
-    "generate-og": "node scripts/generate-og.mjs --categories-only",
+    "generate-og": "node scripts/generate-og.mjs",
+    "generate-og:site": "node scripts/generate-og.mjs --site-only",
+    "generate-og:categories": "node scripts/generate-og.mjs --categories-only --no-site",
     "validate": "node validate.js"
   },
   "dependencies": {
