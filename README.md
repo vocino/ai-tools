@@ -1,12 +1,12 @@
 # AI Tools by Vocino — ai.vocino.com
 
 [![Website](https://img.shields.io/badge/Website-ai.vocino.com-00CCFF?style=flat-square&labelColor=161B22)](https://ai.vocino.com)
-[![Tools](https://img.shields.io/badge/Tools-210-4DA3FF?style=flat-square&labelColor=161B22)](https://ai.vocino.com)
+[![Tools](https://img.shields.io/badge/Tools-211-4DA3FF?style=flat-square&labelColor=161B22)](https://ai.vocino.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-3DFA9A?style=flat-square&labelColor=161B22)](LICENSE)
 [![Built with Jekyll](https://img.shields.io/badge/Built%20with-Jekyll-%23CC0000?style=flat-square&labelColor=161B22)](https://jekyllrb.com/)
 [![Curated by Vocino](https://img.shields.io/badge/Curated%20by-Vocino-00CCFF?style=flat-square&labelColor=161B22)](https://vocino.com)
 
-A curated directory of **210 AI tools** — built and maintained by **[Vocino](https://vocino.com)**. Part of the [vocino.com](https://vocino.com) ecosystem.
+A curated directory of **211 AI tools** — built and maintained by **[Vocino](https://vocino.com)**. Part of the [vocino.com](https://vocino.com) ecosystem.
 
 **[Browse at ai.vocino.com →](https://ai.vocino.com)**
 
@@ -40,7 +40,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for full instructions, AI-assisted prompt
 - **One file per tool** — `_tools/*.md` with YAML front matter
 - **Jekyll + GitHub Pages** — static, fast, free
 - **Client-side filtering** — JS sidebar filters (categories, use cases, modalities, pricing)
-- **210 tools validated** — `node validate.js` on every PR
+- **211 tools validated** — `node validate.js` on every PR
 - **Vocino design system** — `--bg #0F1419 / --brand #00CCFF` dark hacker theme, HUD corners, V brandmark
 
 ## Local Development
@@ -73,7 +73,7 @@ assets/        → CSS (vocino.com tokens) + JS
 ## The Vocino Ecosystem
 
 - **[vocino.com](https://vocino.com)** — home
-- **[ai.vocino.com](https://ai.vocino.com)** — this directory (210 tools)
+- **[ai.vocino.com](https://ai.vocino.com)** — this directory (211 tools)
 - **[@vocino on Threads](https://threads.com/@vocino)** — daily updates
 - **GitHub: [vocino/ai-tools](https://github.com/vocino/ai-tools)**
 
