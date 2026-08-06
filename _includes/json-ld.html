@@ -1,6 +1,7 @@
 {% assign tool = include.tool %}
 {% assign price = "0" %}
 {% if tool.pricing == "paid" %}{% assign price = "" %}{% endif %}
+{% assign added = site.data.tool_added_dates[tool.slug] %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -8,12 +9,17 @@
   "name": {{ tool.name | jsonify }},
   "description": {{ tool.description | jsonify }},
   "url": {{ tool.website | jsonify }},
-  "applicationCategory": "WebApplication",
-  "operatingSystem": "Web"{% if price != "" %},
+  "isPartOf": { "@type": "WebSite", "name": "AI Tools by Vocino", "url": {{ site.url | jsonify }} },
+  "author": { "@type": "Person", "name": "Travis Vocino", "url": "https://vocino.com", "sameAs": ["https://threads.com/@vocino", "https://github.com/vocino", "https://vocino.com"] },
+  "applicationCategory": {% if tool.categories and tool.categories.size > 0 %}{{ tool.categories | first | jsonify }}{% else %}"WebApplication"{% endif %},
+  "operatingSystem": "Web"{% if tool.features and tool.features.size > 0 %},
+  "featureList": {{ tool.features | jsonify }}{% endif %}{% if price != "" %},
   "offers": {
     "@type": "Offer",
     "price": "{{ price }}",
     "priceCurrency": "USD"
-  }{% endif %}
+  }{% endif %}{% if tool.launch_date %},
+  "datePublished": {{ tool.launch_date | jsonify }}{% endif %}{% if added %},
+  "dateModified": {{ added | jsonify }}{% endif %}
 }
 </script>

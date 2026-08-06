@@ -26,12 +26,48 @@
     toolsRevealSentinel = document.getElementById("toolsRevealSentinel");
     appliedFiltersRow = document.getElementById("appliedFilters");
 
+    var STORAGE_KEY = "ai-vocino-filter-collapsed";
+    var storedCollapsed = {};
+    try { storedCollapsed = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}"); } catch (_e) {}
+    document.querySelectorAll(".filter-section").forEach(function (section) {
+      var key = section.dataset.filter;
+      var btn = section.querySelector(".filter-section__header");
+      // default: categories open, rest collapsed unless storage says otherwise
+      var shouldCollapsed = key === "categories" ? false : true;
+      if (storedCollapsed[key] !== undefined) shouldCollapsed = !!storedCollapsed[key];
+      section.classList.toggle("is-collapsed", shouldCollapsed);
+      if (btn) btn.setAttribute("aria-expanded", shouldCollapsed ? "false" : "true");
+    });
     document.querySelectorAll(".filter-section__header").forEach(function (btn) {
       btn.addEventListener("click", function () {
         var section = btn.closest(".filter-section");
-        section.classList.toggle("is-collapsed");
-        btn.setAttribute("aria-expanded", section.classList.contains("is-collapsed") ? "false" : "true");
+        var collapsed = section.classList.toggle("is-collapsed");
+        // persist
+        var key = section.dataset.filter;
+        storedCollapsed[key] = collapsed;
+        try { localStorage.setItem(STORAGE_KEY, JSON.stringify(storedCollapsed)); } catch (_e) {}
+        btn.setAttribute("aria-expanded", collapsed ? "false" : "true");
       });
+    });
+
+    // overlay click (no inline onclick)
+    var overlay = document.getElementById("filterOverlay");
+    if (overlay) overlay.addEventListener("click", window.closeSidebar);
+    // keyboard: / and Cmd+K focus search, Esc closes drawer
+    document.addEventListener("keydown", function (e) {
+      var isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
+      var cmdK = (isMac ? e.metaKey : e.ctrlKey) && e.key.toLowerCase() === "k";
+      var slash = e.key === "/" && !e.ctrlKey && !e.metaKey && !e.altKey;
+      if (cmdK || slash) {
+        var ae = document.activeElement;
+        if (ae && (ae.tagName === "INPUT" || ae.tagName === "TEXTAREA" || ae.isContentEditable)) {
+          if (cmdK) { /* allow browser find, but also focus */ }
+          else return;
+        }
+        e.preventDefault();
+        if (searchBox) { searchBox.focus(); searchBox.select(); }
+      }
+      if (e.key === "Escape") window.closeSidebar();
     });
 
     if (!allCards.length) return;
@@ -433,13 +469,19 @@
 
   /* Mobile sidebar toggle */
   window.openSidebar = function () {
-    document.getElementById("filterSidebar").classList.add("is-open");
-    document.getElementById("filterOverlay").classList.add("is-open");
+    var sb = document.getElementById("filterSidebar");
+    var ov = document.getElementById("filterOverlay");
+    if (sb) { sb.classList.add("is-open"); sb.setAttribute("aria-modal", "true"); }
+    if (ov) ov.classList.add("is-open");
+    document.body.style.overflow = "hidden";
   };
 
   window.closeSidebar = function () {
-    document.getElementById("filterSidebar").classList.remove("is-open");
-    document.getElementById("filterOverlay").classList.remove("is-open");
+    var sb = document.getElementById("filterSidebar");
+    var ov = document.getElementById("filterOverlay");
+    if (sb) { sb.classList.remove("is-open"); sb.setAttribute("aria-modal", "false"); }
+    if (ov) ov.classList.remove("is-open");
+    document.body.style.overflow = "";
   };
 
   if (document.readyState === "loading") {

@@ -1,12 +1,36 @@
 ---
 layout: default
 ---
+{% assign cat = site.data.categories | where: "slug", page.category_slug | first %}
+{% assign cat_tools = site.tools | where_exp: "t", "t.categories contains page.category_slug" %}
+{% assign cat_count = cat_tools | size %}
+{% assign breadcrumb_cats = page.category_slug | split: "," %}
 <div class="category-page">
   <div class="category-page__eyebrow"><span style="color:var(--brand)">//</span> Category — curated by Vocino</div>
-  {% include breadcrumbs.html name=page.title current_item=page.url %}
+  {% include breadcrumbs.html name=page.title categories=breadcrumb_cats current_item=page.url %}
 
   <h1 class="category-page__title">{{ page.title }}</h1>
   <p class="category-page__description">{{ page.description }}</p>
+
+  {% comment %} Auto-generated intro — zero upkeep, counts + flagships {% endcomment %}
+  {% if cat %}
+  <div class="category-page__intro hud-corners hud-corners--always" style="margin:1rem 0 1.75rem;padding:1rem 1.1rem;background:var(--surface-1);border:1px solid var(--border);border-radius:12px">
+    <p style="margin:0;color:var(--text-secondary);line-height:1.6">
+      <strong style="color:var(--text-primary)">{{ cat.label }} — {{ cat_count }} AI tool{% if cat_count != 1 %}s{% endif %} curated by <a href="https://vocino.com" style="color:var(--brand)">Vocino</a></strong>.
+      {{ cat.description }}.
+      {% assign flagships = cat_tools | sort: "name" %}
+      {% if flagships.size >= 2 %}
+        From <strong style="color:var(--text-primary)">{{ flagships[0].name }}</strong> to <strong style="color:var(--text-primary)">{{ flagships[1].name }}</strong>,
+      {% elsif flagships.size == 1 %}
+        Including <strong style="color:var(--text-primary)">{{ flagships[0].name }}</strong>,
+      {% endif %}
+      find the tools that help you ship — no affiliate spam, just signal. Curated at <a href="{{ '/' | relative_url }}" style="color:var(--brand)">ai.vocino.com</a>.
+    </p>
+    <p style="margin:0.5rem 0 0;font-family:var(--font-mono);font-size:0.72rem;color:var(--text-muted)">
+      // {{ cat_count }} tools · Updated {{ site.time | date: "%Y-%m-%d" }} · <a href="https://github.com/vocino/ai-tools?tab=contributing-ov-file" style="color:var(--text-muted);text-decoration:underline">Suggest a tool</a>
+    </p>
+  </div>
+  {% endif %}
 
   <div class="tools-grid">
     {% for tool in site.tools %}
@@ -16,7 +40,89 @@ layout: default
     {% endfor %}
   </div>
 
-  <div style="margin-top:3rem;padding:1.5rem;border:1px solid var(--border);background:var(--surface-1)" class="hud-corners">
+  {% comment %} FAQ — auto-templated, zero upkeep {% endcomment %}
+  {% if cat %}
+  <section class="tool-detail__features hud-corners hud-corners--always" style="margin-top:2rem">
+    <h2>FAQ — {{ cat.label }}</h2>
+    <ul>
+      <li>
+        <div>
+          <strong style="color:var(--text-primary)">How do I choose the right {{ cat.label | downcase }} AI tool?</strong><br>
+          <span style="color:var(--text-secondary)">Start with what you ship: compare use cases ({{ cat.description | downcase }}) and try the free or freemium option first. Filter this category by pricing, API, and self-hosted to narrow to your stack — then test with your own data before committing.</span>
+        </div>
+      </li>
+      <li>
+        <div>
+          <strong style="color:var(--text-primary)">Are {{ cat.label | downcase }} tools free?</strong><br>
+          <span style="color:var(--text-secondary)">Some are free or open-source, most are freemium — free to start, paid for scale. Use the pricing filter above to see {{ cat.label | downcase }} tools that match your budget.</span>
+        </div>
+      </li>
+    </ul>
+  </section>
+  {% endif %}
+
+  {% comment %} Sibling categories {% endcomment %}
+  <div style="margin-top:2rem;display:flex;flex-wrap:wrap;gap:0.5rem;align-items:center">
+    <span style="font-family:var(--font-mono);font-size:0.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.06em">Explore:</span>
+    {% for c in site.data.categories %}
+      {% if c.slug != page.category_slug %}
+        {% assign sibling_tools = site.tools | where_exp: "t", "t.categories contains c.slug" %}
+        {% if sibling_tools.size > 0 %}
+          <a href="{{ '/category/' | append: c.slug | append: '/' | relative_url }}" class="tag" style="text-decoration:none">{{ c.label }} · {{ sibling_tools.size }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div style="margin-top:2rem;padding:1.5rem;border:1px solid var(--border);background:var(--surface-1);border-radius:12px" class="hud-corners">
     <p style="margin:0;color:var(--text-secondary)">Missing a tool in {{ page.title }}? <a href="https://github.com/vocino/ai-tools?tab=contributing-ov-file" target="_blank" rel="noopener noreferrer" style="color:var(--brand)">Add it — curated by Vocino</a> →</p>
   </div>
 </div>
+
+{% comment %} SEO: ItemList + FAQPage for this category {% endcomment %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "isPartOf": { "@type": "WebSite", "name": "AI Tools by Vocino", "url": {{ site.url | jsonify }} },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": {{ cat_count }},
+    "itemListElement": [
+      {% assign list_items = cat_tools | sort: "name" %}
+      {% for tool in list_items limit:8 %}
+      {
+        "@type": "ListItem",
+        "position": {{ forloop.index }},
+        "name": {{ tool.name | jsonify }},
+        "url": {{ tool.url | absolute_url | jsonify }},
+        "description": {{ tool.description | jsonify }}
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  }
+}
+</script>
+{% if cat %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": {{ "How do I choose the right " | append: cat.label | append: " AI tool?" | jsonify }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ "Start with your use case: " | append: cat.description | append: ". Filter by pricing, API, and self-hosted to match your stack, then test with your own data." | jsonify }} }
+    },
+    {
+      "@type": "Question",
+      "name": {{ "Are " | append: cat.label | append: " tools free?" | jsonify }},
+      "acceptedAnswer": { "@type": "Answer", "text": "Some are free or open-source, most are freemium. Use the pricing filter on ai.vocino.com to see what fits your budget." }
+    }
+  ]
+}
+</script>
+{% endif %}

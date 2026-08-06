@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "AI Tools by Vocino — ai.vocino.com"
-description: "205+ AI tools curated by Vocino. The directory for builders who ship — coding, video, writing, agents. Part of vocino.com"
+description: "210+ AI tools curated by Vocino. The directory for builders who ship — coding, video, writing, agents. Part of vocino.com"
 ---
 <div class="page-layout">
   {% include sidebar.html %}
@@ -27,7 +27,7 @@ description: "205+ AI tools curated by Vocino. The directory for builders who sh
           </select>
         </div>
 
-        <p class="results-helper" id="resultsHelper">Built by Vocino — 205+ tools that help you ship. Keep scrolling to reveal more, or filter by what you build.</p>
+        <p class="results-helper" id="resultsHelper">Built by Vocino — {{ site.tools | size }} tools that help you ship. Keep scrolling to reveal more, or filter by what you build.</p>
         <div class="applied-filters" id="appliedFilters" aria-live="polite" aria-label="Active filters"></div>
       </div>
 
@@ -50,6 +50,15 @@ description: "205+ AI tools curated by Vocino. The directory for builders who sh
         <p class="empty-state__title">No tools match your filters</p>
         <p>Try removing some filters or broadening your search.</p>
         <p><a href="https://github.com/vocino/ai-tools?tab=contributing-ov-file" target="_blank" rel="noopener noreferrer">Add a tool — curated by Vocino</a> →</p>
+        <div style="margin-top:1.5rem;width:100%;text-align:left">
+          <p style="font-family:var(--font-mono);font-size:0.72rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.06em;text-align:center;margin-bottom:0.8rem">Try these instead — curated by Vocino</p>
+          <div class="tools-grid">
+            {% assign featured = site.tools | sort: "name" %}
+            {% for tool in featured limit:3 %}
+              {% include tool-card.html tool=tool %}
+            {% endfor %}
+          </div>
+        </div>
       </div>
     </section>
   </main>

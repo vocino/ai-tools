@@ -1,12 +1,13 @@
-<div class="filter-overlay" id="filterOverlay" onclick="closeSidebar()"></div>
-<aside class="filter-sidebar" id="filterSidebar" role="complementary" aria-label="Filters curated by Vocino">
+<div class="filter-overlay" id="filterOverlay"></div>
+<aside class="filter-sidebar" id="filterSidebar" role="complementary" aria-label="Filters curated by Vocino" aria-modal="false">
   <div class="sidebar-content">
   <div class="search-box-wrap">
     <iconify-icon icon="tabler:search" class="search-box__icon" aria-hidden="true"></iconify-icon>
-    <input type="text" class="search-box" id="searchBox" placeholder="Search 205+ tools…" aria-label="Search tools curated by Vocino">
+    <input type="text" class="search-box" id="searchBox" placeholder="Search {{ site.tools | size }} tools — try coding, video, agents…" aria-label="Search tools curated by Vocino">
+    <span class="search-box__hint" aria-hidden="true">Press <kbd>/</kbd> or <kbd>⌘K</kbd></span>
   </div>
 
-  <div class="filter-section is-collapsed" data-filter="categories">
+  <div class="filter-section" data-filter="categories">
     <button type="button" class="filter-section__header" aria-expanded="false" aria-controls="filter-categories" id="filter-categories-toggle">
       <span class="filter-section__title">Categories</span>
       <span class="filter-section__chevron" aria-hidden="true">›</span>

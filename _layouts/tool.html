@@ -12,9 +12,8 @@ layout: default
       <h1 class="tool-detail__name">{{ page.name }}</h1>
       <div class="tool-detail__meta">
       <a href="{{ '/' | relative_url }}?pricing={{ page.pricing }}" class="tool-card__pricing pricing-{{ page.pricing }}">{{ page.pricing }}</a>
-      {% if page.api %}<a href="{{ '/' | relative_url }}?api=true" class="tag">API</a>{% endif %}
-      {% if page.self_hosted %}<a href="{{ '/' | relative_url }}?self_hosted=true" class="tag">Self-hosted</a>{% endif %}
-      {% if page.verified %}<span class="tag" style="background:rgba(61,250,154,0.12);color:var(--success);border-color:rgba(61,250,154,0.25)">Verified</span>{% endif %}
+       {% if page.api %}<a href="{{ '/' | relative_url }}?api=true" class="tag">API</a>{% endif %}
+       {% if page.self_hosted %}<a href="{{ '/' | relative_url }}?self_hosted=true" class="tag">Self-hosted</a>{% endif %}
       </div>
     </div>
 

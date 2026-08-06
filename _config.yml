@@ -45,6 +45,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
+  - vendor
   - README.md
   - CONTRIBUTING.md
   - .github

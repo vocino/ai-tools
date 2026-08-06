@@ -1,0 +1,33 @@
+name: Advisory Link Check
+
+on:
+  schedule:
+    - cron: "0 9 * * 1" # weekly Monday 09:00 UTC
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install deps
+        run: npm install --silent
+      - name: Check links (advisory, never blocks)
+        run: node scripts/check-links.mjs --check=210 2>&1 | tee link-check.log
+      - name: Create issue on failures
+        if: always()
+        run: |
+          FAILS=$(grep -c "^  - " link-check.log || true)
+          if [ "$FAILS" -gt 5 ]; then
+            gh issue create --title "Link check: $FAILS tools with failing websites" --body "$(cat link-check.log | tail -n 100)" --label "maintenance" || true
+          else
+            echo "Failures ($FAILS) below threshold — no issue created."
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

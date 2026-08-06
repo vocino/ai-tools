@@ -683,5 +683,37 @@ iconify-icon{display:inline-flex;align-items:center;justify-content:center;flex-
   .cursor-blink::after,.status-block{animation:none}
 }
 
+/* Search hint */
+.search-box__hint{
+  position:absolute;right:0.6rem;top:50%;transform:translateY(-50%);
+  font-family:var(--font-mono);font-size:0.62rem;color:var(--text-muted);
+  background:var(--surface-1);border:1px solid var(--border);border-radius:4px;
+  padding:0.15rem 0.35rem;pointer-events:none;opacity:0.9;
+}
+.search-box__hint kbd{
+  font-family:var(--font-mono);font-size:0.62rem;background:transparent;border:none;padding:0;color:inherit
+}
+@media (max-width: 768px){ .search-box__hint{display:none} }
+
+/* Footer — shared Vocino */
+.site-footer{
+  margin-top:2rem;padding:1.2rem 1.5rem;
+  border-top:1px solid var(--border);
+  background:var(--surface-1);
+  font-family:var(--font-mono);font-size:0.72rem;color:var(--text-muted);
+}
+.site-footer__inner{
+  max-width:80rem;margin:0 auto;
+  display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:0.6rem 1rem;
+}
+.site-footer__mono{color:var(--text-muted)}
+.site-footer__mono a{color:var(--brand);text-decoration:none}
+.site-footer__mono a:hover{color:var(--accent-blue)}
+.site-footer__links{display:flex;flex-wrap:wrap;align-items:center;gap:0.4rem}
+.site-footer__links a{color:var(--text-muted);text-decoration:underline;text-underline-offset:0.2em;text-decoration-color:color-mix(in srgb, var(--border) 90%, transparent);display:inline-flex;align-items:center;gap:0.2rem}
+.site-footer__links a:hover{color:var(--brand);text-decoration-color:color-mix(in srgb, var(--brand) 50%, transparent)}
+.site-footer__sep{opacity:0.35}
+.site-footer__copy{color:var(--text-muted);font-size:0.68rem}
+
 /* Utility for sticky header visual separation on scroll */
 .site-nav.is-scrolled{box-shadow:0 8px 24px rgba(0,0,0,0.28)}
