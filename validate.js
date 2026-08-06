@@ -137,6 +137,29 @@ function validate() {
     }
   });
 
+  // Evergreen guard: tool_added_dates.yml freshness (prevents stale “Latest” sort like the 211 → 200+ churn fix)
+  try {
+    var datesPath = path.join(DATA_DIR, "tool_added_dates.yml");
+    if (fs.existsSync(datesPath)) {
+      var datesContent = fs.readFileSync(datesPath, "utf8");
+      var datesData = yaml.load(datesContent) || {};
+      var dateCount = Object.keys(datesData).length;
+      if (dateCount !== files.length) {
+        warnings.push("tool_added_dates.yml has " + dateCount + " entries but _tools has " + files.length + " files — run node scripts/generate-added-dates.js");
+      }
+      files.forEach(function (f) {
+        var slug = f.replace(/\.md$/, "");
+        if (!datesData[slug]) {
+          warnings.push(f + ": missing entry in tool_added_dates.yml — run generate-added-dates");
+        }
+      });
+    } else {
+      warnings.push("tool_added_dates.yml missing — run node scripts/generate-added-dates.js");
+    }
+  } catch (_e) {
+    warnings.push("could not check tool_added_dates.yml freshness: " + _e.message);
+  }
+
   if (errors.length > 0) {
     console.error("Validation failed with " + errors.length + " error(s):\n");
     errors.forEach(function (e) { console.error("  - " + e); });

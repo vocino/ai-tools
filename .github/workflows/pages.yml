@@ -1,5 +1,8 @@
 name: GitHub Pages
 
+env:
+  NODE_VERSION: "20"
+
 on:
   push:
     branches:
@@ -14,7 +17,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: ${{ env.NODE_VERSION }}
 
       - name: Install dependencies
         run: npm install
@@ -24,6 +27,15 @@ jobs:
 
       - name: Generate OG images
         run: node scripts/generate-og.mjs
+
+      - name: Check OG freshness (advisory)
+        run: |
+          if ! git diff --quiet -- assets/images/og 2>/dev/null; then
+            echo "::warning::OG images stale — run node scripts/generate-og.mjs locally and commit"
+            git diff --stat -- assets/images/og || true
+          else
+            echo "OG images fresh"
+          fi
 
       - name: Setup Pages
         id: pages

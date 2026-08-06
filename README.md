@@ -52,12 +52,13 @@ bundle exec jekyll serve
 # http://localhost:4000
 ```
 
-With Node (for validation):
+With Node (for validation & build):
 
 ```bash
 npm install
-node scripts/generate-added-dates.js
-node validate.js
+npm run build        # generate-added-dates + jekyll build (evergreen)
+npm run validate     # front matter + dates freshness
+# or: node scripts/generate-added-dates.js && node validate.js
 ```
 
 ## Project Structure

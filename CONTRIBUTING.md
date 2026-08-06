@@ -77,12 +77,22 @@ Then `npm install && node validate.js` → PR.
 
 **Modalities:** text, image, video, audio, code
 
+## Evergreen Counts — Don't Hardcode Exact Numbers
+
+Like the `211 → 200+` fix: never hardcode exact tool counts (`211`, `210`, `205+`). Use:
+
+- **In Jekyll templates:** `{{ site.tools | size }}` (nav, footer, sidebar, category intros, 404 link) — renders exact at build, no manual bump.
+- **In prose/SEO/README/package.json:** rounded bucket `200+` (stable 200–299; bump only at 300). Keeps CTR without churn.
+- **Generated data:** `_data/tool_added_dates.yml` and `assets/images/og/**.png` are built by `node scripts/generate-added-dates.js` and `node scripts/generate-og.mjs` — CI runs them on `pages.yml`; locally run `npm run build` or `npm run generate-added-dates`. `validate.js` warns if `tool_added_dates.yml` is stale.
+
+If you add a category, create `category/<slug>/index.html` + OG via `generate-og.mjs` — or open an issue.
+
 ## About This Project
 
 - **URL:** https://ai.vocino.com
 - **Repo:** https://github.com/vocino/ai-tools (formerly 8ai.ac)
 - **Built by:** [Vocino](https://vocino.com) — indie AI builder, part of vocino.com ecosystem
-- **Stack:** Jekyll + GitHub Pages, 205+ tools, vocino.com design system (--bg #0F1419 / --brand #00CCFF)
+- **Stack:** Jekyll + GitHub Pages, 200+ tools, vocino.com design system (--bg #0F1419 / --brand #00CCFF)
 - **Legacy:** 8ai.ac → ai.vocino.com — same curation, more brand equity with vocino
 
 Be respectful. No spam, fake tools, or affiliate-heavy descriptions.
