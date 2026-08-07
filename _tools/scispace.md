@@ -21,7 +21,8 @@ features:
   - AI writing assistance tuned for academic workflows
   - Browser extension and apps to bring tools into existing workflows
 verified: false
-title: SciSpace — AI Tool
+title: SciSpace — Research & Analysis AI Tool
+image: /assets/images/og/tools/scispace.png
 ---
 SciSpace is an AI assistant focused on academic and scientific research. It helps students and researchers find relevant papers, understand them with conversational explanations, and organize insights across many documents. With tools for literature review, paraphrasing, and citation handling, SciSpace is designed to compress the time spent on reading and synthesis while keeping outputs grounded in the underlying sources.
 

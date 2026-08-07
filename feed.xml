@@ -1,0 +1,37 @@
+---
+layout: null
+permalink: /feed.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI Tools by Vocino — ai.vocino.com</title>
+    <description>{{ site.description }}</description>
+    <link>{{ site.url }}/</link>
+    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <managingEditor>travis@vocino.com (Vocino)</managingEditor>
+    {% assign dates = site.data.tool_added_dates %}
+    {% assign tool_list = "" | split: "" %}
+    {% for tool in site.tools %}
+      {% assign d = dates[tool.slug] %}
+      {% capture item %}{{ d }}|{{ tool.slug }}{% endcapture %}
+      {% assign tool_list = tool_list | push: item %}
+    {% endfor %}
+    {% assign sorted_list = tool_list | sort | reverse %}
+    {% for entry in sorted_list limit:20 %}
+      {% assign parts = entry | split: "|" %}
+      {% assign slug = parts[1] %}
+      {% assign tool = site.tools | where: "slug", slug | first %}
+      <item>
+        <title>{{ tool.name | xml_escape }} — {{ tool.categories.first | xml_escape }} AI Tool</title>
+        <description>{{ tool.description | xml_escape }}</description>
+        <link>{{ tool.url | absolute_url }}</link>
+        <guid isPermaLink="true">{{ tool.url | absolute_url }}</guid>
+        <pubDate>{{ dates[slug] | date_to_rfc822 }}</pubDate>
+        <category>{{ tool.categories | join: "," | xml_escape }}</category>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>

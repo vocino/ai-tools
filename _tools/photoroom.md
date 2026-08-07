@@ -24,6 +24,7 @@ features:
   - API for e-commerce platform integration
 launch_date: 2020-01
 verified: false
-title: Photoroom — AI Tool
+title: Photoroom — Image Editing AI Tool
+image: /assets/images/og/tools/photoroom.png
 ---
 Photoroom is an AI-powered photo editing platform designed for creating professional product and marketing images. Its core features include instant background removal, AI-generated backgrounds from text prompts, and batch processing for large product catalogs. Photoroom is widely used by e-commerce sellers, marketers, and small businesses to create studio-quality product photos without professional photography equipment.

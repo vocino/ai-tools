@@ -24,6 +24,7 @@ features:
   - Team collaboration
 launch_date: 2019-06
 verified: false
-title: Fireflies.ai — AI Tool
+title: Fireflies.ai — Productivity AI Tool
+image: /assets/images/og/tools/fireflies-ai.png
 ---
 What is Fireflies.ai? Fireflies.ai records and transcribes meetings from Zoom, Google Meet, Teams, and other platforms. It generates summaries, action items, and searchable transcripts. Fireflies integrates with CRMs, Slack, and project tools to surface meeting insights where teams work.

@@ -24,6 +24,7 @@ features:
   - Sound effects and voiceover generation
 launch_date: 2023-11
 verified: false
-title: Pika — AI Tool
+title: Pika — Video Generation AI Tool
+image: /assets/images/og/tools/pika.png
 ---
 Pika is an AI video generation and editing platform that lets users create short videos from text or images. It is known for fun creative effects called Pikaffects that apply physics-based transformations to objects in videos. Pika also supports lip-sync, video extension, and AI-generated sound effects, making it a one-stop platform for AI video content creation.

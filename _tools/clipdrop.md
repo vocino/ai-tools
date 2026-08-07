@@ -2,9 +2,7 @@
 name: Clipdrop
 slug: clipdrop
 website: https://clipdrop.co
-description: >-
-  AI-powered image editing suite with background removal, object cleanup, upscaling, and image reimagining by Stability
-  AI.
+description: AI-powered image editing suite with background removal, object cleanup, upscaling, and image reimagining by Stability AI.
 categories:
   - image-editing
 use_cases:
@@ -24,6 +22,7 @@ features:
   - Remove text and unwanted objects from photos
 launch_date: 2020-07
 verified: false
-title: Clipdrop — AI Tool
+title: Clipdrop — Image Editing AI Tool
+image: /assets/images/og/tools/clipdrop.png
 ---
 Clipdrop is an AI image editing toolkit developed by Stability AI that provides a suite of tools for quickly transforming and enhancing photos. Core features include background removal, object and text removal, AI upscaling, and image generation using Stable Diffusion. It is available as a web app, API, and mobile app, with a developer API suitable for product integrations.

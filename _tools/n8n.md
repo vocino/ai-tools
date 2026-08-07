@@ -22,6 +22,7 @@ features:
   - Code and HTTP nodes
 launch_date: 2019-10
 verified: false
-title: n8n — AI Tool
+title: n8n — Agents AI Tool
+image: /assets/images/og/tools/n8n.png
 ---
 n8n is an open-source workflow automation tool with a visual editor and support for AI nodes. Users connect apps, APIs, and AI models into automations. n8n can be self-hosted for full control and includes integrations for popular services and LLM providers.

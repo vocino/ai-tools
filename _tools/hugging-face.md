@@ -2,9 +2,7 @@
 name: Hugging Face
 slug: hugging-face
 website: https://huggingface.co
-description: >-
-  Open-source AI platform with model and dataset hosting, inference APIs, Spaces for demos, and collaboration tools for
-  ML teams.
+description: Open-source AI platform with model and dataset hosting, inference APIs, Spaces for demos, and collaboration tools for ML teams.
 categories:
   - api-platform
 use_cases:
@@ -27,6 +25,7 @@ features:
   - Transformers, Diffusers, and other open-source libraries
 launch_date: 2016-05
 verified: false
-title: Hugging Face — AI Tool
+title: Hugging Face — APIs AI Tool
+image: /assets/images/og/tools/hugging-face.png
 ---
 Hugging Face is the central hub of the open-source AI community, hosting over 500,000 models, 100,000 datasets, and tens of thousands of interactive demo applications (Spaces). It maintains the Transformers library — the backbone of modern NLP — along with Diffusers for image generation and PEFT for efficient fine-tuning. Hugging Face also offers enterprise inference endpoints and managed training infrastructure.

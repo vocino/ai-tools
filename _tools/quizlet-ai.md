@@ -20,7 +20,8 @@ features:
   - Mobile and web apps used by millions of learners
   - Premium plans that unlock advanced AI-powered study tools
 verified: false
-title: Quizlet (AI Features) — AI Tool
+title: Quizlet (AI Features) — Education AI Tool
+image: /assets/images/og/tools/quizlet-ai.png
 ---
 Quizlet is a widely used study platform that increasingly incorporates AI to guide learners through flashcards, practice questions, and explanations. Its AI features help students focus on the right material, understand why answers are correct or incorrect, and get more interactive practice in subjects from languages to STEM. The combination of user-generated content and adaptive tools makes it a common companion for homework, exam prep, and classroom reinforcement.
 

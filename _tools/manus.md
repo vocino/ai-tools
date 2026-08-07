@@ -26,6 +26,7 @@ features:
   - Sandboxed virtual machine environment with internet access
 launch_date: 2025-03
 verified: false
-title: Manus — AI Tool
+title: Manus — Agents AI Tool
+image: /assets/images/og/tools/manus.png
 ---
 Manus is an autonomous AI agent designed to go beyond answering questions to actually completing tasks. It operates in a sandboxed environment with access to a browser, shell, code editor, and file system, enabling it to perform complex multi-step workflows like research, data analysis, web development, and browser automation. Manus can work independently on tasks for extended periods and deliver finished results.

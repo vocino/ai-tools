@@ -23,6 +23,7 @@ features:
   - Chat with multiple models side by side
 launch_date: 2022-12
 verified: false
-title: Poe — AI Tool
+title: Poe — Chat & Conversational AI Tool
+image: /assets/images/og/tools/poe.png
 ---
 Poe by Quora lets you chat with many leading AI models from one place. Choose from Claude, GPT-4, Llama, Gemini, and others without switching apps. You can build custom bots with specific instructions and share them with others. Poe offers both free tier and premium subscriptions for extended access.

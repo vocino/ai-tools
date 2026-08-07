@@ -23,6 +23,7 @@ features:
   - MCP (Model Context Protocol) support
 launch_date: 2025-06
 verified: false
-title: Gemini CLI — AI Tool
+title: Gemini CLI — Coding AI Tool
+image: /assets/images/og/tools/gemini-cli.png
 ---
 Gemini CLI is Google's open-source, terminal-first AI coding agent. It brings the power of Gemini models directly into your command line for agentic coding tasks including file editing, running shell commands, and searching the web. It is free to use with generous rate limits through the Gemini API and supports extensibility through tool plugins and MCP servers.

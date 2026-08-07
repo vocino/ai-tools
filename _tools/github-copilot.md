@@ -21,6 +21,7 @@ features:
   - Pull request summaries
 launch_date: 2021-10
 verified: false
-title: GitHub Copilot — AI Tool
+title: GitHub Copilot — Coding AI Tool
+image: /assets/images/og/tools/github-copilot.png
 ---
 GitHub Copilot is an AI coding assistant developed by GitHub and OpenAI. It integrates directly into your editor to provide real-time code suggestions, explain code, generate tests, and assist with complex programming tasks across dozens of languages.

@@ -2,9 +2,7 @@
 name: Wan Video
 slug: wan-video
 website: https://github.com/Wan-AI/Wan2.2
-description: >-
-  Alibaba's open-source AI video generation models using Mixture-of-Experts architecture for text-to-video and
-  image-to-video synthesis.
+description: Alibaba's open-source AI video generation models using Mixture-of-Experts architecture for text-to-video and image-to-video synthesis.
 categories:
   - video-generation
 use_cases:
@@ -26,7 +24,8 @@ features:
   - 720p to 1080p output resolution
 launch_date: 2025-11
 verified: false
-title: Wan Video — AI Tool
+title: Wan Video — Video Generation AI Tool
+image: /assets/images/og/tools/wan-video.png
 ---
 
 Wan Video is a family of open-source video generation models developed by Alibaba's Wan-AI initiative. The Wan 2.2 series introduces Mixture-of-Experts architecture to video generation, using a high-noise expert for initial layout and a low-noise expert for detail refinement. Available in both text-to-video (T2V) and image-to-video (I2V) variants, Wan is a strong option for developers and researchers who want full control over the generation pipeline.

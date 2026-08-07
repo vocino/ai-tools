@@ -20,7 +20,8 @@ features:
   - Organization-level control over data and deployment
   - HTTP and WebSocket APIs for custom integrations
 verified: false
-title: Tabby — AI Tool
+title: Tabby — Coding AI Tool
+image: /assets/images/og/tools/tabby.png
 ---
 Tabby is an open-source AI coding assistant that you run on your own infrastructure. It provides code completions and answers inside popular IDEs while keeping source code within your environment, making it attractive for security-conscious teams. With support for multiple code models and a simple API, engineering organizations can customize Tabby for their workflows instead of relying on fully hosted assistants.
 

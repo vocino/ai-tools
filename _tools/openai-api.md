@@ -24,6 +24,7 @@ features:
   - Function calling and tools
 launch_date: 2020-06
 verified: false
-title: OpenAI API — AI Tool
+title: OpenAI API — APIs AI Tool
+image: /assets/images/og/tools/openai-api.png
 ---
 The OpenAI API gives developers access to GPT models, DALL-E, Whisper, and embeddings. It powers third-party apps, automation, and custom products. The API is separate from ChatGPT and offers fine-tuning, function calling, and usage-based pricing.

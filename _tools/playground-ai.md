@@ -2,9 +2,7 @@
 name: Playground AI
 slug: playground-ai
 website: https://playground.com
-description: >-
-  Playground AI — free AI image generator & editor by playground ai. Text-to-image with v3, image expansion, eraser & 50
-  free designs. API + commercial rights.
+description: Playground AI — free AI image generator & editor by playground ai. Text-to-image with v3, image expansion, eraser & 50 free designs. API + commercial rights.
 categories:
   - image-generation
   - image-editing
@@ -26,6 +24,7 @@ features:
   - API for developers
 launch_date: 2022-01
 verified: false
-title: Playground AI — AI Tool
+title: Playground AI — Image Generation AI Tool
+image: /assets/images/og/tools/playground-ai.png
 ---
 Playground AI is a free AI image generator used by millions of creators. It produces images from text prompts using models like Playground v2.5 and v3, with editing features including expansion, object fitting, and sketch-to-image. Users get 50 free designs and retain full commercial rights to their work. The platform offers an API for integration. Over 9 million creators have generated more than 1 billion images on Playground.

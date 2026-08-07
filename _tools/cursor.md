@@ -21,6 +21,7 @@ features:
   - Multiple AI model support
 launch_date: 2023-03
 verified: false
-title: Cursor — AI Tool
+title: Cursor — Coding AI Tool
+image: /assets/images/og/tools/cursor.png
 ---
 Cursor is an AI-first code editor forked from VS Code. It deeply integrates AI into the editing experience with features like Cmd+K for inline code generation, chat-based assistance with full codebase context, and multi-file editing from natural language instructions. It supports multiple AI models and is designed to make developers significantly more productive.

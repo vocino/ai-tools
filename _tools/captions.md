@@ -22,7 +22,8 @@ features:
   - Templates and tools for short-form, social, and UGC content
   - Mobile and desktop apps with cloud sync
 verified: false
-title: Captions — AI Tool
+title: Captions — Video Editing AI Tool
+image: /assets/images/og/tools/captions.png
 ---
 Captions is an AI-powered video editor focused on making short-form and talking-head content fast to produce. It can automatically add accurate captions, correct eye contact so speakers look into the camera, clean up audio, and generate multiple variants for different platforms. Creators and teams use Captions to turn raw recordings into polished, ready-to-publish clips with far less manual editing.
 

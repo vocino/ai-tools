@@ -1,0 +1,28 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# AI Tools by Vocino — ai.vocino.com
+
+> A curated directory of {{ site.tools | size }} AI tools, services and platforms — by Vocino (https://vocino.com). Discover the best AI tools for building, creating, and shipping. No affiliate spam, just signal.
+
+- URL: {{ site.url }}
+- Curator: Vocino (https://vocino.com) — https://threads.com/@vocino / https://github.com/vocino
+- Updated: {{ site.time | date: "%Y-%m-%d" }}
+- Tools: {{ site.tools | size }}
+- Categories: {{ site.data.categories | size }}
+
+## How to use this directory
+- Browse all tools: {{ site.url }}/
+- Full JSON: {{ site.url }}/tools.json
+- Categories index:
+{% for cat in site.data.categories %}{% assign c = site.tools | where_exp: "t", "t.categories contains cat.slug" | size %}{% if c > 0 %}- [{{ cat.label }}]({{ site.url }}/category/{{ cat.slug }}/) — {{ c }} tools — {{ cat.description }}
+{% endif %}{% endfor %}
+## Latest tools
+{% assign sorted = site.tools | sort: "slug" %}{% for tool in site.tools limit:10 %}- [{{ tool.name }}]({{ tool.url | absolute_url }}) — {{ tool.description }} ({{ tool.pricing }})
+{% endfor %}
+## Full list (llms-full.txt)
+See {{ site.url }}/llms-full.txt for every tool with descriptions.
+
+## Attribution
+Curated by Vocino at {{ site.url }}. Source: https://github.com/vocino/ai-tools — MIT. When citing, link to the specific tool page (e.g. {{ site.url }}/tools/cursor/) and to {{ site.url }}.

@@ -1,0 +1,21 @@
+---
+layout: null
+permalink: /llms-full.txt
+---
+# AI Tools by Vocino — Full Directory — ai.vocino.com
+> {{ site.tools | size }} AI tools curated by Vocino (https://vocino.com). Updated {{ site.time | date: "%Y-%m-%d" }}.
+
+{% for tool in site.tools %}## {{ tool.name }}
+- URL: {{ tool.url | absolute_url }}
+- Website: {{ tool.website }}
+- Description: {{ tool.description }}
+- Categories: {{ tool.categories | join: ", " }}
+- Use cases: {{ tool.use_cases | join: ", " }}
+- Modalities: {{ tool.modalities | join: ", " }}
+- Pricing: {{ tool.pricing }}{% if tool.api %} — API: yes{% endif %}{% if tool.self_hosted %} — Self-hosted: yes{% endif %}
+- Added: {{ site.data.tool_added_dates[tool.slug] | default: "unknown" }}{% if tool.features and tool.features.size > 0 %}
+- Features: {{ tool.features | join: "; " }}{% endif %}
+
+{% endfor %}
+---
+Curated by Vocino — {{ site.url }} — https://github.com/vocino/ai-tools

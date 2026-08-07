@@ -24,6 +24,7 @@ features:
   - Free tier available
 launch_date: 2019-01
 verified: false
-title: Play.ht — AI Tool
+title: Play.ht — Speech & Voice AI Tool
+image: /assets/images/og/tools/play-ht.png
 ---
 Play.ht is an AI text-to-speech platform that generates realistic voiceovers from text. It offers 200+ AI voices across 30+ languages and accents, voice cloning, and multi-voice conversations in a single file. The platform provides custom pronunciations, speech styles, and both standard and real-time APIs for developers. Used by content creators and businesses, Play.ht offers a free plan and tiered pricing for creators and enterprises.

@@ -1,0 +1,49 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.0">
+  <url>
+    <loc>{{ site.url }}/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>{{ site.url }}/assets/images/og-image.png</image:loc>
+      <image:caption>AI Tools by Vocino — curated directory of 200+ AI tools</image:caption>
+    </image:image>
+  </url>
+{% for tool in site.tools %}
+  <url>
+    <loc>{{ tool.url | absolute_url }}</loc>
+    <lastmod>{% assign d = site.data.tool_added_dates[tool.slug] %}{% if d %}{{ d | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>{{ site.url }}/assets/images/og/tools/{{ tool.slug }}.png</image:loc>
+      <image:caption>{{ tool.name }} — {{ tool.description | truncate: 120 | xml_escape }}</image:caption>
+    </image:image>
+  </url>
+{% endfor %}
+{% for cat in site.data.categories %}{% assign cat_tools = site.tools | where_exp: "t", "t.categories contains cat.slug" %}{% if cat_tools.size > 0 %}{% assign latest = "" %}{% for t in cat_tools %}{% assign d = site.data.tool_added_dates[t.slug] %}{% if d > latest %}{% assign latest = d %}{% endif %}{% endfor %}
+  <url>
+    <loc>{{ site.url }}/category/{{ cat.slug }}/</loc>
+    <lastmod>{% if latest != "" %}{{ latest | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>{{ site.url }}/assets/images/og/category/{{ cat.slug }}.png</image:loc>
+      <image:caption>{{ cat.label }} AI tools — curated by Vocino</image:caption>
+    </image:image>
+  </url>
+{% endif %}{% endfor %}
+{% assign hubs = site.pages | where: "layout", "hub" %}{% assign hubs2 = site.pages | where: "layout", "hub-general" %}{% assign all_hubs = hubs | concat: hubs2 %}{% for hub in all_hubs %}
+  <url>
+    <loc>{{ hub.url | absolute_url }}</loc>
+    <lastmod>{{ hub.last_modified_at | default: site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+{% endfor %}
+</urlset>

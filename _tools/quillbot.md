@@ -24,6 +24,7 @@ features:
   - Chrome extension and Word integration
 launch_date: 2017-01
 verified: false
-title: QuillBot — AI Tool
+title: QuillBot — Writing AI Tool
+image: /assets/images/og/tools/quillbot.png
 ---
 QuillBot is an AI-powered writing platform used by millions worldwide. It offers paraphrasing, grammar checking, summarization, translation, and plagiarism detection in a single suite. The platform includes an AI humanizer to make text sound more natural, an AI detector for identifying AI-generated content, and integrations for Chrome, Word, and mobile. QuillBot is popular among students, content creators, and professionals for improving writing clarity and efficiency.

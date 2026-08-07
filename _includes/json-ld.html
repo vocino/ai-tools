@@ -2,24 +2,42 @@
 {% assign price = "0" %}
 {% if tool.pricing == "paid" %}{% assign price = "" %}{% endif %}
 {% assign added = site.data.tool_added_dates[tool.slug] %}
+{% assign tool_canonical = site.url | append: tool.url %}
+{% assign breadcrumb_cat = tool.categories | first %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": {{ tool.name | jsonify }},
-  "description": {{ tool.description | jsonify }},
-  "url": {{ tool.website | jsonify }},
-  "isPartOf": { "@type": "WebSite", "name": "AI Tools by Vocino", "url": {{ site.url | jsonify }} },
-  "author": { "@type": "Person", "name": "Travis Vocino", "url": "https://vocino.com", "sameAs": ["https://threads.com/@vocino", "https://github.com/vocino", "https://vocino.com"] },
-  "applicationCategory": {% if tool.categories and tool.categories.size > 0 %}{{ tool.categories | first | jsonify }}{% else %}"WebApplication"{% endif %},
-  "operatingSystem": "Web"{% if tool.features and tool.features.size > 0 %},
-  "featureList": {{ tool.features | jsonify }}{% endif %}{% if price != "" %},
-  "offers": {
-    "@type": "Offer",
-    "price": "{{ price }}",
-    "priceCurrency": "USD"
-  }{% endif %}{% if tool.launch_date %},
-  "datePublished": {{ tool.launch_date | jsonify }}{% endif %}{% if added %},
-  "dateModified": {{ added | jsonify }}{% endif %}
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": {{ tool_canonical | jsonify }},
+      "name": {{ tool.name | jsonify }},
+      "description": {{ tool.description | jsonify }},
+      "url": {{ tool.website | jsonify }},
+      "isPartOf": { "@id": {{ site.url | jsonify }} },
+      "author": { "@type": "Person", "name": "Travis Vocino", "url": "https://vocino.com", "sameAs": ["https://threads.com/@vocino", "https://github.com/vocino", "https://vocino.com"] },
+      "applicationCategory": {% if tool.categories and tool.categories.size > 0 %}{{ tool.categories | first | jsonify }}{% else %}"WebApplication"{% endif %},
+      "operatingSystem": "Web"{% if tool.features and tool.features.size > 0 %},
+      "featureList": {{ tool.features | jsonify }}{% endif %}{% if price != "" %},
+      "offers": {
+        "@type": "Offer",
+        "price": "{{ price }}",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      }{% endif %}{% if tool.launch_date %},
+      "datePublished": {{ tool.launch_date | jsonify }}{% endif %}{% if added %},
+      "dateModified": {{ added | jsonify }}{% endif %}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": {{ tool_canonical | append: "#breadcrumb" | jsonify }},
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": {{ site.url | append: "/" | jsonify }} }{% if breadcrumb_cat %},
+        { "@type": "ListItem", "position": 2, "name": {% assign _bc_label = site.data.categories | where: "slug", breadcrumb_cat | first %}{% if _bc_label %}{{ _bc_label.label | jsonify }}{% else %}{{ breadcrumb_cat | jsonify }}{% endif %}, "item": {{ site.url | append: "/category/" | append: breadcrumb_cat | append: "/" | jsonify }} },
+        { "@type": "ListItem", "position": 3, "name": {{ tool.name | jsonify }}, "item": {{ tool_canonical | jsonify }} }{% else %},
+        { "@type": "ListItem", "position": 2, "name": {{ tool.name | jsonify }}, "item": {{ tool_canonical | jsonify }} }{% endif %}
+      ]
+    }
+  ]
 }
 </script>

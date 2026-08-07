@@ -23,6 +23,7 @@ features:
   - Hosting and domains
 launch_date: 2012-01
 verified: false
-title: Framer AI — AI Tool
+title: Framer AI — Design AI Tool
+image: /assets/images/og/tools/framer-ai.png
 ---
 Framer is a design and website builder with AI features for generating layouts, copy, and content. Users describe what they want, and Framer AI produces initial designs that can be edited in a visual editor. It suits landing pages, portfolios, and marketing sites.

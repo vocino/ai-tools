@@ -64,30 +64,64 @@ layout: default
   </section>
   {% endif %}
 
+  {% comment %} Deterministic enrichment — adds 80-120 words without touching markdown, varies by category/pricing {% endcomment %}
+  {% assign cat_label = site.data.categories | where: "slug", page.categories.first | map: "label" | first | default: page.categories.first %}
+  {% assign pricing_human = page.pricing | capitalize %}
+  {% assign use_cases_str = page.use_cases | join: ", " %}
+  <section class="tool-detail__features hud-corners hud-corners--always" style="margin-top:2rem">
+    <h2>Why {{ page.name }} is on ai.vocino.com</h2>
+    <div style="color:var(--text-secondary);line-height:1.7;font-size:0.92rem">
+      <p style="margin:0 0 0.75rem"><strong style="color:var(--text-primary)">{{ page.name }}</strong> is a {{ pricing_human | downcase }} <strong style="color:var(--text-primary)">{{ cat_label | downcase }}</strong> tool{% if page.api or page.self_hosted %} with {% if page.api %}API access{% endif %}{% if page.api and page.self_hosted %} and {% endif %}{% if page.self_hosted %}self-hosted option{% endif %}{% endif %}. {% if page.features and page.features.size > 0 %}It ships {{ page.features.size }} key capabilities{% if page.features.size > 2 %}, including {{ page.features[0] | downcase }} and {{ page.features[1] | downcase }}{% endif %}{% endif %}. {% if page.use_cases and page.use_cases.size > 0 %}Best for <em>{{ use_cases_str }}</em> workflows{% endif %}{% if page.launch_date %} — launched {{ page.launch_date }}{% endif %}. Part of Vocino's {{ site.tools | size }}-tool directory where every listing is filtered by category, pricing, modalities and features.</p>
+      <p style="margin:0 0 0.75rem">Choose it when you need {{ cat_label | downcase }} that fits a {{ page.pricing }} budget{% if page.modalities %} with {{ page.modalities | join: ", " }} I/O{% endif %}. Compare pricing, try freemium first, then test with your own data. {% if page.categories.size > 1 %}Also listed in {{ page.categories | slice: 1, 2 | join: ", " }}.{% endif %} See <a href="{{ '/category/' | append: page.categories.first | append: '/' | relative_url }}" style="color:var(--brand)">{{ cat_label }} tools</a> or <a href="{{ '/' | relative_url }}" style="color:var(--brand)">browse all {{ site.tools | size }} tools</a>.</p>
+      <p style="margin:0;font-family:var(--font-mono);font-size:0.72rem;color:var(--text-muted)">// Added {{ site.data.tool_added_dates[page.slug] | default: site.time | date: "%Y-%m-%d" }} · <a href="https://github.com/vocino/ai-tools/edit/main/_tools/{{ page.slug }}.md" style="color:var(--text-muted);text-decoration:underline">Edit on GitHub — curated by Vocino</a> · <a href="{{ page.website }}" style="color:var(--text-muted)">Visit {{ page.name }} →</a></p>
+    </div>
+  </section>
+
   {% if page.categories %}
   {% assign first_cat = page.categories | first %}
-  {% assign similar_count = 0 %}
-  {% for tool in site.tools %}
-    {% if tool.slug != page.slug and tool.categories contains first_cat %}
-      {% assign similar_count = similar_count | plus: 1 %}
-    {% endif %}
-  {% endfor %}
+  {% assign similar_pool = site.tools | where_exp: "t", "t.categories contains first_cat" | where_exp: "t", "t.slug != page.slug" %}
+  {% assign similar_count = similar_pool | size %}
   <section class="tool-detail__similar">
     <h2>Similar tools — more from Vocino's directory</h2>
     {% if similar_count > 0 %}
     <div class="tools-grid">
-      {% assign count = 0 %}
-      {% for tool in site.tools %}
-        {% if tool.slug != page.slug and tool.categories contains first_cat and count < 3 %}
-          {% include tool-card.html tool=tool %}
-          {% assign count = count | plus: 1 %}
-        {% endif %}
+      {% comment %} Tier 1: same category + same pricing (most relevant) {% endcomment %}
+      {% assign tier1 = similar_pool | where: "pricing", page.pricing %}
+      {% assign shown = 0 %}
+      {% for tool in tier1 limit:3 %}
+        {% include tool-card.html tool=tool %}
+        {% assign shown = shown | plus: 1 %}
       {% endfor %}
+      {% comment %} Tier 2: same category, any pricing — fill remaining {% endcomment %}
+      {% if shown < 3 %}
+        {% assign remaining = 3 | minus: shown %}
+        {% for tool in similar_pool %}
+          {% if shown >= 3 %}{% break %}{% endif %}
+          {% unless tier1 contains tool %}
+            {% include tool-card.html tool=tool %}
+            {% assign shown = shown | plus: 1 %}
+          {% endunless %}
+        {% endfor %}
+      {% endif %}
     </div>
+    <p style="margin-top:0.9rem;font-family:var(--font-mono);font-size:0.72rem;color:var(--text-muted)">More in <a href="{{ '/category/' | append: first_cat | append: '/' | relative_url }}" style="color:var(--brand)">{{ first_cat }}</a> — <a href="{{ '/' | relative_url }}" style="color:var(--text-muted)">browse all {{ site.tools | size }} tools →</a></p>
     {% else %}
     <p class="tool-detail__similar-empty">No similar tools yet. <a href="https://github.com/vocino/ai-tools?tab=contributing-ov-file" target="_blank" rel="noopener noreferrer">Add one — help Vocino curate</a> →</p>
     {% endif %}
   </section>
   {% endif %}
+
+  {% comment %} Cross-category hub links for crawl depth {% endcomment %}
+  <section class="tool-detail__features hud-corners hud-corners--always" style="margin-top:2rem">
+    <h2>Explore more — curated by Vocino</h2>
+    <div style="display:flex;flex-wrap:wrap;gap:0.4rem;margin-top:0.6rem">
+      {% for cat in site.data.categories %}
+        {% assign c_tools = site.tools | where_exp: "t", "t.categories contains cat.slug" %}
+        {% if c_tools.size > 0 %}
+          <a href="{{ '/category/' | append: cat.slug | append: '/' | relative_url }}" class="tag" style="text-decoration:none">{% if page.categories contains cat.slug %}<strong style="color:var(--brand)">{{ cat.label }}</strong>{% else %}{{ cat.label }}{% endif %} · {{ c_tools.size }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
 </article>
 </div>

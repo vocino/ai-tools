@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="color-scheme" content="dark">
   {% seo %}
-  {% comment %} Tool pages — use category OG as contextual fallback (until per-tool OG exists) {% endcomment %}
+  {% comment %} Tool pages — use per-tool OG if exists, else category OG, else site OG {% endcomment %}
   {% if page.collection == "tools" and page.categories %}
     {% assign _tool_cat = page.categories | first %}
     <meta property="og:image:alt" content="{{ page.name }} — {{ _tool_cat }} AI tool curated by Vocino">
@@ -13,8 +13,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&family=Source+Serif+4:wght@400;500;600;700&family=Source+Code+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  <link rel="preload" href="/assets/css/style.css" as="style">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.github.build_revision | default: site.time | date: '%s' }}">
   <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ '/sitemap.xml' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="AI Tools by Vocino — RSS" href="{{ '/feed.xml' | absolute_url }}">
+  <link rel="alternate" type="text/plain" title="LLMs.txt" href="{{ '/llms.txt' | absolute_url }}">
   {% if page.json_ld %}
   <script type="application/ld+json">{{ page.json_ld }}</script>
   {% endif %}
@@ -26,7 +29,7 @@
   </div>
   {% include footer.html %}
   <script src="https://code.iconify.design/iconify-icon/2.0.0/iconify-icon.min.js" defer></script>
-  <script src="{{ '/assets/js/filter.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+  <script src="{{ '/assets/js/filter.js' | relative_url }}?v={{ site.github.build_revision | default: site.time | date: '%s' }}" defer></script>
   <script>
     // sticky nav scroll shadow
     (function(){var n=document.querySelector('.site-nav');if(!n)return;window.addEventListener('scroll',function(){n.classList.toggle('is-scrolled',window.scrollY>8)},{passive:true});})();

@@ -21,6 +21,7 @@ features:
   - Browser extension
 launch_date: 2019-01
 verified: false
-title: Scite — AI Tool
+title: Scite — Research & Analysis AI Tool
+image: /assets/images/og/tools/scite.png
 ---
 What is Scite? Scite enhances citations by classifying how papers cite each other — as supporting, contradicting, or merely mentioning. Researchers can quickly see how a finding is used across the literature and identify consensus or debate. Scite offers a browser extension and API for integration.

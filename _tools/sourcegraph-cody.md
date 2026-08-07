@@ -22,6 +22,7 @@ features:
   - Works with private repos
 launch_date: 2023-03
 verified: false
-title: Sourcegraph Cody — AI Tool
+title: Sourcegraph Cody — Coding AI Tool
+image: /assets/images/og/tools/sourcegraph-cody.png
 ---
 Sourcegraph Cody is an AI coding assistant built on Sourcegraph's code search and indexing. It uses full codebase context to explain, edit, and generate code across large repositories. Cody supports self-hosting for enterprises that need to keep code and AI within their own infrastructure.

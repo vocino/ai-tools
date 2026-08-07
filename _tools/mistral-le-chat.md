@@ -25,6 +25,7 @@ features:
   - Official Mistral interface
 launch_date: 2024-02
 verified: false
-title: Le Chat — AI Tool
+title: Le Chat — Chat & Conversational AI Tool
+image: /assets/images/og/tools/mistral-le-chat.png
 ---
 Le Chat is Mistral AI's official conversational interface. It offers direct access to Mistral's model family for chat, coding, and document analysis. Users can upload files and ask questions with strong multilingual capabilities. The interface is free for basic use with paid tiers for heavier usage.

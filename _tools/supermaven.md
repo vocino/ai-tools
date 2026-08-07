@@ -20,6 +20,7 @@ features:
   - Lightweight extension
 launch_date: 2024-01
 verified: false
-title: Supermaven — AI Tool
+title: Supermaven — Coding AI Tool
+image: /assets/images/og/tools/supermaven.png
 ---
 Supermaven provides AI-powered code completion with emphasis on speed and context. It offers multi-line completions and understands project structure for more relevant suggestions. Supermaven supports popular languages and integrates with VS Code and JetBrains IDEs.

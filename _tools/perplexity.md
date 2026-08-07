@@ -22,6 +22,7 @@ features:
   - API for developers
 launch_date: 2022-12
 verified: false
-title: Perplexity — AI Tool
+title: Perplexity — Search & Discovery AI Tool
+image: /assets/images/og/tools/perplexity.png
 ---
 Perplexity is an AI-powered answer engine that searches the web in real time and provides responses with inline citations. It combines the conversational interface of a chatbot with the sourcing rigor of a search engine, making it a popular tool for research and quick fact-finding.

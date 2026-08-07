@@ -22,6 +22,7 @@ features:
   - Free API for developers
 launch_date: 2015-11
 verified: false
-title: Semantic Scholar — AI Tool
+title: Semantic Scholar — Research & Analysis AI Tool
+image: /assets/images/og/tools/semantic-scholar.png
 ---
 Semantic Scholar uses AI to index and search academic papers across disciplines. It surfaces relevant work through semantic understanding and citation graphs. Researchers can explore influence, find related papers, and access the free API for integration into other tools.

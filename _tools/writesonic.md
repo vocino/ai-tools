@@ -24,6 +24,7 @@ features:
   - 100+ source-backed articles with fact-checking
 launch_date: 2021-02
 verified: false
-title: WriteSonic — AI Tool
+title: WriteSonic — Writing AI Tool
+image: /assets/images/og/tools/writesonic.png
 ---
 WriteSonic is an AI platform for content creation and search visibility. It helps brands track and improve their visibility across AI search engines like ChatGPT, Gemini, and Perplexity through Generative Engine Optimization (GEO). The platform offers AI article writing, SEO optimization, competitor analysis, and automated technical fixes. Used by 20,000+ teams, WriteSonic creates content optimized for both traditional and AI search.

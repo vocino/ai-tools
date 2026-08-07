@@ -2,6 +2,13 @@ title: "AI Tools by Vocino"
 description: "A curated directory of AI tools, services and platforms — by Vocino. Discover the best AI tools for building, creating, and shipping."
 url: "https://ai.vocino.com"
 baseurl: ""
+# Verification — add values from GSC / Bing Webmaster when available
+webmaster_verifications:
+  google: # paste GSC HTML tag value here, then jekyll-seo-tag emits <meta name="google-site-verification">
+  bing: # paste Bing verification value here
+  # yandex / baidu if needed
+# IndexNow — generate key via https://www.bing.com/indexnow/getstarted then set
+# indexnow_key: "your-32-char-hex"
 
 author:
   name: "Vocino"
@@ -43,6 +50,9 @@ titles_from_headings:
 
 include:
   - _redirects
+
+# Headers for Cloudflare / GH Pages edge — documented in _headers, applied via Cloudflare rules
+# See https://developers.cloudflare.com/pages/configuration/headers/
 
 exclude:
   - Gemfile

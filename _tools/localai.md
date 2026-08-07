@@ -26,6 +26,7 @@ features:
   - Model Context Protocol (MCP) support
 launch_date: 2023-05
 verified: false
-title: LocalAI — AI Tool
+title: LocalAI — APIs AI Tool
+image: /assets/images/og/tools/localai.png
 ---
 LocalAI is a free, MIT-licensed alternative to OpenAI and Anthropic APIs that runs AI models entirely on your own hardware. It provides an OpenAI-compatible API for LLMs, image generation with Stable Diffusion, text-to-speech, and speech-to-text—all with data never leaving your machine. LocalAI supports Docker and Kubernetes, works without a GPU, and includes function calling, embeddings, and Model Context Protocol for agentic workflows. It's designed for privacy-focused, offline AI deployment.

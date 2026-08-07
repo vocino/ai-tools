@@ -2,9 +2,7 @@
 name: Cohere
 slug: cohere
 website: https://cohere.com
-description: >-
-  AI platform providing language models, embeddings, and reranking APIs for enterprise search, RAG, and NLP
-  applications.
+description: AI platform providing language models, embeddings, and reranking APIs for enterprise search, RAG, and NLP applications.
 categories:
   - api-platform
   - search
@@ -26,6 +24,7 @@ features:
   - Fine-tuning support for custom models
 launch_date: 2021-09
 verified: false
-title: Cohere — AI Tool
+title: Cohere — APIs AI Tool
+image: /assets/images/og/tools/cohere.png
 ---
 Cohere is an enterprise AI platform founded in 2019 that specializes in natural language processing APIs. Their Command models excel at retrieval-augmented generation (RAG) and tool use, while their Embed and Rerank models power semantic search. Cohere is particularly popular in enterprise settings where data privacy and on-premise deployment are required.

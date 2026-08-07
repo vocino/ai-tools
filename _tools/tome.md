@@ -22,7 +22,8 @@ features:
   - Collaboration, sharing, and analytics for teams
   - Templates for sales, marketing, product, and updates
 verified: false
-title: Tome — AI Tool
+title: Tome — Productivity AI Tool
+image: /assets/images/og/tools/tome.png
 ---
 Tome is an AI-native tool for creating presentations, one-pagers, and product narratives from a simple idea or prompt. It combines layout, copy, and visuals so you can generate and refine decks in minutes instead of hours, then customize them with powerful editing tools. Teams use Tome for sales collateral, fundraising decks, product storytelling, and internal communications, with collaboration and analytics to see how content performs.
 

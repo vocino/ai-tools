@@ -25,6 +25,12 @@ jobs:
       - name: Generate added dates
         run: node scripts/generate-added-dates.js
 
+      - name: Generate hub pages
+        run: node scripts/generate-hubs.mjs
+
+      - name: Generate llms sanity
+        run: node scripts/generate-llms.mjs --check
+
       - name: Generate OG images
         run: node scripts/generate-og.mjs
 

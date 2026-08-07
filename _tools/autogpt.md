@@ -22,6 +22,7 @@ features:
   - Cloud-hosted version via agpt.co platform
 launch_date: 2023-03
 verified: false
-title: AutoGPT — AI Tool
+title: AutoGPT — Agents AI Tool
+image: /assets/images/og/tools/autogpt.png
 ---
 AutoGPT is one of the first and most widely known autonomous AI agent projects, released in March 2023 and quickly becoming one of the most starred repositories on GitHub. It chains LLM calls together to autonomously plan and execute multi-step tasks — browsing the web, reading and writing files, and running code — with minimal human input. The project has evolved from a research demo into a platform at agpt.co.

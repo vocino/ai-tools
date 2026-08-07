@@ -23,6 +23,7 @@ features:
   - API access for developers
 launch_date: 2024-06
 verified: false
-title: Luma Dream Machine — AI Tool
+title: Luma Dream Machine — Video Generation AI Tool
+image: /assets/images/og/tools/luma-dream-machine.png
 ---
 Dream Machine is Luma AI's fast, high-quality video generation model, accessible via web and API. It generates realistic and cinematic video clips from text prompts or input images, with controls for camera motion like orbits, zooms, and dolly shots. Luma's Ray2 model offers particularly strong photorealistic quality. Luma AI also builds NeRF-based 3D capture and generation tools.

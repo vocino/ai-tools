@@ -2,9 +2,7 @@
 name: Ideogram
 slug: ideogram
 website: https://ideogram.ai
-description: >-
-  AI image generator specializing in accurate text rendering and typography within images, plus photorealistic
-  generation.
+description: AI image generator specializing in accurate text rendering and typography within images, plus photorealistic generation.
 categories:
   - image-generation
 use_cases:
@@ -25,6 +23,7 @@ features:
   - Canvas for multi-region image composition
 launch_date: 2023-09
 verified: false
-title: Ideogram — AI Tool
+title: Ideogram — Image Generation AI Tool
+image: /assets/images/og/tools/ideogram.png
 ---
 Ideogram is an AI image generation platform founded by former Google Brain researchers, best known for its ability to accurately render readable text within images — a historically difficult problem for generative models. It supports photorealistic, anime, illustration, and design styles, and includes tools like Magic Prompt enhancement and a canvas editor for composing complex images.

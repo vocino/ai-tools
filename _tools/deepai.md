@@ -26,6 +26,7 @@ features:
   - Simple APIs for developers
 launch_date: 2016-12
 verified: false
-title: DeepAI — AI Tool
+title: DeepAI — Image Generation AI Tool
+image: /assets/images/og/tools/deepai.png
 ---
 DeepAI is an all-in-one creative AI platform. Since 2016 it has offered browser-based tools for image generation, photo editing, video creation, music composition, and AI chat. Users can generate, edit, and transform content with a single prompt. DeepAI provides APIs for developers and a consumer platform with a free tier and DeepAI Pro subscription. The company also builds custom AI solutions for conservation and research.

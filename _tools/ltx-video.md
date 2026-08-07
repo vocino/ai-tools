@@ -24,7 +24,8 @@ features:
   - NVIDIA NVFP4/NVFP8 optimizations for 3x faster performance
 launch_date: 2025-12
 verified: false
-title: LTX Video — AI Tool
+title: LTX Video — Video Generation AI Tool
+image: /assets/images/og/tools/ltx-video.png
 ---
 
 LTX Video (LTX-2) is an open-source video generation model by Lightricks designed for local, on-device generation. It delivers results competitive with cloud-based models while running entirely on consumer RTX GPUs, producing up to 20 seconds of 4K video with synchronized audio. NVIDIA's CES 2026 optimizations reduced VRAM usage by 60% and tripled inference speed, making it the leading option for privacy-conscious creators and developers who prefer local workflows.

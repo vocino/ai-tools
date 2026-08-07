@@ -22,6 +22,7 @@ features:
   - Built-in support for RAG patterns
 launch_date: 2023-06
 verified: false
-title: Vercel AI SDK — AI Tool
+title: Vercel AI SDK — APIs AI Tool
+image: /assets/images/og/tools/vercel-ai-sdk.png
 ---
 The Vercel AI SDK is an open-source TypeScript toolkit for building AI-powered web applications. It provides a unified API across major LLM providers, streaming UI components for React and Next.js, and built-in support for tool calling, structured outputs, and agent patterns. The SDK is widely adopted in the JavaScript/TypeScript ecosystem and simplifies the process of integrating AI capabilities into web applications.

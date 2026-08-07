@@ -22,6 +22,7 @@ features:
   - Game-ready assets suitable for Unity and Unreal Engine
 launch_date: 2023-04
 verified: false
-title: Meshy — AI Tool
+title: Meshy — 3D AI Tool
+image: /assets/images/og/tools/meshy.png
 ---
 What is Meshy? Meshy is an AI 3D model generation platform that enables game developers, designers, and 3D artists to rapidly prototype and create textured 3D assets without manual modeling. From a text description or reference image, Meshy generates a fully textured 3D mesh with PBR materials in minutes. Assets can be exported in standard formats for use in Unity, Unreal Engine, Blender, and other 3D pipelines.

@@ -21,7 +21,8 @@ features:
   - Mobile, desktop, and browser extension support
   - API access for developers and enterprise integrations
 verified: false
-title: Speechify — AI Tool
+title: Speechify — Speech & Voice AI Tool
+image: /assets/images/og/tools/speechify.png
 ---
 Speechify is a popular text-to-speech app that lets you listen to articles, documents, and study materials instead of reading them on screen. It offers a large library of realistic voices, supports many languages, and works across web, mobile, and desktop. Students, professionals, and accessibility users rely on Speechify to save time, reduce eye strain, and turn any reading workload into an audio playlist they can listen to on the go.
 

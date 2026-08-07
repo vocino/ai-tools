@@ -21,6 +21,7 @@ features:
   - Second brain concept
 launch_date: 2020-05
 verified: false
-title: Mem — AI Tool
+title: Mem — Productivity AI Tool
+image: /assets/images/og/tools/mem.png
 ---
 Mem applies AI to note-taking by organizing, linking, and surfacing notes automatically. It connects related ideas and supports semantic search over your knowledge base. Mem integrates with email and calendars to capture and structure information as you work.

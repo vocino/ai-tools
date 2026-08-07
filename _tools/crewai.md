@@ -23,6 +23,7 @@ features:
   - Cloud and self-hosted
 launch_date: 2023-10
 verified: false
-title: CrewAI — AI Tool
+title: CrewAI — Agents AI Tool
+image: /assets/images/og/tools/crewai.png
 ---
 CrewAI is a framework for building teams of AI agents that work together on complex tasks. Each agent has a role and goals; the framework handles delegation and sequencing. CrewAI is implemented in Python and can run locally or in the cloud.

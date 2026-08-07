@@ -22,6 +22,7 @@ features:
   - One-click sharing and CRM integration
 launch_date: 2024-06
 verified: false
-title: Granola — AI Tool
+title: Granola — Productivity AI Tool
+image: /assets/images/og/tools/granola.png
 ---
 Granola is an AI notepad designed for meetings that takes a unique approach to meeting notes. Rather than fully automated transcription, it captures the meeting transcript in the background and uses it to enhance and expand the notes you write yourself. This produces more personalized, higher-quality meeting notes than fully automated tools. Granola works with any video conferencing platform and has gained rapid adoption in productivity-focused communities.

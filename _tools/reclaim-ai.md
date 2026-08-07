@@ -21,6 +21,7 @@ features:
   - Team scheduling and workload balancing
 launch_date: 2020-01
 verified: false
-title: Reclaim AI — AI Tool
+title: Reclaim AI — Productivity AI Tool
+image: /assets/images/og/tools/reclaim-ai.png
 ---
 Reclaim AI is an intelligent scheduling assistant that uses AI to automatically find the best times for tasks, habits, meetings, and breaks in your calendar. It dynamically reschedules items as priorities change and new events are added, helping users protect focus time and maintain work-life balance. Reclaim integrates with Google Calendar, Slack, Asana, Jira, and other productivity tools.

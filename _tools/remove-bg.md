@@ -21,6 +21,7 @@ features:
   - Integrations with Photoshop, Figma, and Canva
 launch_date: 2018-11
 verified: false
-title: Remove.bg — AI Tool
+title: Remove.bg — Image Editing AI Tool
+image: /assets/images/og/tools/remove-bg.png
 ---
 Remove.bg is one of the original AI-powered background removal services, capable of automatically detecting and removing backgrounds from images in seconds. It handles people, products, animals, cars, and more with high accuracy. Widely used by photographers, e-commerce sellers, and designers, it offers a free preview tier and a robust API for bulk processing.

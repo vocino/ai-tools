@@ -20,7 +20,8 @@ features:
   - Website and brand collateral options on subscription plans
   - Simple guided flow for non-designers starting a brand
 verified: false
-title: Looka — AI Tool
+title: Looka — Design AI Tool
+image: /assets/images/og/tools/looka.png
 ---
 Looka is an AI-assisted design tool that helps entrepreneurs and small businesses create logos and brand assets without hiring an agency. After you answer a few questions about your brand style and preferences, Looka generates logo options that you can customize and then export in many formats. Paid brand kits extend this into social posts, business cards, and other collateral so teams can launch with a cohesive visual identity.
 

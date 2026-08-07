@@ -14,15 +14,17 @@
     </button>
     <ul class="filter-section__list" id="filter-categories">
       {% for cat in site.data.categories %}
-      <li>
+      <li class="filter-row">
         <label class="filter-checkbox">
           <input type="checkbox" name="categories" value="{{ cat.slug }}">
           <span>{{ cat.label }}</span>
           <span class="filter-count" data-count-for="categories:{{ cat.slug }}"></span>
         </label>
+        <a href="{{ '/category/' | append: cat.slug | append: '/' | relative_url }}" class="filter-row__link" aria-label="Browse {{ cat.label }} category — curated by Vocino" title="Browse {{ cat.label }} — curated by Vocino">↗</a>
       </li>
       {% endfor %}
     </ul>
+    <p class="filter-section__foot"><a href="{{ '/category/coding/' | relative_url }}" style="color:var(--text-muted);text-decoration:underline;text-underline-offset:2px">Browse all categories →</a></p>
   </div>
 
   <div class="filter-section is-collapsed" data-filter="use_cases">

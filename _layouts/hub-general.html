@@ -1,0 +1,51 @@
+---
+layout: default
+---
+{% assign hub_tools = site.tools | where: "pricing", page.hub_pricing %}
+{% assign hub_count = hub_tools | size %}
+<div class="category-page">
+  <div class="category-page__eyebrow"><span style="color:var(--brand)">//</span> Hub — curated by Vocino</div>
+  {% include breadcrumbs.html name=page.title current_item=page.url %}
+  <h1 class="category-page__title">{{ page.title }}</h1>
+  <p class="category-page__description">{{ page.description }}</p>
+  {% if page.hub_intro %}
+  <div class="category-page__intro hud-corners hud-corners--always" style="margin:1rem 0 1.75rem;padding:1rem 1.1rem;background:var(--surface-1);border:1px solid var(--border);border-radius:12px">
+    <p style="margin:0;color:var(--text-secondary);line-height:1.6">{{ page.hub_intro }}</p>
+    <p style="margin:0.5rem 0 0;font-family:var(--font-mono);font-size:0.72rem;color:var(--text-muted)">// {{ hub_count }} tools · Updated {{ site.time | date: "%Y-%m-%d" }}</p>
+  </div>
+  {% endif %}
+  <div class="tools-grid">
+    {% for tool in hub_tools limit:24 %}
+      {% include tool-card.html tool=tool %}
+    {% endfor %}
+  </div>
+  <section class="tool-detail__features hud-corners hud-corners--always" style="margin-top:2rem">
+    <h2>FAQ — {{ page.title }}</h2>
+    <ul>
+      <li><div><strong style="color:var(--text-primary)">What is the best {{ page.hub_pricing }} AI tool?</strong><br><span style="color:var(--text-secondary)">Depends on your use case — filter this hub by category, API and self-hosted.</span></div></li>
+    </ul>
+  </section>
+  <div style="margin-top:2rem;display:flex;flex-wrap:wrap;gap:0.5rem">
+    <span style="font-family:var(--font-mono);font-size:0.72rem;color:var(--text-muted)">Categories:</span>
+    {% for c in site.data.categories %}
+      {% assign ct = site.tools | where_exp: "t", "t.categories contains c.slug" %}
+      {% if ct.size > 0 %}<a href="{{ '/category/' | append: c.slug | append: '/' | relative_url }}" class="tag" style="text-decoration:none">{{ c.label }}</a>{% endif %}
+    {% endfor %}
+  </div>
+</div>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": {{ page.url | absolute_url | jsonify }},
+      "name": {{ page.title | jsonify }},
+      "description": {{ page.description | jsonify }},
+      "url": {{ page.url | absolute_url | jsonify }},
+      "isPartOf": { "@id": {{ site.url | jsonify }} },
+      "mainEntity": { "@type": "ItemList", "numberOfItems": {{ hub_count }}, "itemListElement": [{% assign l = hub_tools | sort: "name" %}{% for t in l limit:12 %}{"@type":"ListItem","position":{{ forloop.index }},"name":{{ t.name | jsonify }},"url":{{ t.url | absolute_url | jsonify }} }{% unless forloop.last %},{% endunless %}{% endfor %}] }
+    }
+  ]
+}
+</script>

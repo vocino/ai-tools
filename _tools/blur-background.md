@@ -18,6 +18,7 @@ features:
   - Local browser processing for Free Basic
   - Adjustable background blur and edge controls
 verified: false
-title: Blur Background — AI Tool
+title: Blur Background — Image Editing AI Tool
+image: /assets/images/og/tools/blur-background.png
 ---
 Blur Background is a browser-based photo editor for softening distracting backgrounds while keeping the subject clear. Its Free Basic path processes the image locally without requiring an account.

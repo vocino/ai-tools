@@ -25,6 +25,7 @@ features:
   - Chrome extension and mobile apps
 launch_date: 2020-10
 verified: false
-title: Wordtune — AI Tool
+title: Wordtune — Writing AI Tool
+image: /assets/images/og/tools/wordtune.png
 ---
 What is Wordtune? Wordtune is an AI-powered writing assistant that helps users express themselves with confidence. It provides contextual rewrite suggestions that match your style, tone switching between formal and casual, and advanced proofreading. Wordtune can continue writing from where you left off, summarize documents and videos, and translate into natural English. Used by millions worldwide, it works across desktop, mobile, and popular apps via browser extension.

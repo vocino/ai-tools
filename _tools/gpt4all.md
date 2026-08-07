@@ -22,6 +22,7 @@ features:
   - Python bindings
 launch_date: 2023-03
 verified: false
-title: GPT4All — AI Tool
+title: GPT4All — Chat & Conversational AI Tool
+image: /assets/images/og/tools/gpt4all.png
 ---
 GPT4All is a local chatbot that runs open-source models entirely on your computer. All processing stays on-device, making it suitable for privacy-sensitive use. GPT4All provides a desktop app and Python bindings for integration into custom workflows.

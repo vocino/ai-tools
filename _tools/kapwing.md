@@ -22,7 +22,8 @@ features:
   - Collaborative workspaces for teams and agencies
   - Exports up to 4K with brand assets and style presets
 verified: false
-title: Kapwing — AI Tool
+title: Kapwing — Video Editing AI Tool
+image: /assets/images/og/tools/kapwing.png
 ---
 Kapwing is an online video editor that brings many AI tools into a simple browser-based workspace. Creators and teams use it to add captions, dub videos, clean up audio, resize clips for different platforms, and quickly repurpose long-form footage into shorts and social posts. Because it runs in the browser with collaborative workspaces, it fits well into distributed content workflows without needing heavy desktop software.
 

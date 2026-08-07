@@ -2,9 +2,7 @@
 name: Otter.ai
 slug: otter-ai
 website: https://otter.ai
-description: >-
-  AI meeting assistant that transcribes conversations in real time and generates summaries, action items, and follow-up
-  emails.
+description: AI meeting assistant that transcribes conversations in real time and generates summaries, action items, and follow-up emails.
 categories:
   - productivity
   - audio-editing
@@ -26,6 +24,7 @@ features:
   - Speaker identification and timestamp linking
 launch_date: 2018-02
 verified: false
-title: Otter.ai — AI Tool
+title: Otter.ai — Productivity AI Tool
+image: /assets/images/og/tools/otter-ai.png
 ---
 Otter.ai is an AI meeting assistant that automatically transcribes, summarizes, and extracts action items from meetings. OtterPilot can autonomously join Zoom, Microsoft Teams, and Google Meet calls to capture notes in real time. After the meeting, Otter generates a summary, highlights key points, and can draft follow-up emails — making it a popular tool for sales, executives, and remote teams.

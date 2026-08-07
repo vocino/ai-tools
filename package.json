@@ -1,7 +1,7 @@
 {
   "name": "ai-tools",
   "description": "AI Tools by Vocino — ai.vocino.com — curated directory of AI tools (200+). Part of vocino.com",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "homepage": "https://ai.vocino.com",
   "repository": {
     "type": "git",
@@ -15,9 +15,12 @@
     "generate-og": "node scripts/generate-og.mjs",
     "generate-og:site": "node scripts/generate-og.mjs --site-only",
     "generate-og:categories": "node scripts/generate-og.mjs --categories-only --no-site",
+    "generate-og:tools": "node scripts/generate-og.mjs --tools-only",
+    "generate-hubs": "node scripts/generate-hubs.mjs",
+    "generate-llms": "node scripts/generate-llms.mjs --check",
     "validate": "node validate.js",
-    "build": "npm run generate-added-dates && bundle exec jekyll build",
-    "build:full": "npm run generate-added-dates && npm run generate-og && bundle exec jekyll build",
+    "build": "npm run generate-added-dates && npm run generate-hubs && bundle exec jekyll build",
+    "build:full": "npm run generate-added-dates && npm run generate-hubs && npm run generate-og && bundle exec jekyll build",
     "dev": "bundle exec jekyll serve"
   },
   "dependencies": {

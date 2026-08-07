@@ -21,6 +21,7 @@ features:
   - Batch processing for multiple images
 launch_date: 2023-11
 verified: false
-title: Magnific AI — AI Tool
+title: Magnific AI — Image Editing AI Tool
+image: /assets/images/og/tools/magnific.png
 ---
 What is Magnific AI? Magnific AI is an AI-powered image upscaler and enhancer that goes beyond traditional upscaling by intelligently adding realistic detail to images. Its signature feature is the creativity slider, which controls how much new detail the AI hallucinates during upscaling. Magnific gained viral popularity in creative communities for its ability to transform low-resolution images into stunningly detailed high-resolution versions.

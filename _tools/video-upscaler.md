@@ -17,6 +17,7 @@ features:
   - AI video upscaling
   - Video clarity enhancement
 verified: false
-title: Video Upscaler — AI Tool
+title: Video Upscaler — Video Editing AI Tool
+image: /assets/images/og/tools/video-upscaler.png
 ---
 Video Upscaler is a browser-based AI video enhancement tool for improving resolution and clarity. Users upload a video, choose an enhancement workflow, and download the processed result.

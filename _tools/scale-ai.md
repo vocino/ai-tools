@@ -24,7 +24,8 @@ features:
   - APIs and SDKs to integrate labeling and evaluation into pipelines
   - Support for enterprise security, compliance, and governance
 verified: false
-title: Scale AI — AI Tool
+title: Scale AI — APIs AI Tool
+image: /assets/images/og/tools/scale-ai.png
 ---
 Scale AI is a data platform used by companies to label, evaluate, and manage the datasets that train and monitor their AI systems. It combines managed labeling services with tooling for evaluations, quality control, and analytics, accessible through web UIs and APIs. Teams use Scale AI to create high-quality ground truth, run systematic evaluations, and keep production models aligned with safety and performance requirements.
 

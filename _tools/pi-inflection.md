@@ -21,6 +21,7 @@ features:
   - Personal assistant use cases
 launch_date: 2023-05
 verified: false
-title: Pi — AI Tool
+title: Pi — Chat & Conversational AI Tool
+image: /assets/images/og/tools/pi-inflection.png
 ---
 What is Pi? Pi is Inflection AI's conversational AI designed for emotionally intelligent, supportive dialogue. It emphasizes natural conversation over task-oriented interactions and is suited for personal check-ins, brainstorming, and empathetic support. Pi is free and available on web and mobile.

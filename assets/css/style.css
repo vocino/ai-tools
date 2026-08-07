@@ -715,5 +715,28 @@ iconify-icon{display:inline-flex;align-items:center;justify-content:center;flex-
 .site-footer__sep{opacity:0.35}
 .site-footer__copy{color:var(--text-muted);font-size:0.68rem}
 
+/* Home hero — SEO H1 + crawlable category pills */
+.home-hero{margin:0 auto 1.25rem;max-width:72rem;padding:1.5rem 1.1rem;background:var(--surface-1);border:1px solid var(--border);border-radius:16px;box-shadow:0 8px 32px rgba(0,0,0,0.22)}
+.home-hero__eyebrow{font-family:var(--font-mono);font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-muted);margin-bottom:0.5rem}
+.home-hero__title{font-family:var(--font-serif);font-size:clamp(1.6rem, 3.5vw, 2.15rem);font-weight:600;letter-spacing:-0.015em;color:var(--text-primary);line-height:1.15;margin:0 0 0.6rem}
+.home-hero__intro{font-size:0.95rem;color:var(--text-secondary);line-height:1.6;max-width:52rem;margin:0 0 0.9rem}
+.home-hero__intro strong{color:var(--text-primary);font-weight:600}
+.home-hero__sub{font-family:var(--font-mono);font-size:0.72rem;color:var(--text-muted);margin:0.9rem 0 0}
+.category-pills{display:flex;flex-wrap:wrap;gap:0.4rem;margin:0}
+.category-pill{display:inline-flex;align-items:center;gap:0.3rem;padding:0.32rem 0.7rem;border-radius:var(--radius-pill);background:var(--surface-2);border:1px solid var(--border);font-family:var(--font-mono);font-size:0.72rem;font-weight:600;text-transform:uppercase;letter-spacing:0.04em;color:var(--text-secondary);text-decoration:none;transition:all 0.15s ease}
+.category-pill:hover{color:var(--text-primary);border-color:rgba(0,204,255,0.28);background:rgba(0,204,255,0.08);transform:translateY(-1px)}
+.category-pill__count{color:var(--text-muted);font-weight:400}
+.results-shell__heading{font-family:var(--font-mono);font-size:0.78rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-primary);margin:0 0 0.85rem}
+.results-shell__heading::before{content:'// ';color:var(--brand)}
+.filter-row{display:flex;align-items:center;gap:0.25rem}
+.filter-row .filter-checkbox{flex:1;min-width:0}
+.filter-row__link{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;flex:0 0 22px;border:1px solid var(--border);border-radius:6px;color:var(--text-muted);font-size:0.7rem;text-decoration:none;transition:all 0.15s ease}
+.filter-row__link:hover{color:var(--brand);border-color:rgba(0,204,255,0.28);background:rgba(0,204,255,0.08)}
+.filter-section__foot{margin:0.5rem 0 0;padding-left:0.4rem;font-family:var(--font-mono);font-size:0.72rem}
+.filter-section__foot a:hover{color:var(--brand)}
+
+/* Perf: content-visibility for offscreen cards */
+.tools-grid .tool-card{content-visibility:auto;contain-intrinsic-size:300px 220px}
+
 /* Utility for sticky header visual separation on scroll */
 .site-nav.is-scrolled{box-shadow:0 8px 24px rgba(0,0,0,0.28)}

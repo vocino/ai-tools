@@ -23,6 +23,7 @@ features:
   - Brand consistency
 launch_date: 2015-11
 verified: false
-title: Beautiful.ai — AI Tool
+title: Beautiful.ai — Design AI Tool
+image: /assets/images/og/tools/beautiful-ai.png
 ---
 Beautiful.ai applies AI to presentation design by automatically adjusting layouts and keeping slides consistent. Users add content and the tool handles spacing, alignment, and formatting. It suits sales decks, pitches, and educational presentations.

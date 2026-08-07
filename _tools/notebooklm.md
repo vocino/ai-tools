@@ -24,6 +24,7 @@ features:
   - Supports PDFs, Google Docs, websites, and more
 launch_date: 2023-07
 verified: false
-title: NotebookLM — AI Tool
+title: NotebookLM — Research & Analysis AI Tool
+image: /assets/images/og/tools/notebooklm.png
 ---
 NotebookLM is Google's AI-powered research assistant that lets you upload documents and ask questions grounded in your own sources. Its breakout feature, Audio Overview, generates realistic podcast-style conversations that summarize your material. It went viral for making dense research accessible and engaging, and remains free to use.

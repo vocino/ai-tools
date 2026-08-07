@@ -20,7 +20,8 @@ features:
   - Credit-based system with free daily usage and paid top-ups
   - Web-based studio accessible from desktop and mobile
 verified: false
-title: NightCafe — AI Tool
+title: NightCafe — Image Generation AI Tool
+image: /assets/images/og/tools/nightcafe.png
 ---
 NightCafe is one of the earliest and most popular AI art generators, combining powerful models with a social, challenge-driven community. Users can create images from text prompts, experiment with styles, and participate in daily contests to explore different aesthetics. Its credit system and browser-based studio make it easy for casual users and hobbyists to experiment with AI art without managing models themselves.
 

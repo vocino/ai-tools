@@ -25,6 +25,7 @@ features:
   - A/B testing and automated testing
 launch_date: 2022-01
 verified: false
-title: Vapi — AI Tool
+title: Vapi — Speech & Voice AI Tool
+image: /assets/images/og/tools/vapi.png
 ---
 Vapi is a platform for building advanced voice AI agents. Developers create conversational voice applications through an API and web dashboard, with support for 100+ languages and tool calling to connect agents to external data and actions. Users can bring their own transcription, LLM, or text-to-speech models. Vapi has processed 300M+ calls and powers 2.5M+ assistants. It supports both inbound and outbound use cases with deployment in minutes.

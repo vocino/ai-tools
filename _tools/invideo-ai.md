@@ -25,6 +25,7 @@ features:
   - Social media formats
 launch_date: 2023-04
 verified: false
-title: InVideo AI — AI Tool
+title: InVideo AI — Video Generation AI Tool
+image: /assets/images/og/tools/invideo-ai.png
 ---
 InVideo AI turns text prompts into full videos using templates, stock assets, and automated editing. It helps create marketing videos, social content, and ads from a simple description. InVideo includes script generation, storyboarding, and formats tailored to major platforms.

@@ -21,7 +21,8 @@ features:
   - Real-time collaboration across web, desktop, and mobile
   - Integrations and API access on higher-tier plans
 verified: false
-title: Taskade — AI Tool
+title: Taskade — Productivity AI Tool
+image: /assets/images/og/tools/taskade.png
 ---
 Taskade is an AI-native workspace that lets individuals and teams manage tasks, documents, and projects while automating busywork with agents. Users can build custom apps and multi-step automations from natural language prompts, then connect them to calendars, messaging tools, and other services. It combines a familiar productivity interface with powerful AI building blocks, making it easier to design and run personalized workflows.
 

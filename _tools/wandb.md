@@ -24,6 +24,7 @@ features:
   - Sweeps for hyperparameter optimization
 launch_date: 2018-01
 verified: false
-title: Weights & Biases — AI Tool
+title: Weights & Biases — Data & Analytics AI Tool
+image: /assets/images/og/tools/wandb.png
 ---
 Weights & Biases (W&B) is the leading ML experiment tracking and model management platform. It provides tools for logging experiments, visualizing results, tracking model versions, and collaborating across AI teams. W&B has expanded into LLM evaluation and monitoring with Weave, and is used by researchers and engineers at major AI labs and enterprises. The platform offers a generous free tier for individual use.

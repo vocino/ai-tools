@@ -9,3 +9,5 @@ Gemfile.lock
 package-lock.json
 .DS_Store
 Thumbs.db
+# Per-tool OG is 19M — generated in CI via `node scripts/generate-og.mjs`, not committed
+assets/images/og/tools/

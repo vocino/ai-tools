@@ -26,6 +26,7 @@ features:
   - Pay-per-output and dedicated GPU options
 launch_date: 2023-01
 verified: false
-title: fal.ai — AI Tool
+title: fal.ai — APIs AI Tool
+image: /assets/images/og/tools/fal-ai.png
 ---
 fal.ai is a serverless GPU platform for AI inference. It offers 600+ models for image, video, voice, and 3D generation—including Flux, Stable Diffusion, and Recraft. The proprietary inference engine delivers sub-second cold starts and fast generation times. Developers use fal.ai for real-time apps, batch processing, and avoiding GPU management. Pricing is pay-per-output or hourly for dedicated clusters. Trusted by 1.5M+ developers.

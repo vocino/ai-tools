@@ -26,6 +26,7 @@ features:
   - Constitutional AI safety approach
 launch_date: 2023-03
 verified: false
-title: Claude — AI Tool
+title: Claude — Chat & Conversational AI Tool
+image: /assets/images/og/tools/anthropic-claude.png
 ---
 Claude is Anthropic's AI assistant designed to be helpful, harmless, and honest. It excels at long-form analysis, coding, and document understanding with one of the largest context windows available. Claude is available through a web interface, mobile apps, and a developer API.

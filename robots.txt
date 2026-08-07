@@ -2,4 +2,5 @@ User-agent: *
 Allow: /
 Disallow: /*?*
 
+# Filter query params are UX only — canonical category pages at /category/* are indexed.
 Sitemap: https://ai.vocino.com/sitemap.xml

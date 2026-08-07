@@ -6,7 +6,9 @@ layout: null
   {
     "name": {{ tool.name | jsonify }},
     "slug": {{ tool.slug | jsonify }},
-    "url": "{{ tool.url | relative_url }}",
+    "title": {{ tool.title | default: tool.name | jsonify }},
+    "url": "{{ tool.url | absolute_url }}",
+    "path": "{{ tool.url | relative_url }}",
     "website": {{ tool.website | default: "" | jsonify }},
     "description": {{ tool.description | jsonify }},
     "categories": {{ tool.categories | jsonify }},
@@ -17,7 +19,8 @@ layout: null
     "self_hosted": {{ tool.self_hosted | default: false | jsonify }},
     "features": {{ tool.features | default: empty | jsonify }},
     "launch_date": {{ tool.launch_date | default: "" | jsonify }},
-    "added_date": {{ site.data.tool_added_dates[tool.slug] | default: "" | jsonify }}
+    "added_date": {{ site.data.tool_added_dates[tool.slug] | default: "" | jsonify }},
+    "image": {% if tool.categories and tool.categories.size > 0 %}{{ "/assets/images/og/category/" | append: tool.categories.first | append: ".png" | absolute_url | jsonify }}{% else %}{{ "/assets/images/og-image.png" | absolute_url | jsonify }}{% endif %}
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

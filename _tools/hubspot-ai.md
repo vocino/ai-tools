@@ -24,6 +24,7 @@ features:
   - Breeze Copilot for CRM task assistance
 launch_date: 2023-09
 verified: false
-title: HubSpot AI — AI Tool
+title: HubSpot AI — Marketing & Sales AI Tool
+image: /assets/images/og/tools/hubspot-ai.png
 ---
 HubSpot AI integrates artificial intelligence across the entire HubSpot CRM platform, including marketing, sales, service, and content hubs. It includes Breeze, an AI copilot for CRM tasks, AI content generation for blogs and emails, predictive lead scoring, and AI-powered chatbots for customer service. HubSpot AI is designed to help teams automate repetitive tasks and create content at scale within their existing CRM workflows.

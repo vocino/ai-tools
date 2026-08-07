@@ -11,8 +11,24 @@ description: "200+ AI tools curated by Vocino. The directory for builders who sh
       <iconify-icon icon="tabler:filter" class="filter-toggle__icon" aria-hidden="true"></iconify-icon>Filters
     </button>
 
+    <section class="home-hero" aria-labelledby="home-hero-title">
+      <p class="home-hero__eyebrow">// curated by <a href="https://vocino.com" style="color:var(--brand)">Vocino</a> — {{ site.tools | size }} tools</p>
+      <h1 id="home-hero-title" class="home-hero__title">AI Tools by Vocino — 200+ tools that ship</h1>
+      <p class="home-hero__intro">The directory for builders who ship — <strong>coding, video, writing, agents, chat, design, and research</strong>. Every tool is curated by Vocino (AI builder, investor, Claude Code daily), filtered by category, use case, pricing, API and self-hosted. No affiliate spam, just signal.</p>
+      <nav class="category-pills" aria-label="Browse categories — curated by Vocino">
+        {% for cat in site.data.categories %}
+          {% assign cat_count = site.tools | where_exp: "t", "t.categories contains cat.slug" | size %}
+          {% if cat_count > 0 %}
+            <a href="{{ '/category/' | append: cat.slug | append: '/' | relative_url }}" class="category-pill">{{ cat.label }}<span class="category-pill__count">· {{ cat_count }}</span></a>
+          {% endif %}
+        {% endfor %}
+      </nav>
+      <p class="home-hero__sub">Prefer to filter? Use the sidebar — or jump to a category above. Updated {{ site.time | date: "%Y-%m-%d" }} · <a href="https://github.com/vocino/ai-tools?tab=contributing-ov-file" style="color:var(--brand)">Add a tool</a> →</p>
+    </section>
+
     <section class="results-shell" aria-label="AI tools directory by Vocino">
       <div class="results-shell__panel">
+        <h2 class="results-shell__heading">All tools — filter by what you build</h2>
         <div class="results-header">
           <span class="results-count-wrap">
             <span class="results-count" id="resultsCount">

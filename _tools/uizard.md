@@ -22,6 +22,7 @@ features:
   - Collaboration features
 launch_date: 2018-05
 verified: false
-title: Uizard — AI Tool
+title: Uizard — Design AI Tool
+image: /assets/images/og/tools/uizard.png
 ---
 Uizard uses AI to turn hand-drawn sketches or text prompts into UI designs. It supports wireframes, mockups, and prototypes with design system components. Uizard helps designers and non-designers quickly explore and iterate on interface ideas.

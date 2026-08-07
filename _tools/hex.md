@@ -23,6 +23,7 @@ features:
   - Scheduled reports and interactive dashboards
 launch_date: 2020-01
 verified: false
-title: Hex — AI Tool
+title: Hex — Data & Analytics AI Tool
+image: /assets/images/og/tools/hex.png
 ---
 Hex is an AI-native data workspace that combines SQL, Python, and natural language in a collaborative notebook environment. Its Magic AI feature lets analysts generate queries, create visualizations, and perform analysis using natural language. Hex connects directly to data warehouses like Snowflake, BigQuery, and Databricks, and supports scheduled reports, interactive dashboards, and team collaboration with version control.

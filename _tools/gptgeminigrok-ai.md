@@ -21,6 +21,7 @@ features:
   - Multi-model chat workspace
   - Image generation
   - Free daily quota
-title: GPTGeminiGrok.AI — AI Tool
+title: GPTGeminiGrok.AI — Chat & Conversational AI Tool
+image: /assets/images/og/tools/gptgeminigrok-ai.png
 ---
 GPTGeminiGrok.AI is a browser-based workspace for chatting with GPT, Gemini, and Grok models, generating images, and handling everyday research and content workflows. A free daily quota is available; limits and model availability may vary.

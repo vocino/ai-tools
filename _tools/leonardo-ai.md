@@ -2,9 +2,7 @@
 name: Leonardo.ai
 slug: leonardo-ai
 website: https://leonardo.ai
-description: >-
-  AI image generation platform for creating game assets, concept art, and marketing visuals with fine-tuned and custom
-  models.
+description: AI image generation platform for creating game assets, concept art, and marketing visuals with fine-tuned and custom models.
 categories:
   - image-generation
 use_cases:
@@ -24,6 +22,7 @@ features:
   - 150 free tokens daily on the free plan
 launch_date: 2023-03
 verified: false
-title: Leonardo.ai — AI Tool
+title: Leonardo.ai — Image Generation AI Tool
+image: /assets/images/og/tools/leonardo-ai.png
 ---
 Leonardo.ai is a generative AI platform popular with game developers, concept artists, and creative professionals. It offers a library of fine-tuned models for distinct art styles and the ability to train custom models on personal datasets. Features include text-to-image, image-to-image, an AI canvas, and animation tools, with a generous free tier offering daily token credits.

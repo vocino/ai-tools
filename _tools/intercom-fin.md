@@ -22,6 +22,7 @@ features:
   - Analytics dashboard for resolution tracking
 launch_date: 2023-06
 verified: false
-title: Intercom Fin — AI Tool
+title: Intercom Fin — Customer Service AI Tool
+image: /assets/images/og/tools/intercom-fin.png
 ---
 Intercom Fin is an AI customer support agent that resolves customer issues end-to-end using your existing knowledge base, help articles, and past conversations. It handles common support queries autonomously and seamlessly hands off complex issues to human agents. Fin supports 45 languages and integrates deeply with Intercom's customer service platform, providing analytics on resolution rates and customer satisfaction.

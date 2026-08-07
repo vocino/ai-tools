@@ -2,9 +2,7 @@
 name: Fireworks AI
 slug: fireworks-ai
 website: https://fireworks.ai
-description: >-
-  Fireworks AI — fast inference for open-source LLMs with low-latency, OpenAI-compatible API. Serverless & dedicated,
-  for text, image & code generation.
+description: Fireworks AI — fast inference for open-source LLMs with low-latency, OpenAI-compatible API. Serverless & dedicated, for text, image & code generation.
 categories:
   - api-platform
 use_cases:
@@ -25,6 +23,7 @@ features:
   - Serverless and dedicated
 launch_date: 2023-03
 verified: false
-title: Fireworks AI — AI Tool
+title: Fireworks AI — APIs AI Tool
+image: /assets/images/og/tools/fireworks-ai.png
 ---
 Fireworks AI offers fast inference for open-source and custom LLMs. It provides an OpenAI-compatible API with low latency and supports models for text, code, and image generation. Fireworks suits production apps that need reliable, fast model access.

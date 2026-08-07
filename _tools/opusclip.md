@@ -24,6 +24,7 @@ features:
   - Multi-platform support (YouTube, TikTok, etc.)
 launch_date: 2022-06
 verified: false
-title: OpusClip — AI Tool
+title: OpusClip — Video Editing AI Tool
+image: /assets/images/og/tools/opusclip.png
 ---
 OpusClip uses AI to turn long-form videos into short clips for social platforms. Its ClipAnything model works across vlogs, gaming, sports, and interviews—not just podcasts. OpusClip identifies viral-worthy moments, adds captions, reframes for vertical formats, and offers workflow automation via API. Used by 12M+ creators and brands including Dhar Mann Studios and Mark Rober, it offers a free tier and paid plans.

@@ -2,9 +2,7 @@
 name: Sora
 slug: openai-sora
 website: https://sora.com
-description: >-
-  OpenAI's text-to-video model for generating realistic and imaginative video scenes up to a minute long from text or
-  images.
+description: OpenAI's text-to-video model for generating realistic and imaginative video scenes up to a minute long from text or images.
 categories:
   - video-generation
 use_cases:
@@ -25,6 +23,7 @@ features:
   - Remix, blend, loop, and cut tools
 launch_date: 2024-12
 verified: false
-title: Sora — AI Tool
+title: Sora — Video Generation AI Tool
+image: /assets/images/og/tools/openai-sora.png
 ---
 Sora is OpenAI's text-to-video generation model, released publicly in December 2024. It can generate realistic and imaginative video clips up to 20 seconds long at 1080p resolution from text prompts, images, or existing videos. Sora includes creative tools like Storyboard for scene planning, Remix for editing existing videos, and Blend for combining two videos. It is available to ChatGPT Plus and Pro subscribers.

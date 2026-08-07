@@ -22,7 +22,8 @@ features:
   - Integrations with productivity, CRM, and support tools
   - Governance, security, and compliance controls for large organizations
 verified: false
-title: Writer — AI Tool
+title: Writer — Writing AI Tool
+image: /assets/images/og/tools/writer.png
 ---
 Writer is an enterprise AI platform built for teams that need consistent, on-brand content at scale. It connects to your knowledge, guidelines, and workflows so AI outputs stay accurate and aligned with company voice across marketing, support, product, and operations. Teams use Writer to automate document creation, summarize research, draft campaigns, and power internal agents, all with enterprise-grade governance and controls.
 

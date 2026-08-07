@@ -2,9 +2,7 @@
 name: Runway
 slug: runway
 website: https://runwayml.com
-description: >-
-  Runway — AI creative suite for video generation & editing. Gen-3 text-to-video, image-to-video, green screen, motion
-  tracking & VFX. Freemium + API.
+description: Runway — AI creative suite for video generation & editing. Gen-3 text-to-video, image-to-video, green screen, motion tracking & VFX. Freemium + API.
 categories:
   - video-generation
   - video-editing
@@ -27,6 +25,7 @@ features:
   - Motion tracking
 launch_date: 2018-01
 verified: false
-title: Runway — AI Tool
+title: Runway — Video Generation AI Tool
+image: /assets/images/og/tools/runway.png
 ---
 Runway is an applied AI research company building creative tools powered by machine learning. Their Gen-3 Alpha model generates high-quality video from text and image prompts, and their suite includes tools for video editing, image generation, and visual effects used by filmmakers and content creators.

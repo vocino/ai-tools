@@ -23,6 +23,7 @@ features:
   - 50 free daily credits on the free plan
 launch_date: 2023-12
 verified: false
-title: Suno — AI Tool
+title: Suno — Audio & Music Generation AI Tool
+image: /assets/images/og/tools/suno.png
 ---
 Suno is an AI music generation platform that can create complete, radio-quality songs — including vocals, instruments, and harmonies — from a simple text prompt. Users can specify genre, mood, tempo, and lyrical themes. Suno democratizes music creation for people with no musical training and is used by hobbyists, content creators, and professional musicians alike.

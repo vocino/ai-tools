@@ -24,6 +24,7 @@ features:
   - Open-source on GitHub
 launch_date: 2023-08
 verified: false
-title: Dify — AI Tool
+title: Dify — Agents AI Tool
+image: /assets/images/og/tools/dify.png
 ---
 Dify is an open-source platform for building production-ready AI applications. It enables developers to create agentic workflows, RAG pipelines, and autonomous agents through a visual interface without extensive coding. Dify supports self-hosting for data control and offers cloud deployment options. Used by teams worldwide, it provides the building blocks to develop, deploy, and manage AI systems at scale.

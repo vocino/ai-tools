@@ -25,6 +25,7 @@ features:
   - Dream Lab for advanced image generation
 launch_date: 2013-08
 verified: false
-title: Canva — AI Tool
+title: Canva — Design AI Tool
+image: /assets/images/og/tools/canva.png
 ---
 Canva is a widely used online design platform that has integrated a comprehensive suite of AI tools under its Magic Studio umbrella. Features include Magic Media (text-to-image and text-to-video), Magic Write (AI copywriting), Background Remover, Magic Eraser, and Magic Resize. Canva's AI tools make advanced design accessible to non-designers, with a generous free tier.

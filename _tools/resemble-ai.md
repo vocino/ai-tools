@@ -25,6 +25,7 @@ features:
   - 23+ languages
 launch_date: 2020-01
 verified: false
-title: Resemble AI — AI Tool
+title: Resemble AI — Speech & Voice AI Tool
+image: /assets/images/og/tools/resemble-ai.png
 ---
 What is Resemble AI? Resemble AI provides generative voice AI and deepfake detection on one platform. Their Chatterbox model offers zero-shot voice cloning from 5 seconds of audio, with open-source and API options. Resemble also delivers DETECT-3B Omni for real-time deepfake detection across audio, video, and images, and PerTh watermarking for content provenance. Trusted by Fortune 500s and used for projects like The Andy Warhol Diaries on Netflix.

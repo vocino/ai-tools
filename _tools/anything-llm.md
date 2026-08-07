@@ -25,6 +25,7 @@ features:
   - Workspace organization
 launch_date: 2023-09
 verified: false
-title: AnythingLLM — AI Tool
+title: AnythingLLM — Chat & Conversational AI Tool
+image: /assets/images/og/tools/anything-llm.png
 ---
 AnythingLLM is a self-hosted AI assistant with RAG capabilities. Users ingest documents and chat over them with local or cloud LLMs. It supports workspaces, embeddings, and can run fully on-premises for enterprise and privacy-focused use cases.
