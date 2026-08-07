@@ -19,6 +19,7 @@ features:
   - Version history and publishing with shareable links
   - Access to advanced models on paid plans
 verified: false
+title: Lex — AI Tool
 ---
 Lex is a modern writing app that layers AI assistance directly into a familiar document editor. Writers can draft, brainstorm, and revise using AI prompts that suggest continuations, alternative phrasing, or structural changes while keeping full control over the text. Its collaboration and publishing features make it suitable for essays, newsletters, reports, and other long-form content that benefits from iterative refinement.
 

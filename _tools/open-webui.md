@@ -23,7 +23,8 @@ features:
   - Community prompts, models, tools
   - Enterprise SSO, RBAC, audit logs
   - Open-source on GitHub
-launch_date: "2023-08"
+launch_date: 2023-08
 verified: false
+title: Open WebUI — AI Tool
 ---
 Open WebUI is an open-source, self-hosted AI interface for running models on your own infrastructure. It supports Ollama for local models, cloud providers like OpenAI and Anthropic, and any compatible API. Users get a ChatGPT-like experience with voice, vision, retrieval, and custom Python extensions. The platform has 125K+ GitHub stars, a large community, and enterprise options for regulated industries. Data stays where you deploy it.

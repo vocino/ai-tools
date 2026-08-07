@@ -20,7 +20,8 @@ features:
   - Explain code and transform legacy code (Java upgrades)
   - Natural language to AWS CLI and console actions
   - Integration with VS Code, JetBrains, and AWS Cloud9
-launch_date: "2023-11"
+launch_date: 2023-11
 verified: false
+title: Amazon Q Developer — AI Tool
 ---
 Amazon Q Developer (formerly Amazon CodeWhisperer) is AWS's AI-powered developer tool that goes beyond code completion. It can scan for security vulnerabilities, explain unfamiliar code, and help migrate legacy applications — such as upgrading Java versions automatically. Q Developer integrates with popular IDEs and connects to AWS services for cloud-aware assistance.

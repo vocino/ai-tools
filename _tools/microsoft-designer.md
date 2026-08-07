@@ -22,7 +22,8 @@ features:
   - AI-powered layout and customization
   - Free tier with boosted generations
   - Greeting cards, flyers, posters, and more
-launch_date: "2022-10"
+launch_date: 2022-10
 verified: false
+title: Microsoft Designer — AI Tool
 ---
 Microsoft Designer is an AI design tool that uses DALL-E 3 to create images and graphics from text descriptions. Originally launched as Bing Image Creator, it now powers full design workflows for social media posts, invitations, flyers, and newsletters. Users can generate images from prompts and refine them with AI-assisted layout, colors, and fonts. The tool is free to use at designer.microsoft.com with Microsoft account sign-in.

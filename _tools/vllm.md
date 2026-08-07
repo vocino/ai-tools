@@ -2,7 +2,9 @@
 name: vLLM
 slug: vllm
 website: https://docs.vllm.ai
-description: Fast, high-throughput inference engine for serving LLMs with PagedAttention, continuous batching, and OpenAI-compatible API.
+description: >-
+  Fast, high-throughput inference engine for serving LLMs with PagedAttention, continuous batching, and
+  OpenAI-compatible API.
 categories:
   - api-platform
 use_cases:
@@ -20,7 +22,8 @@ features:
   - OpenAI-compatible serving
   - NVIDIA, AMD, Intel, and more backends
   - Hugging Face model integration
-launch_date: "2023-06"
+launch_date: 2023-06
 verified: false
+title: vLLM — AI Tool
 ---
 vLLM is a fast and easy-to-use library for LLM inference and serving, originally from UC Berkeley. It delivers state-of-the-art throughput through PagedAttention, continuous batching, speculative decoding, and optimized CUDA kernels. vLLM exposes an OpenAI-compatible API, supports NVIDIA and AMD GPUs, and integrates seamlessly with Hugging Face models. It's widely used for production LLM serving, inference endpoints, and high-performance local deployment of open-source models.

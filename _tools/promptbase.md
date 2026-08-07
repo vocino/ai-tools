@@ -19,7 +19,8 @@ features:
   - Creator earnings
   - Prompt discovery
   - Category browsing
-launch_date: "2022-06"
+launch_date: 2022-06
 verified: false
+title: PromptBase — AI Tool
 ---
 PromptBase is a marketplace where users buy and sell prompts for image generators, chatbots, and other AI tools. Creators list prompts with examples; buyers find prompts that fit their needs. It covers Midjourney, DALL-E, Stable Diffusion, ChatGPT, and more.

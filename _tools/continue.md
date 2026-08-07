@@ -19,7 +19,8 @@ features:
   - Cloud model option (Claude, GPT-4)
   - Inline edit and chat in IDE
   - Tab completion and code generation
-launch_date: "2023-05"
+launch_date: 2023-05
 verified: false
+title: Continue — AI Tool
 ---
 Continue is an open-source AI coding assistant that runs in VS Code and JetBrains. It supports local models via Ollama or LM Studio for privacy-sensitive work, as well as cloud models like Claude and GPT-4. Continue provides inline edits, chat, and completion directly in the editor.

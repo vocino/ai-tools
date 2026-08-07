@@ -21,7 +21,8 @@ features:
   - Runs Llama, Mixtral, Gemma, and Whisper models
   - Free tier with rate-limited API access
   - Whisper large-v3 for fast speech transcription
-launch_date: "2024-02"
+launch_date: 2024-02
 verified: false
+title: Groq — AI Tool
 ---
 Groq is an AI infrastructure company that designed custom Language Processing Units (LPUs) specifically optimized for running large language models at unprecedented speeds. Their GroqCloud API platform delivers inference at 10–100x the speed of GPU-based providers, making it ideal for latency-sensitive applications. Groq hosts open models including Llama 3, Mixtral, and Whisper, with a free tier for developers.

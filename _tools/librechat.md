@@ -21,6 +21,7 @@ features:
   - Web, Docker, and cloud deployment options
   - Extensible via APIs, custom endpoints, and Model Context Protocol
 verified: false
+title: LibreChat — AI Tool
 ---
 LibreChat is a self-hosted alternative to hosted AI chat products, letting you connect many language models and providers behind one interface. Organizations can run it on their own infrastructure, configure which models and tools are available, and control data retention and access. It appeals to developers and teams who want a powerful, vendor-agnostic chat workspace they can customize and extend.
 

@@ -2,7 +2,9 @@
 name: Cline
 slug: cline
 website: https://cline.bot
-description: Autonomous AI coding agent for VS Code that can create files, run commands, and use the browser with human-in-the-loop approval.
+description: >-
+  Autonomous AI coding agent for VS Code that can create files, run commands, and use the browser with human-in-the-loop
+  approval.
 categories:
   - coding
   - agents
@@ -21,7 +23,8 @@ features:
   - Supports any LLM provider (OpenAI, Anthropic, local models)
   - Browser automation for testing and debugging
   - MCP (Model Context Protocol) server support
-launch_date: "2024-07"
+launch_date: 2024-07
 verified: false
+title: Cline — AI Tool
 ---
 What is Cline? Cline is an open-source autonomous coding agent that runs as a VS Code extension. Unlike simple code completion tools, Cline can create and edit files, execute terminal commands, and even use a browser — all with step-by-step human approval. It supports any LLM backend including OpenAI, Anthropic, Google, and local models via Ollama. Cline has become one of the most popular AI coding agents in the developer community.

@@ -23,7 +23,8 @@ features:
   - System instruction and safety settings configuration
   - One-click export to Python, JavaScript, or curl
   - Access to Gemini 1.5 Pro with 1M token context
-launch_date: "2023-12"
+launch_date: 2023-12
 verified: false
+title: Google AI Studio — AI Tool
 ---
 Google AI Studio is a free, browser-based development environment for building and experimenting with Google's Gemini models. It lets developers prototype prompts visually, configure system instructions, test multi-turn conversations, and export working code in Python, JavaScript, or other languages. API keys generated in AI Studio grant access to the full Gemini model family including the 1M-token Gemini 1.5 Pro.

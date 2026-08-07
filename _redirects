@@ -1,9 +1,13 @@
-# Old 8ai.ac -> ai.vocino.com (if Cloudflare Pages fallback)
-https://8ai.ac/* https://ai.vocino.com/:splat 301
-http://8ai.ac/* https://ai.vocino.com/:splat 301
-
-# Category pretty URLs
-/category/:slug.html /category/:slug/ 301
-
-# Tools trailing slash canonical
-/tools/*  /tools/:splat/  301
+# NOTE: 8ai.ac → ai.vocino.com 301 is handled at Cloudflare edge (Redirect Rules)
+# GitHub Pages ignores this file — kept for documentation only.
+# Active rule in Cloudflare (8ai.ac zone):
+#   When: (http.host eq "8ai.ac" or http.host eq "www.8ai.ac")
+#   Then: 301 concat("https://ai.vocino.com", http.request.uri.path) + Preserve query string
+# This preserves path + query for all URLs including /sitemap.xml and /robots.txt.
+# Cloudflare `Always Use HTTPS` also handles http → https.
+#
+# The following were legacy Cloudflare Pages / Netlify syntax — inert on GH Pages:
+# https://8ai.ac/* https://ai.vocino.com/:splat 301
+# http://8ai.ac/* https://ai.vocino.com/:splat 301
+# /category/:slug.html /category/:slug/ 301
+# /tools/*  /tools/:splat/  301

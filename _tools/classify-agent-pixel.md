@@ -22,8 +22,9 @@ features:
   - One-line JavaScript pixel integration — no account required
   - Revenue potential calculator based on your traffic volume and content vertical
   - Segments agent vs. human traffic
-launch_date: "2026-02"
+launch_date: 2026-02
 verified: false
+title: Classify Agent Pixel — AI Tool
 ---
 
 The Classify Agent Pixel is a free, lightweight JavaScript snippet that publishers embed to detect when AI agents are crawling or browsing their content. As AI agents increasingly drive referral and research traffic, most publishers have no tooling to measure this segment. The pixel fills that gap with a single `<script>` tag.

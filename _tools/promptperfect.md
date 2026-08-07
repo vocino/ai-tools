@@ -19,7 +19,8 @@ features:
   - A/B testing for prompts
   - API for integration
   - Prompt analysis
-launch_date: "2023-05"
+launch_date: 2023-05
 verified: false
+title: PromptPerfect — AI Tool
 ---
 PromptPerfect uses AI to optimize prompts for improved model outputs. Users submit prompts and receive refined versions tailored to specific models. It supports LLMs and image models and offers an API for integration into apps and workflows.

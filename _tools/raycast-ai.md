@@ -19,7 +19,8 @@ features:
   - Extension and script support
   - Clipboard and snippet management
   - Window management
-launch_date: "2020-09"
+launch_date: 2020-09
 verified: false
+title: Raycast AI — AI Tool
 ---
 Raycast is a productivity launcher for Mac that combines app launching, search, and scripting with AI. The AI feature answers questions and runs actions from the command palette. Raycast supports extensions and workflows for custom automation.

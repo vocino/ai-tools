@@ -23,7 +23,8 @@ features:
   - YouResearch for deep multi-source research reports
   - Privacy mode with no tracking or personalization
   - Custom AI agents for specialized tasks
-launch_date: "2021-11"
+launch_date: 2021-11
 verified: false
+title: You.com — AI Tool
 ---
 You.com is an AI-powered search engine and assistant that provides cited answers grounded in real-time web results. It offers multiple modes including Smart (general chat), Research (deep dive with citations), and Code (for programming questions with live code execution). You.com is distinctive for its strong privacy stance and its ability to create custom AI agents tailored to specific workflows.

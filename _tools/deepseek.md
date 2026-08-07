@@ -23,7 +23,8 @@ features:
   - Open-weight models available for download
   - Web-based chat interface
   - API compatible with OpenAI format
-launch_date: "2023-11"
+launch_date: 2023-11
 verified: false
+title: DeepSeek — AI Tool
 ---
 DeepSeek is a Chinese AI research lab that develops open-weight large language models. Its DeepSeek-R1 model became a global phenomenon for matching frontier reasoning performance at a fraction of the training cost. DeepSeek offers a free web chat interface, an affordable API, and fully open model weights that can be self-hosted or fine-tuned.

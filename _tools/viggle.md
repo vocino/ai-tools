@@ -21,7 +21,8 @@ features:
   - Dancing and movement presets
   - Meme and short-form content
   - Discord community
-launch_date: "2024-02"
+launch_date: 2024-02
 verified: false
+title: Viggle — AI Tool
 ---
 Viggle specializes in animating characters from static images using text prompts. Users upload a character image and describe the motion (e.g., dancing, walking) to produce short animated clips. It's popular for memes, social content, and creative character animation.

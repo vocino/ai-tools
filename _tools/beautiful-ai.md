@@ -21,7 +21,8 @@ features:
   - Template library
   - Team collaboration
   - Brand consistency
-launch_date: "2015-11"
+launch_date: 2015-11
 verified: false
+title: Beautiful.ai — AI Tool
 ---
 Beautiful.ai applies AI to presentation design by automatically adjusting layouts and keeping slides consistent. Users add content and the tool handles spacing, alignment, and formatting. It suits sales decks, pitches, and educational presentations.

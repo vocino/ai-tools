@@ -20,7 +20,8 @@ features:
   - Local and cloud deployment
   - Based on Stable Diffusion
   - Inpaint and outpainting support
-launch_date: "2023-08"
+launch_date: 2023-08
 verified: false
+title: Fooocus — AI Tool
 ---
 Fooocus is an open-source image generation UI built on Stable Diffusion. It prioritizes ease of use with sensible defaults and minimal settings while still producing strong results. Fooocus can run locally on consumer hardware or be self-hosted for full control and privacy.

@@ -21,7 +21,8 @@ features:
   - Integrated into ChatGPT for conversational image creation
   - Available via OpenAI API for developers
   - Style and composition control through natural language
-launch_date: "2021-01"
+launch_date: 2021-01
 verified: false
+title: DALL-E — AI Tool
 ---
 DALL-E is OpenAI's image generation model, now in its third major version. It creates images from text descriptions with high fidelity and strong prompt adherence. DALL-E 3 is deeply integrated into ChatGPT, allowing users to generate and iteratively refine images through conversation. It is also available through the OpenAI API for programmatic image generation in applications.

@@ -19,7 +19,8 @@ features:
   - Character and worldbuilding tools
   - Tone and style customization
   - Brainstorming and plot development assistance
-launch_date: "2021-01"
+launch_date: 2021-01
 verified: false
+title: Sudowrite — AI Tool
 ---
 Sudowrite is an AI writing assistant built specifically for fiction and creative writing. Unlike general-purpose AI writing tools, it offers features tailored to storytellers including Story Engine for guided novel writing, prose expansion, character development, and worldbuilding. Sudowrite helps authors overcome writer's block, develop plots, and refine their prose while maintaining their unique voice and style.

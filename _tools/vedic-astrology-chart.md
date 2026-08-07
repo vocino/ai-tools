@@ -18,5 +18,6 @@ features:
   - Vedic birth chart calculation
   - Planetary positions and house details
 verified: false
+title: Vedic Astrology Chart — AI Tool
 ---
 Vedic Astrology Chart creates a traditional Vedic birth chart from birth details. It presents planetary positions, houses, and interpretive information in a format suited to personal study and astrology education.

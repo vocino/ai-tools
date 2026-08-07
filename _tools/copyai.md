@@ -2,7 +2,9 @@
 name: Copy.ai
 slug: copyai
 website: https://copy.ai
-description: AI copywriting and GTM platform for generating marketing copy, email sequences, blog content, and sales enablement assets.
+description: >-
+  AI copywriting and GTM platform for generating marketing copy, email sequences, blog content, and sales enablement
+  assets.
 categories:
   - writing
   - marketing
@@ -21,7 +23,8 @@ features:
   - Workflows for multi-step content automation
   - Brand Voice and tone customization
   - Free plan with 2,000 words per month
-launch_date: "2020-10"
+launch_date: 2020-10
 verified: false
+title: Copy.ai — AI Tool
 ---
 Copy.ai started as an AI copywriting tool and has evolved into a Go-to-Market (GTM) AI platform for automating sales and marketing workflows. It offers over 90 templates for generating ad copy, cold emails, blog posts, and product descriptions. The GTM Workflows feature allows teams to chain AI tasks together — such as researching a prospect and auto-generating a personalized outreach email.

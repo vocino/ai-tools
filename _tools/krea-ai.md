@@ -23,6 +23,7 @@ features:
   - High-resolution upscaling and enhancement
   - Workspace for organizing projects and iterations
 verified: false
+title: Krea AI — AI Tool
 ---
 Krea AI is a creative suite built around real-time generative models for images, video, and 3D. Artists and creators can sketch, type, or stream inputs to see results update instantly, then refine them with style, motion, and enhancement tools. It aims to make concepting, exploration, and production-quality visuals faster for designers, illustrators, and content teams working across many formats.
 

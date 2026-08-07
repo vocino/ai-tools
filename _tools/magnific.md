@@ -2,7 +2,7 @@
 name: Magnific AI
 slug: magnific
 website: https://magnific.ai
-description: AI image upscaler and enhancer that adds realistic detail and reimagines images at higher resolutions.
+description: Magnific AI — AI image upscaler & enhancer adding realistic detail at 4K-16K. Upscale, creativity slider & prompt-guided. Paid, API.
 categories:
   - image-editing
 use_cases:
@@ -19,7 +19,8 @@ features:
   - Supports photos, illustrations, and AI-generated images
   - Prompt-guided upscaling for targeted enhancement
   - Batch processing for multiple images
-launch_date: "2023-11"
+launch_date: 2023-11
 verified: false
+title: Magnific AI — AI Tool
 ---
 What is Magnific AI? Magnific AI is an AI-powered image upscaler and enhancer that goes beyond traditional upscaling by intelligently adding realistic detail to images. Its signature feature is the creativity slider, which controls how much new detail the AI hallucinates during upscaling. Magnific gained viral popularity in creative communities for its ability to transform low-resolution images into stunningly detailed high-resolution versions.

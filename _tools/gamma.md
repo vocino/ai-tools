@@ -23,7 +23,8 @@ features:
   - Built-in design themes and layouts
   - Image generation and search integration
   - Collaborative editing and sharing
-launch_date: "2022-08"
+launch_date: 2022-08
 verified: false
+title: Gamma — AI Tool
 ---
 Gamma is an AI-native presentation and document creation platform. Instead of fussing with slides and formatting, you describe what you need and Gamma generates polished, visually appealing decks, docs, or webpages in seconds. It has become one of the most popular AI productivity tools for business, education, and marketing use cases.

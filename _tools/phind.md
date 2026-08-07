@@ -21,7 +21,8 @@ features:
   - Real-time web search with latest documentation
   - Code integration and contextual analysis
   - Pro tier with GPT-4o and Claude 3.5 Sonnet access
-launch_date: "2022-01"
+launch_date: 2022-01
 verified: false
+title: Phind — AI Tool
 ---
 What is Phind? Phind is an AI search engine built for developers. It combines generative AI with live web search to answer technical questions quickly, with support for multiple programming languages and frameworks. Phind provides code examples, debugging help, and best practices while staying current with documentation. The free tier offers core features; Phind Pro adds access to advanced models and longer context for power users.

@@ -24,7 +24,8 @@ features:
   - Blog, PPT, and product URL to video
   - Magic edit for auto-subtitles and b-roll
   - Stock media library
-launch_date: "2022-01"
+launch_date: 2022-01
 verified: false
+title: Fliki — AI Tool
 ---
 Fliki is an AI video platform that turns text into videos with lifelike voiceovers and AI avatars. Users can convert blogs, presentations, and product listings into engaging videos. The platform offers 2500+ AI voices in 80+ languages, voice cloning, and 70+ AI avatars for on-camera presence. Fliki is used by 50,000+ companies for training, marketing, and social content, with a free tier and paid plans.

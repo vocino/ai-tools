@@ -22,7 +22,8 @@ features:
   - Real-time voice translation
   - Custom glossaries and formality control
   - Pro API for developers
-launch_date: "2017-08"
+launch_date: 2017-08
 verified: false
+title: DeepL — AI Tool
 ---
 DeepL is an AI language platform offering best-in-class translation, writing assistance, and voice translation. Trained on proprietary data, their specialized LLM delivers accurate translations for businesses, supports document translation, and powers DeepL Write for style and tone adjustments. The platform includes a developer API and is trusted by over 200,000 businesses globally.

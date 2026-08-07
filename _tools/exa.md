@@ -22,7 +22,8 @@ features:
   - Domain and category filters
   - Zero data retention and SOC 2 certified
   - MCP server for AI integrations
-launch_date: "2023-01"
+launch_date: 2023-01
 verified: false
+title: Exa — AI Tool
 ---
 What is Exa? Exa (formerly Metaphor) is an AI search API designed to power agents and applications with high-quality web search. It provides semantic search, content crawling, natural language answers, and in-depth research with structured output. Exa is used by Notion, Cursor, OpenRouter, and others to ground AI in real-world data. The API offers a free tier and enterprise plans with custom data retention and SLAs.

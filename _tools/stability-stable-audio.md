@@ -20,7 +20,8 @@ features:
   - Style and genre conditioning
   - High-quality output
   - API for developers
-launch_date: "2023-09"
+launch_date: 2023-09
 verified: false
+title: Stable Audio — AI Tool
 ---
 What is Stable Audio? Stable Audio by Stability AI generates music and sound effects from text descriptions. Users can specify duration, style, and structure to produce audio for videos, games, and other projects. Stable Audio offers both a web interface and an API for integration.

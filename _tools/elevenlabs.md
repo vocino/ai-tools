@@ -21,7 +21,8 @@ features:
   - Voice design from text descriptions
   - Dubbing and translation
   - Audio projects editor
-launch_date: "2023-01"
+launch_date: 2023-01
 verified: false
+title: ElevenLabs — AI Tool
 ---
 ElevenLabs provides state-of-the-art AI voice generation. Their platform supports high-quality text-to-speech, voice cloning, and multilingual dubbing. It is used by content creators, game developers, and enterprises for voiceovers, audiobooks, and real-time voice applications.

@@ -19,7 +19,8 @@ features:
   - Style and aspect ratio controls
   - Image variation and upscaling
   - Community gallery and prompts
-launch_date: "2022-07"
+launch_date: 2022-07
 verified: false
+title: Midjourney — AI Tool
 ---
 Midjourney is an AI image generation service accessed primarily through Discord. It produces highly detailed, stylistic images from text descriptions and is popular among artists, designers, and content creators. Midjourney offers several subscription tiers with varying generation limits.

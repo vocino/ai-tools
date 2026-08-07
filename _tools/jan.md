@@ -21,7 +21,8 @@ features:
   - Chat and assistant modes
   - Cross-platform desktop app
   - Model management
-launch_date: "2023-06"
+launch_date: 2023-06
 verified: false
+title: Jan — AI Tool
 ---
 Jan is an open-source chat interface similar to ChatGPT but designed to run locally. It can use local models via Ollama or LM Studio, or connect to remote APIs. Jan keeps conversations on your machine and offers a familiar chat experience with full control.

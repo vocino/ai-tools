@@ -21,7 +21,8 @@ features:
   - Metadata filtering and hybrid search
   - Real-time index updates at scale
   - Free tier with 2GB storage
-launch_date: "2021-01"
+launch_date: 2021-01
 verified: false
+title: Pinecone — AI Tool
 ---
 Pinecone is the most widely adopted managed vector database for AI applications. It enables developers to store, index, and query high-dimensional vector embeddings for use cases like semantic search, recommendation systems, and retrieval-augmented generation (RAG). Pinecone handles infrastructure management, scaling, and optimization, allowing teams to focus on building AI features rather than managing database infrastructure.

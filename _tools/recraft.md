@@ -2,7 +2,9 @@
 name: Recraft
 slug: recraft
 website: https://recraft.ai
-description: Professional AI image and vector generation for brands, with native vector output and style control for logos and illustrations.
+description: >-
+  Professional AI image and vector generation for brands, with native vector output and style control for logos and
+  illustrations.
 categories:
   - image-generation
   - design
@@ -22,7 +24,8 @@ features:
   - Logo and illustration creation
   - Raster and vector output
   - V3 model for photorealistic images
-launch_date: "2023-06"
+launch_date: 2023-06
 verified: false
+title: Recraft — AI Tool
 ---
 Recraft targets professional design workflows with AI image and vector generation. It specializes in logos, illustrations, and brand assets with native vector output that stays editable in tools like Illustrator. Recraft offers style control and consistency to keep brand visuals coherent across generations.

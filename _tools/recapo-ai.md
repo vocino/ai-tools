@@ -2,7 +2,9 @@
 name: Recapo.ai
 slug: recapo-ai
 website: https://recapo.ai
-description: AI video editing platform that turns long-form video into publish-ready short clips with auto scripts, subtitles, and voiceover.
+description: >-
+  AI video editing platform that turns long-form video into publish-ready short clips with auto scripts, subtitles, and
+  voiceover.
 categories:
   - video-editing
   - video-generation
@@ -26,6 +28,7 @@ features:
   - Batch generation and cloud rendering for scale
   - Publish-ready outputs optimized for TikTok, Reels, Shorts, and ads
 verified: false
+title: Recapo.ai — AI Tool
 ---
 Recapo.ai is an AI-powered editing platform that understands long-form video, generates scripts, edits clips, adds subtitles and voiceover, and delivers publish-ready short videos.
 

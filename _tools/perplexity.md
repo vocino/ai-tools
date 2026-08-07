@@ -20,7 +20,8 @@ features:
   - Focus modes (Academic, Writing, Math)
   - Collections for organizing research
   - API for developers
-launch_date: "2022-12"
+launch_date: 2022-12
 verified: false
+title: Perplexity — AI Tool
 ---
 Perplexity is an AI-powered answer engine that searches the web in real time and provides responses with inline citations. It combines the conversational interface of a chatbot with the sourcing rigor of a search engine, making it a popular tool for research and quick fact-finding.

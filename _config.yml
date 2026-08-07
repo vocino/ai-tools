@@ -38,6 +38,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+titles_from_headings:
+  enabled: false
+
 include:
   - _redirects
 

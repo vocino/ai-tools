@@ -23,7 +23,8 @@ features:
   - Human-in-the-loop and execution traces
   - APIs, SDKs, and embeddable chat widget
   - Cloud and on-premises deployment
-launch_date: "2023-05"
+launch_date: 2023-05
 verified: false
+title: Flowise — AI Tool
 ---
 Flowise is an open-source platform for building AI applications visually. It provides modular blocks to create agentic systems, from simple chatbots to multi-agent workflows, powered by LangChain. Developers can build chat assistants with RAG, tool calling, and knowledge retrieval without extensive coding. Flowise offers a free tier and paid cloud plans, with support for self-hosting and enterprise deployment.

@@ -20,7 +20,8 @@ features:
   - AI agent for task execution
   - No-code setup
   - Built on Zapier infrastructure
-launch_date: "2024-06"
+launch_date: 2024-06
 verified: false
+title: Zapier Central — AI Tool
 ---
 Zapier Central is an AI assistant that automates tasks across apps using natural language. Users describe what they want, and Central configures and runs workflows via Zapier's app integrations. It works with thousands of apps without requiring coding.

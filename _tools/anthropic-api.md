@@ -21,7 +21,8 @@ features:
   - Tool use and function calling
   - Streaming and batch APIs
   - Enterprise compliance
-launch_date: "2023-03"
+launch_date: 2023-03
 verified: false
+title: Anthropic API — AI Tool
 ---
 The Anthropic API provides programmatic access to Claude models for building applications. It supports tool use, long context, and streaming. Developers use it to power chatbots, assistants, and automation, separate from the Claude chat product at claude.ai.

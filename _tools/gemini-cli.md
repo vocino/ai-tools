@@ -21,7 +21,8 @@ features:
   - Free tier with 60 requests per minute via Gemini API
   - Open-source and extensible with tool plugins
   - MCP (Model Context Protocol) support
-launch_date: "2025-06"
+launch_date: 2025-06
 verified: false
+title: Gemini CLI — AI Tool
 ---
 Gemini CLI is Google's open-source, terminal-first AI coding agent. It brings the power of Gemini models directly into your command line for agentic coding tasks including file editing, running shell commands, and searching the web. It is free to use with generous rate limits through the Gemini API and supports extensibility through tool plugins and MCP servers.

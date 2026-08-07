@@ -20,7 +20,8 @@ features:
   - Design assistance in editor
   - Automation and plugins
   - Collaborative design platform
-launch_date: "2016-09"
+launch_date: 2016-09
 verified: false
+title: Figma AI — AI Tool
 ---
 Figma AI brings AI capabilities into the Figma design editor. It assists with layout generation, design suggestions, and generative features to speed up workflows. Figma remains a collaborative design platform, with AI features integrated across the product.

@@ -20,7 +20,8 @@ features:
   - Multiple model tiers (Schnell, Dev, Pro)
   - Open weights for self-hosting
   - Available via Replicate, fal.ai, and other platforms
-launch_date: "2024-08"
+launch_date: 2024-08
 verified: false
+title: Flux — AI Tool
 ---
 Flux is a family of image generation models from Black Forest Labs, founded by the original creators of Stable Diffusion. Flux models quickly rose to the top of image generation benchmarks thanks to excellent photorealism, accurate text rendering, and strong prompt adherence. The open-weight variants (Schnell and Dev) can be self-hosted, while the Pro model is available through API providers.

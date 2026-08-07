@@ -20,6 +20,7 @@ features:
   - Support for multiple frontier models and multimodal inputs
   - VS Code compatibility with familiar keybindings and extensions
 verified: false
+title: Trae — AI Tool
 ---
 Trae is an AI-native IDE created by ByteDance that combines modern editor ergonomics with powerful built-in models. Developers can describe a project in natural language and use Trae to scaffold code, iterate with chat, and apply AI-powered edits directly in the editor. With support for popular languages, multimodal input, and GitHub workflows, it aims to make building and shipping software significantly faster for individuals and teams.
 

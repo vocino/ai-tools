@@ -20,7 +20,8 @@ features:
   - VS Code and JetBrains extensions
   - Self-hosted option for enterprises
   - Works with private repos
-launch_date: "2023-03"
+launch_date: 2023-03
 verified: false
+title: Sourcegraph Cody — AI Tool
 ---
 Sourcegraph Cody is an AI coding assistant built on Sourcegraph's code search and indexing. It uses full codebase context to explain, edit, and generate code across large repositories. Cody supports self-hosting for enterprises that need to keep code and AI within their own infrastructure.

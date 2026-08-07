@@ -22,7 +22,8 @@ features:
   - Supports LLaMA, Mistral, Gemma, Phi, and more
   - GPU acceleration (NVIDIA, Apple Silicon)
   - Modelfile customization
-launch_date: "2023-08"
+launch_date: 2023-08
 verified: false
+title: Ollama — AI Tool
 ---
 Ollama is the most popular tool for running open-source large language models locally. With a single command you can download and run models like LLaMA, Mistral, Gemma, and dozens more on your own hardware. It exposes an OpenAI-compatible API, making it easy to integrate local models into existing tools and workflows. It's become essential infrastructure for developers who want private, offline, or cost-free AI inference.

@@ -19,7 +19,8 @@ features:
   - Multi-file context awareness
   - IDE integrations (VS Code, JetBrains, Neovim)
   - Pull request summaries
-launch_date: "2021-10"
+launch_date: 2021-10
 verified: false
+title: GitHub Copilot — AI Tool
 ---
 GitHub Copilot is an AI coding assistant developed by GitHub and OpenAI. It integrates directly into your editor to provide real-time code suggestions, explain code, generate tests, and assist with complex programming tasks across dozens of languages.

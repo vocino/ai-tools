@@ -23,7 +23,8 @@ features:
   - Plagiarism checker
   - Chrome extension
   - 40+ languages
-launch_date: "2021-04"
+launch_date: 2021-04
 verified: false
+title: Rytr — AI Tool
 ---
 Rytr is an AI writing assistant used by millions of copywriters and marketers. It generates content across 40+ use cases including blogs, ads, emails, and social posts. Rytr analyzes your writing samples to mirror your tone and produces plagiarism-free content. The platform offers a free tier, affordable paid plans, and a Chrome extension for writing across the web. It supports 40+ languages and integrates with popular workflows.

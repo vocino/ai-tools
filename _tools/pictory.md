@@ -24,7 +24,8 @@ features:
   - Audio and images to video
   - PPT to video conversion
   - AI avatars
-launch_date: "2021-06"
+launch_date: 2021-06
 verified: false
+title: Pictory — AI Tool
 ---
 Pictory is an AI video platform that creates professional videos from text, URLs, scripts, presentations, and audio. It offers automated editing, captions, AI voiceovers, highlight extraction, and repurposing tools. Users can turn long videos into short summaries, add visuals to audio recordings, and generate videos from blog posts. Pictory is designed for content creators, marketers, and educators who need fast video production.

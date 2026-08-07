@@ -23,7 +23,8 @@ features:
   - Studio Sound audio enhancement
   - Screen recording
   - AI voice cloning for corrections
-launch_date: "2017-01"
+launch_date: 2017-01
 verified: false
+title: Descript — AI Tool
 ---
 Descript is a collaborative audio and video editor built around AI-powered transcription. You edit media by editing the transcript text — delete a word from the transcript and it's removed from the audio/video. It also offers screen recording, AI-powered audio cleanup, and publishing tools for podcasters and video creators.

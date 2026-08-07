@@ -21,7 +21,8 @@ features:
   - OpenAI-compatible API
   - Chat UI for testing
   - GGUF and other formats
-launch_date: "2023-08"
+launch_date: 2023-08
 verified: false
+title: LM Studio — AI Tool
 ---
 LM Studio is a desktop app for running open-source LLMs locally. Users browse and download models from a catalog, then run them with a built-in chat interface or via an OpenAI-compatible API. LM Studio supports GGUF and other common formats for consumer hardware.

@@ -20,7 +20,8 @@ features:
   - MIDI and audio export for further editing
   - Influence feature to guide composition with reference tracks
   - Commercial licensing on paid plans
-launch_date: "2016-02"
+launch_date: 2016-02
 verified: false
+title: AIVA — AI Tool
 ---
 AIVA (Artificial Intelligence Virtual Artist) is an AI music composition tool that creates original soundtracks and background music. It generates compositions in over 250 musical styles, from classical orchestral to modern electronic. Users can customize song structure, instrumentation, and duration, and export as both audio and MIDI for further editing. AIVA is used by content creators, filmmakers, and game developers for royalty-free original music.

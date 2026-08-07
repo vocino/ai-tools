@@ -20,7 +20,8 @@ features:
   - Model serving at scale
   - Endpoint management
   - Enterprise deployment
-launch_date: "2021-06"
+launch_date: 2021-06
 verified: false
+title: Anyscale — AI Tool
 ---
 Anyscale provides infrastructure for training and serving LLMs at scale, built on the Ray framework. It supports fine-tuning, deployment, and management of models in production. Anyscale targets teams that need to run and scale AI workloads in the cloud.

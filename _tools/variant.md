@@ -20,5 +20,6 @@ features:
   - Surprise me mode for rapid visual ideation
   - Web app with Google or email account access
 verified: false
+title: Variant — AI Tool
 ---
 Variant is an AI design tool focused on exploration through volume. Instead of producing a single result, it presents a continuous stream of design directions you can scroll through to discover ideas quickly. The product positions itself as a creative partner for fast concept generation and visual iteration.

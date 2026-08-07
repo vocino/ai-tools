@@ -21,7 +21,8 @@ features:
   - Lip-sync and video extension features
   - High Motion mode for dynamic scenes
   - Camera movement controls for cinematic shots
-launch_date: "2024-06"
+launch_date: 2024-06
 verified: false
+title: Kling AI — AI Tool
 ---
 Kling AI is a video generation model developed by Kuaishou Technology, China's leading short-video platform. It quickly became one of the top-performing video generators globally, capable of producing up to 3-minute videos at 1080p resolution with strong physical simulation and motion quality. Kling AI offers both a web interface and an API for developers.

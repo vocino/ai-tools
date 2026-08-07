@@ -20,7 +20,8 @@ features:
   - Metadata filtering and multi-modal support
   - Runs in-memory, on-disk, or as a server
   - Python and JavaScript client libraries
-launch_date: "2022-10"
+launch_date: 2022-10
 verified: false
+title: Chroma — AI Tool
 ---
 Chroma is an open-source embedding database designed to make it easy to build LLM applications with memory and knowledge retrieval. It provides simple APIs for storing documents, generating embeddings, and performing similarity search. Chroma can run in-memory for prototyping, on-disk for persistence, or as a standalone server for production deployments. It has become one of the most popular vector databases in the AI developer community.

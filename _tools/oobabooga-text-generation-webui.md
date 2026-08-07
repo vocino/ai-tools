@@ -21,7 +21,8 @@ features:
   - Multiple model formats
   - API for external tools
   - LoRA and fine-tuning support
-launch_date: "2023-02"
+launch_date: 2023-02
 verified: false
+title: Text Generation WebUI — AI Tool
 ---
 Text Generation WebUI (Oobabooga) is a widely used interface for running local LLMs. It provides a chat UI, extension system for image generation and TTS, and an API for integration. It supports many model formats and runs entirely on your own hardware.

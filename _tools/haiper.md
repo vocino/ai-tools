@@ -21,7 +21,8 @@ features:
   - Short-form video output
   - Free tier with daily credits
   - Web-based interface
-launch_date: "2024-01"
+launch_date: 2024-01
 verified: false
+title: Haiper — AI Tool
 ---
 Haiper offers AI video generation from text or image prompts with a generous free tier. Users can create short videos for social media, presentations, or creative projects without editing experience. Haiper runs in the browser and provides simple sharing options.

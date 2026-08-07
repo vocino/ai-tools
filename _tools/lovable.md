@@ -22,7 +22,8 @@ features:
   - Built-in database and auth integration
   - GitHub sync and one-click deploy
   - Visual editing alongside AI chat
-launch_date: "2024-02"
+launch_date: 2024-02
 verified: false
+title: Lovable — AI Tool
 ---
 Lovable (formerly GPT Engineer) is an AI app builder that generates complete, working web applications from natural language descriptions. It handles frontend, backend, database, and authentication out of the box, letting non-developers and developers alike go from idea to deployed app in minutes. Lovable has become one of the most popular AI-powered app generation platforms.
