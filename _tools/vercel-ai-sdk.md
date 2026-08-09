@@ -1,7 +1,7 @@
 ---
 name: Vercel AI SDK
 slug: vercel-ai-sdk
-website: https://sdk.vercel.ai
+website: https://ai-sdk.dev
 description: TypeScript toolkit for building AI-powered web applications with streaming, tool calling, and multi-model support.
 categories:
   - api-platform

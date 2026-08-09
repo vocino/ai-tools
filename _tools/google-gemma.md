@@ -1,7 +1,7 @@
 ---
 name: Google Gemma
 slug: google-gemma
-website: https://ai.google.dev/gemma
+website: https://deepmind.google/models/gemma/
 description: Google's family of lightweight, open-weight AI models built from the same research as Gemini for on-device and local deployment.
 categories:
   - api-platform

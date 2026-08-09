@@ -1,7 +1,7 @@
 ---
 name: Claude Code
 slug: claude-code
-website: https://docs.anthropic.com/en/docs/claude-code
+website: https://code.claude.com
 description: Anthropic's agentic CLI coding tool that edits files, runs commands, and manages git workflows directly in your terminal.
 categories:
   - coding

@@ -1,7 +1,7 @@
 ---
 name: Lex
 slug: lex
-website: https://lex.new
+website: https://lex.page
 description: Collaborative document editor with built-in AI for drafting, rewriting, and refining long-form writing.
 categories:
   - writing

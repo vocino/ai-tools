@@ -1,7 +1,7 @@
 ---
 name: Kling AI
 slug: kling-ai
-website: https://klingai.com
+website: https://kling.ai
 description: Kuaishou's AI video generator for creating cinematic, high-quality videos from text prompts or reference images.
 categories:
   - video-generation

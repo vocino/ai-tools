@@ -1,7 +1,7 @@
 ---
 name: Intercom Fin
 slug: intercom-fin
-website: https://www.intercom.com/fin
+website: https://fin.ai
 description: AI-first customer support agent by Intercom that resolves customer issues autonomously using your knowledge base.
 categories:
   - customer-service

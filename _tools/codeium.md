@@ -1,7 +1,7 @@
 ---
 name: Codeium
 slug: codeium
-website: https://codeium.com
+website: https://devin.ai/desktop
 description: Free AI code completion and in-editor chat for developers, supporting 70+ programming languages and all major IDEs.
 categories:
   - coding

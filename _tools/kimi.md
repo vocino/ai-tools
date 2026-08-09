@@ -1,7 +1,7 @@
 ---
 name: Kimi
 slug: kimi
-website: https://kimi.moonshot.cn
+website: https://www.kimi.com
 description: AI assistant by Moonshot with long-context reasoning, web search, and agent swarm capabilities.
 categories:
   - chat

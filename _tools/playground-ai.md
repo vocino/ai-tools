@@ -1,7 +1,7 @@
 ---
 name: Playground AI
 slug: playground-ai
-website: https://playground.com
+website: https://playgroundai.com
 description: Playground AI — free AI image generator & editor by playground ai. Text-to-image with v3, image expansion, eraser & 50 free designs. API + commercial rights.
 categories:
   - image-generation

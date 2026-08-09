@@ -1,7 +1,7 @@
 ---
 name: RooCode
 slug: roocode
-website: https://roocode.com
+website: https://roomote.dev
 description: AI coding agent for VS Code focused on reliability and large-scale code changes with customizable modes and MCP support.
 categories:
   - coding

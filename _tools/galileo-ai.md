@@ -1,7 +1,7 @@
 ---
 name: Galileo AI
 slug: galileo-ai
-website: https://www.usegalileo.ai
+website: https://stitch.withgoogle.com
 description: AI tool that generates high-fidelity UI designs from text prompts or reference images.
 categories:
   - design

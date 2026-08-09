@@ -1,7 +1,7 @@
 ---
 name: GPT4All
 slug: gpt4all
-website: https://gpt4all.io
+website: https://www.nomic.ai/gpt4all
 description: Local, privacy-aware chatbot that runs open-source models entirely on your machine.
 categories:
   - chat

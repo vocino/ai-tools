@@ -1,7 +1,7 @@
 ---
 name: Windsurf
 slug: windsurf
-website: https://windsurf.com
+website: https://devin.ai/desktop
 description: AI-powered code editor with deep agentic capabilities for autonomous multi-file coding workflows.
 categories:
   - coding

@@ -1,7 +1,7 @@
 ---
 name: Wan Video
 slug: wan-video
-website: https://github.com/Wan-AI/Wan2.2
+website: https://github.com/Wan-Video/Wan2.2
 description: Alibaba's open-source AI video generation models using Mixture-of-Experts architecture for text-to-video and image-to-video synthesis.
 categories:
   - video-generation

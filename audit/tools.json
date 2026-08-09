@@ -1,0 +1,1486 @@
+[
+  {
+    "file": "_tools/ada.md",
+    "slug": "ada",
+    "name": "Ada",
+    "website": "https://www.ada.cx",
+    "description": "Enterprise AI customer service platform that automates support conversations across channels with high resolution rates."
+  },
+  {
+    "file": "_tools/adobe-firefly.md",
+    "slug": "adobe-firefly",
+    "name": "Adobe Firefly",
+    "website": "https://firefly.adobe.com",
+    "description": "Adobe's generative AI tools for image creation and editing, natively integrated into Photoshop, Illustrator, and Express."
+  },
+  {
+    "file": "_tools/aider.md",
+    "slug": "aider",
+    "name": "Aider",
+    "website": "https://aider.chat",
+    "description": "Open-source AI pair programming tool that runs in your terminal and edits code in your local git repository using any LLM."
+  },
+  {
+    "file": "_tools/aiva.md",
+    "slug": "aiva",
+    "name": "AIVA",
+    "website": "https://www.aiva.ai",
+    "description": "AI music composition assistant that creates original soundtracks for films, games, and content creators."
+  },
+  {
+    "file": "_tools/amazon-q-developer.md",
+    "slug": "amazon-q-developer",
+    "name": "Amazon Q Developer",
+    "website": "https://aws.amazon.com/q/developer/",
+    "description": "AWS's AI coding assistant for code generation, debugging, security scanning, and understanding large codebases."
+  },
+  {
+    "file": "_tools/anthropic-api.md",
+    "slug": "anthropic-api",
+    "name": "Anthropic API",
+    "website": "https://docs.anthropic.com",
+    "description": "Developer platform and API for Claude models with long context, tool use, and enterprise features."
+  },
+  {
+    "file": "_tools/anthropic-claude.md",
+    "slug": "anthropic-claude",
+    "name": "Claude",
+    "website": "https://claude.ai",
+    "description": "AI assistant by Anthropic focused on safety, helpfulness, and long-context conversations."
+  },
+  {
+    "file": "_tools/anyscale.md",
+    "slug": "anyscale",
+    "name": "Anyscale",
+    "website": "https://anyscale.com",
+    "description": "Ray-based LLM platform for training, serving, and scaling AI workloads in the cloud."
+  },
+  {
+    "file": "_tools/anything-llm.md",
+    "slug": "anything-llm",
+    "name": "AnythingLLM",
+    "website": "https://useanything.com",
+    "description": "Full-stack local AI assistant with RAG, document ingestion, and multiple LLM backends."
+  },
+  {
+    "file": "_tools/autogen.md",
+    "slug": "autogen",
+    "name": "AutoGen",
+    "website": "https://microsoft.github.io/autogen/",
+    "description": "Microsoft's open-source framework for building multi-agent AI systems with conversational patterns and tool use."
+  },
+  {
+    "file": "_tools/autogpt.md",
+    "slug": "autogpt",
+    "name": "AutoGPT",
+    "website": "https://agpt.co",
+    "description": "Open-source autonomous AI agent framework that can browse the web, write code, and complete complex multi-step tasks."
+  },
+  {
+    "file": "_tools/base44.md",
+    "slug": "base44",
+    "name": "Base44",
+    "website": "https://base44.com",
+    "description": "AI-powered no-code app builder that turns natural language prompts into fully functional apps with built-in database, auth, and hosting."
+  },
+  {
+    "file": "_tools/beautiful-ai.md",
+    "slug": "beautiful-ai",
+    "name": "Beautiful.ai",
+    "website": "https://beautiful.ai",
+    "description": "AI presentation design tool that auto-layouts slides and keeps designs consistent."
+  },
+  {
+    "file": "_tools/blur-background.md",
+    "slug": "blur-background",
+    "name": "Blur Background",
+    "website": "https://blurbackground.vip",
+    "description": "Blur photo backgrounds locally in the browser with adjustable depth and edge controls."
+  },
+  {
+    "file": "_tools/bolt.md",
+    "slug": "bolt",
+    "name": "Bolt.new",
+    "website": "https://bolt.new",
+    "description": "AI-powered full-stack app builder by StackBlitz that generates and runs applications entirely in the browser."
+  },
+  {
+    "file": "_tools/browser-use.md",
+    "slug": "browser-use",
+    "name": "Browser Use",
+    "website": "https://browser-use.com",
+    "description": "Open-source framework for AI browser automation that enables LLMs to interact with websites through natural language."
+  },
+  {
+    "file": "_tools/canva.md",
+    "slug": "canva",
+    "name": "Canva",
+    "website": "https://canva.com",
+    "description": "AI-powered design platform with text-to-image, background removal, and Magic Studio generative tools for everyone."
+  },
+  {
+    "file": "_tools/captions.md",
+    "slug": "captions",
+    "name": "Captions",
+    "website": "https://captions.ai",
+    "description": "AI video editor that adds captions, eye contact, dubbing, and short-form edits for creators and teams."
+  },
+  {
+    "file": "_tools/cerebras.md",
+    "slug": "cerebras",
+    "name": "Cerebras Inference",
+    "website": "https://cerebras.ai",
+    "description": "High-throughput AI inference platform offering fast, low-cost access to large language models via API."
+  },
+  {
+    "file": "_tools/chroma.md",
+    "slug": "chroma",
+    "name": "Chroma",
+    "website": "https://www.trychroma.com",
+    "description": "Open-source AI-native embedding database for building LLM applications with simple APIs for storage and retrieval."
+  },
+  {
+    "file": "_tools/classify-agent-pixel.md",
+    "slug": "classify-agent-pixel",
+    "name": "Classify Agent Pixel",
+    "website": "https://tryclassify.com",
+    "description": "Free pixel that detects AI agent traffic on your site and estimates revenue potential from monetizing it."
+  },
+  {
+    "file": "_tools/claude-code.md",
+    "slug": "claude-code",
+    "name": "Claude Code",
+    "website": "https://docs.anthropic.com/en/docs/claude-code",
+    "description": "Anthropic's agentic CLI coding tool that edits files, runs commands, and manages git workflows directly in your terminal."
+  },
+  {
+    "file": "_tools/cline.md",
+    "slug": "cline",
+    "name": "Cline",
+    "website": "https://cline.bot",
+    "description": "Autonomous AI coding agent for VS Code that can create files, run commands, and use the browser with human-in-the-loop approval."
+  },
+  {
+    "file": "_tools/clipdrop.md",
+    "slug": "clipdrop",
+    "name": "Clipdrop",
+    "website": "https://clipdrop.co",
+    "description": "AI-powered image editing suite with background removal, object cleanup, upscaling, and image reimagining by Stability AI."
+  },
+  {
+    "file": "_tools/codeium.md",
+    "slug": "codeium",
+    "name": "Codeium",
+    "website": "https://codeium.com",
+    "description": "Free AI code completion and in-editor chat for developers, supporting 70+ programming languages and all major IDEs."
+  },
+  {
+    "file": "_tools/coderplan.md",
+    "slug": "coderplan",
+    "name": "CoderPlan",
+    "website": "https://coderplan.ai",
+    "description": "LLM API Gateway with OpenAI-compatible interface. Pay-per-use access to Claude, GPT, Gemini and 100+ models with built-in monitoring."
+  },
+  {
+    "file": "_tools/cohere.md",
+    "slug": "cohere",
+    "name": "Cohere",
+    "website": "https://cohere.com",
+    "description": "AI platform providing language models, embeddings, and reranking APIs for enterprise search, RAG, and NLP applications."
+  },
+  {
+    "file": "_tools/comfyui.md",
+    "slug": "comfyui",
+    "name": "ComfyUI",
+    "website": "https://comfy.org",
+    "description": "Powerful, modular node-based interface for Stable Diffusion and other diffusion models, with an extensible graph workflow system."
+  },
+  {
+    "file": "_tools/consensus.md",
+    "slug": "consensus",
+    "name": "Consensus",
+    "website": "https://consensus.app",
+    "description": "AI-powered scientific search engine that surfaces evidence and consensus levels from peer-reviewed research papers."
+  },
+  {
+    "file": "_tools/continue.md",
+    "slug": "continue",
+    "name": "Continue",
+    "website": "https://continue.dev",
+    "description": "Open-source AI code assistant for VS Code and JetBrains with local model support and deep IDE integration."
+  },
+  {
+    "file": "_tools/copyai.md",
+    "slug": "copyai",
+    "name": "Copy.ai",
+    "website": "https://copy.ai",
+    "description": "AI copywriting and GTM platform for generating marketing copy, email sequences, blog content, and sales enablement assets."
+  },
+  {
+    "file": "_tools/crewai.md",
+    "slug": "crewai",
+    "name": "CrewAI",
+    "website": "https://crewai.com",
+    "description": "Framework for orchestrating AI agents that collaborate on multi-step tasks with roles and goals."
+  },
+  {
+    "file": "_tools/cursor.md",
+    "slug": "cursor",
+    "name": "Cursor",
+    "website": "https://cursor.com",
+    "description": "AI-first code editor built on VS Code with deep AI integration for code generation and editing."
+  },
+  {
+    "file": "_tools/deepai.md",
+    "slug": "deepai",
+    "name": "DeepAI",
+    "website": "https://deepai.org",
+    "description": "AI platform for image generation, video, music, chat, and photo editing with simple APIs and browser access."
+  },
+  {
+    "file": "_tools/deepl.md",
+    "slug": "deepl",
+    "name": "DeepL",
+    "website": "https://www.deepl.com",
+    "description": "AI-powered translation and writing platform for text, documents, and voice with enterprise-grade accuracy."
+  },
+  {
+    "file": "_tools/deepseek.md",
+    "slug": "deepseek",
+    "name": "DeepSeek",
+    "website": "https://www.deepseek.com",
+    "description": "Open-source AI lab offering powerful reasoning and coding models with competitive performance at low cost."
+  },
+  {
+    "file": "_tools/descript.md",
+    "slug": "descript",
+    "name": "Descript",
+    "website": "https://www.descript.com",
+    "description": "AI-powered audio and video editor that lets you edit media by editing text transcripts."
+  },
+  {
+    "file": "_tools/devin.md",
+    "slug": "devin",
+    "name": "Devin",
+    "website": "https://devin.ai",
+    "description": "Cognition AI's autonomous software engineer that plans, writes, tests, and debugs code to complete complex engineering tasks."
+  },
+  {
+    "file": "_tools/diffusionbee.md",
+    "slug": "diffusionbee",
+    "name": "DiffusionBee",
+    "website": "https://diffusionbee.com",
+    "description": "Simple graphical app for running Stable Diffusion and Flux locally on Mac with no command-line or technical setup required."
+  },
+  {
+    "file": "_tools/dify.md",
+    "slug": "dify",
+    "name": "Dify",
+    "website": "https://dify.ai",
+    "description": "Open-source platform for building and deploying agentic AI workflows, RAG pipelines, and autonomous agents."
+  },
+  {
+    "file": "_tools/draw-things.md",
+    "slug": "draw-things",
+    "name": "Draw Things",
+    "website": "https://drawthings.ai",
+    "description": "Free local AI image generation app for Mac, iPhone, and iPad that runs Stable Diffusion entirely offline on your device."
+  },
+  {
+    "file": "_tools/duolingo-max.md",
+    "slug": "duolingo-max",
+    "name": "Duolingo Max",
+    "website": "https://www.duolingo.com",
+    "description": "Premium Duolingo subscription with GPT-powered features like roleplay, answer explanations, and realistic conversation practice."
+  },
+  {
+    "file": "_tools/elevenlabs.md",
+    "slug": "elevenlabs",
+    "name": "ElevenLabs",
+    "website": "https://elevenlabs.io",
+    "description": "AI voice platform for realistic text-to-speech, voice cloning, and audio generation."
+  },
+  {
+    "file": "_tools/elicit.md",
+    "slug": "elicit",
+    "name": "Elicit",
+    "website": "https://elicit.com",
+    "description": "AI research assistant that searches, summarizes, and extracts data from scientific papers to accelerate literature reviews."
+  },
+  {
+    "file": "_tools/exa.md",
+    "slug": "exa",
+    "name": "Exa",
+    "website": "https://exa.ai",
+    "description": "AI search API for semantic web search, content retrieval, and grounding AI agents with real-world data."
+  },
+  {
+    "file": "_tools/fal-ai.md",
+    "slug": "fal-ai",
+    "name": "fal.ai",
+    "website": "https://fal.ai",
+    "description": "Serverless AI inference API for image, video, voice, and 3D generation with sub-second latency."
+  },
+  {
+    "file": "_tools/fathom.md",
+    "slug": "fathom",
+    "name": "Fathom",
+    "website": "https://fathom.video",
+    "description": "AI meeting recorder and note-taker that joins calls, transcribes, and summarizes automatically."
+  },
+  {
+    "file": "_tools/figma-ai.md",
+    "slug": "figma-ai",
+    "name": "Figma AI",
+    "website": "https://figma.com",
+    "description": "AI features in Figma for layout generation, design assistance, and workflow automation."
+  },
+  {
+    "file": "_tools/fireflies-ai.md",
+    "slug": "fireflies-ai",
+    "name": "Fireflies.ai",
+    "website": "https://fireflies.ai",
+    "description": "AI meeting assistant that records, transcribes, and analyzes conversations with search and integrations."
+  },
+  {
+    "file": "_tools/fireworks-ai.md",
+    "slug": "fireworks-ai",
+    "name": "Fireworks AI",
+    "website": "https://fireworks.ai",
+    "description": "Fireworks AI \u2014 fast inference for open-source LLMs with low-latency, OpenAI-compatible API. Serverless & dedicated, for text, image & code generation."
+  },
+  {
+    "file": "_tools/fliki.md",
+    "slug": "fliki",
+    "name": "Fliki",
+    "website": "https://fliki.ai",
+    "description": "AI video generator that turns text, blogs, and presentations into videos with AI voices and avatars."
+  },
+  {
+    "file": "_tools/flowise.md",
+    "slug": "flowise",
+    "name": "Flowise",
+    "website": "https://flowiseai.com",
+    "description": "Open-source visual platform for building AI agents, chatbots, and LangChain workflows with drag-and-drop."
+  },
+  {
+    "file": "_tools/flux.md",
+    "slug": "flux",
+    "name": "Flux",
+    "website": "https://blackforestlabs.ai",
+    "description": "Open-weight image generation models by Black Forest Labs known for photorealism and prompt adherence."
+  },
+  {
+    "file": "_tools/fooocus.md",
+    "slug": "fooocus",
+    "name": "Fooocus",
+    "website": "https://github.com/lllyasviel/Fooocus",
+    "description": "Open-source Stable Diffusion UI focused on simplicity and quality with minimal configuration."
+  },
+  {
+    "file": "_tools/framer-ai.md",
+    "slug": "framer-ai",
+    "name": "Framer AI",
+    "website": "https://framer.com",
+    "description": "Website builder with AI-powered design and content generation for landing pages and sites."
+  },
+  {
+    "file": "_tools/galileo-ai.md",
+    "slug": "galileo-ai",
+    "name": "Galileo AI",
+    "website": "https://www.usegalileo.ai",
+    "description": "AI tool that generates high-fidelity UI designs from text prompts or reference images."
+  },
+  {
+    "file": "_tools/gamma.md",
+    "slug": "gamma",
+    "name": "Gamma",
+    "website": "https://gamma.app",
+    "description": "AI-powered platform for creating presentations, documents, and webpages from prompts."
+  },
+  {
+    "file": "_tools/gemini-cli.md",
+    "slug": "gemini-cli",
+    "name": "Gemini CLI",
+    "website": "https://github.com/google-gemini/gemini-cli",
+    "description": "Google's open-source terminal-based AI coding agent powered by Gemini models with generous free usage limits."
+  },
+  {
+    "file": "_tools/github-copilot.md",
+    "slug": "github-copilot",
+    "name": "GitHub Copilot",
+    "website": "https://github.com/features/copilot",
+    "description": "AI pair programmer that suggests code completions, generates functions, and helps with development workflows."
+  },
+  {
+    "file": "_tools/google-ai-studio.md",
+    "slug": "google-ai-studio",
+    "name": "Google AI Studio",
+    "website": "https://aistudio.google.com",
+    "description": "Google's free developer tool for prototyping and building with Gemini models via a visual interface and API key."
+  },
+  {
+    "file": "_tools/google-gemini.md",
+    "slug": "google-gemini",
+    "name": "Google Gemini",
+    "website": "https://gemini.google.com",
+    "description": "Google's multimodal AI assistant for chat, reasoning, coding, and creative tasks across web, mobile, and Google Workspace."
+  },
+  {
+    "file": "_tools/google-gemma.md",
+    "slug": "google-gemma",
+    "name": "Google Gemma",
+    "website": "https://ai.google.dev/gemma",
+    "description": "Google's family of lightweight, open-weight AI models built from the same research as Gemini for on-device and local deployment."
+  },
+  {
+    "file": "_tools/google-veo.md",
+    "slug": "google-veo",
+    "name": "Google Veo",
+    "website": "https://deepmind.google/technologies/veo/",
+    "description": "Google DeepMind's state-of-the-art AI video generation model for creating high-fidelity, realistic video from text and image prompts."
+  },
+  {
+    "file": "_tools/gpt4all.md",
+    "slug": "gpt4all",
+    "name": "GPT4All",
+    "website": "https://gpt4all.io",
+    "description": "Local, privacy-aware chatbot that runs open-source models entirely on your machine."
+  },
+  {
+    "file": "_tools/gptgeminigrok-ai.md",
+    "slug": "gptgeminigrok-ai",
+    "name": "GPTGeminiGrok.AI",
+    "website": "https://trygrokai.asia/",
+    "description": "A browser-based AI workspace for GPT, Gemini, and Grok chat, image generation, and everyday productivity workflows."
+  },
+  {
+    "file": "_tools/grammarly.md",
+    "slug": "grammarly",
+    "name": "Grammarly",
+    "website": "https://grammarly.com",
+    "description": "AI writing assistant that improves grammar, clarity, tone, and style across browsers, desktop apps, and mobile keyboards."
+  },
+  {
+    "file": "_tools/granola.md",
+    "slug": "granola",
+    "name": "Granola",
+    "website": "https://granola.ai",
+    "description": "AI notepad for meetings that enhances your notes with transcript context and generates structured summaries."
+  },
+  {
+    "file": "_tools/groq.md",
+    "slug": "groq",
+    "name": "Groq",
+    "website": "https://groq.com",
+    "description": "Ultra-fast AI inference platform using custom LPU hardware for the lowest latency LLM responses available via API."
+  },
+  {
+    "file": "_tools/haiper.md",
+    "slug": "haiper",
+    "name": "Haiper",
+    "website": "https://haiper.ai",
+    "description": "Free AI video generation from text and image prompts with high-quality output and easy sharing."
+  },
+  {
+    "file": "_tools/hex.md",
+    "slug": "hex",
+    "name": "Hex",
+    "website": "https://hex.tech",
+    "description": "AI-native data workspace combining SQL, Python, and natural language for collaborative analytics and visualization."
+  },
+  {
+    "file": "_tools/heygen.md",
+    "slug": "heygen",
+    "name": "HeyGen",
+    "website": "https://heygen.com",
+    "description": "AI video platform for creating professional marketing and training videos with photorealistic talking avatars and voice cloning."
+  },
+  {
+    "file": "_tools/hubspot-ai.md",
+    "slug": "hubspot-ai",
+    "name": "HubSpot AI",
+    "website": "https://www.hubspot.com/artificial-intelligence",
+    "description": "AI-powered features across HubSpot's CRM, marketing, sales, and service platform for content creation and automation."
+  },
+  {
+    "file": "_tools/hugging-face.md",
+    "slug": "hugging-face",
+    "name": "Hugging Face",
+    "website": "https://huggingface.co",
+    "description": "Open-source AI platform with model and dataset hosting, inference APIs, Spaces for demos, and collaboration tools for ML teams."
+  },
+  {
+    "file": "_tools/hyperwrite.md",
+    "slug": "hyperwrite",
+    "name": "HyperWrite",
+    "website": "https://www.hyperwriteai.com",
+    "description": "AI writing assistant with AutoWrite, TypeAhead completions, email responses, and custom tools."
+  },
+  {
+    "file": "_tools/ideogram.md",
+    "slug": "ideogram",
+    "name": "Ideogram",
+    "website": "https://ideogram.ai",
+    "description": "AI image generator specializing in accurate text rendering and typography within images, plus photorealistic generation."
+  },
+  {
+    "file": "_tools/image-describer.md",
+    "slug": "image-describer",
+    "name": "Image Describer",
+    "website": "https://imagedescriber.dev",
+    "description": "AI image analysis tool that explains pictures, extracts visible details, and helps create useful descriptions and alt text."
+  },
+  {
+    "file": "_tools/intercom-fin.md",
+    "slug": "intercom-fin",
+    "name": "Intercom Fin",
+    "website": "https://www.intercom.com/fin",
+    "description": "AI-first customer support agent by Intercom that resolves customer issues autonomously using your knowledge base."
+  },
+  {
+    "file": "_tools/invideo-ai.md",
+    "slug": "invideo-ai",
+    "name": "InVideo AI",
+    "website": "https://invideo.io/ai",
+    "description": "AI video creation from text prompts with templates, stock media, and automated editing for marketing and social."
+  },
+  {
+    "file": "_tools/invokeai.md",
+    "slug": "invokeai",
+    "name": "InvokeAI",
+    "website": "https://invoke.ai",
+    "description": "Free, open-source AI creative engine for image generation with a WebUI, node-based workflows, and layer-based canvas editing."
+  },
+  {
+    "file": "_tools/jan.md",
+    "slug": "jan",
+    "name": "Jan",
+    "website": "https://jan.ai",
+    "description": "Open-source ChatGPT alternative that runs locally with support for local and remote models."
+  },
+  {
+    "file": "_tools/jasper.md",
+    "slug": "jasper",
+    "name": "Jasper",
+    "website": "https://jasper.ai",
+    "description": "AI writing platform for marketing teams to generate on-brand blog posts, ads, social content, and campaigns at scale."
+  },
+  {
+    "file": "_tools/joyfusion.md",
+    "slug": "joyfusion",
+    "name": "JoyFusion",
+    "website": "https://joyfusion.app",
+    "description": "JoyFusion AI \u2014 native Mac/iPad app running Stable Diffusion on Apple Silicon. 60+ templates, text-to-image, ControlNet & private on-device."
+  },
+  {
+    "file": "_tools/julius-ai.md",
+    "slug": "julius-ai",
+    "name": "Julius AI",
+    "website": "https://julius.ai",
+    "description": "AI data analyst that lets you upload spreadsheets and databases and ask questions in plain English to get charts and insights."
+  },
+  {
+    "file": "_tools/kapwing.md",
+    "slug": "kapwing",
+    "name": "Kapwing",
+    "website": "https://www.kapwing.com",
+    "description": "Online AI-powered video editor for creators and teams to repurpose, caption, and remix content for every channel."
+  },
+  {
+    "file": "_tools/khanmigo.md",
+    "slug": "khanmigo",
+    "name": "Khanmigo",
+    "website": "https://www.khanmigo.ai",
+    "description": "Khan Academy's AI-powered tutor and teaching assistant that guides learners through Socratic dialogue."
+  },
+  {
+    "file": "_tools/kimi.md",
+    "slug": "kimi",
+    "name": "Kimi",
+    "website": "https://kimi.moonshot.cn",
+    "description": "AI assistant by Moonshot with long-context reasoning, web search, and agent swarm capabilities."
+  },
+  {
+    "file": "_tools/kling-ai.md",
+    "slug": "kling-ai",
+    "name": "Kling AI",
+    "website": "https://klingai.com",
+    "description": "Kuaishou's AI video generator for creating cinematic, high-quality videos from text prompts or reference images."
+  },
+  {
+    "file": "_tools/koboldcpp.md",
+    "slug": "koboldcpp",
+    "name": "KoboldCpp",
+    "website": "https://github.com/LostRuins/koboldcpp",
+    "description": "Backend for running GGUF models locally with CPU and GPU support, API, and SillyTavern compatibility."
+  },
+  {
+    "file": "_tools/krea-ai.md",
+    "slug": "krea-ai",
+    "name": "Krea AI",
+    "website": "https://www.krea.ai",
+    "description": "Real-time AI creative suite for generating and editing images, video, and 3D visuals from prompts and sketches."
+  },
+  {
+    "file": "_tools/langchain.md",
+    "slug": "langchain",
+    "name": "LangChain",
+    "website": "https://langchain.com",
+    "description": "Open-source framework for building LLM-powered applications with chains, agents, memory, and retrieval-augmented generation."
+  },
+  {
+    "file": "_tools/langsmith.md",
+    "slug": "langsmith",
+    "name": "LangSmith",
+    "website": "https://smith.langchain.com",
+    "description": "LLM application observability and evaluation platform for debugging, testing, and monitoring AI applications in production."
+  },
+  {
+    "file": "_tools/leonardo-ai.md",
+    "slug": "leonardo-ai",
+    "name": "Leonardo.ai",
+    "website": "https://leonardo.ai",
+    "description": "AI image generation platform for creating game assets, concept art, and marketing visuals with fine-tuned and custom models."
+  },
+  {
+    "file": "_tools/lex.md",
+    "slug": "lex",
+    "name": "Lex",
+    "website": "https://lex.new",
+    "description": "Collaborative document editor with built-in AI for drafting, rewriting, and refining long-form writing."
+  },
+  {
+    "file": "_tools/librechat.md",
+    "slug": "librechat",
+    "name": "LibreChat",
+    "website": "https://www.librechat.ai",
+    "description": "Open-source, self-hosted AI chat platform that connects to many model providers in a single interface."
+  },
+  {
+    "file": "_tools/lindy-ai.md",
+    "slug": "lindy-ai",
+    "name": "Lindy",
+    "website": "https://lindy.ai",
+    "description": "No-code and API platform for building AI agents that automate workflows across tools and teams."
+  },
+  {
+    "file": "_tools/llama-cpp.md",
+    "slug": "llama-cpp",
+    "name": "llama.cpp",
+    "website": "https://github.com/ggml-org/llama.cpp",
+    "description": "C/C++ implementation for running LLMs locally with minimal dependencies, optimized for consumer hardware and Apple Silicon."
+  },
+  {
+    "file": "_tools/llamaindex.md",
+    "slug": "llamaindex",
+    "name": "LlamaIndex",
+    "website": "https://www.llamaindex.ai",
+    "description": "Open-source data framework for building RAG and LLM-powered applications that connect to custom data sources."
+  },
+  {
+    "file": "_tools/lm-studio.md",
+    "slug": "lm-studio",
+    "name": "LM Studio",
+    "website": "https://lmstudio.ai",
+    "description": "Desktop app for running local LLMs with a simple UI, model library, and OpenAI-compatible local server."
+  },
+  {
+    "file": "_tools/localai.md",
+    "slug": "localai",
+    "name": "LocalAI",
+    "website": "https://localai.io",
+    "description": "Free, open-source drop-in replacement for OpenAI and Anthropic APIs that runs LLMs, image models, and audio locally."
+  },
+  {
+    "file": "_tools/looka.md",
+    "slug": "looka",
+    "name": "Looka",
+    "website": "https://looka.com",
+    "description": "AI logo and brand kit designer that generates logos and branded assets for new businesses."
+  },
+  {
+    "file": "_tools/lovable.md",
+    "slug": "lovable",
+    "name": "Lovable",
+    "website": "https://lovable.dev",
+    "description": "AI-powered full-stack app builder that generates working web applications from natural language prompts."
+  },
+  {
+    "file": "_tools/ltx-video.md",
+    "slug": "ltx-video",
+    "name": "LTX Video",
+    "website": "https://ltx.studio",
+    "description": "Lightricks' open-source AI video generation model optimized for local desktop generation on consumer GPUs via ComfyUI."
+  },
+  {
+    "file": "_tools/luma-dream-machine.md",
+    "slug": "luma-dream-machine",
+    "name": "Luma Dream Machine",
+    "website": "https://lumalabs.ai/dream-machine",
+    "description": "Luma AI's text-to-video model for generating smooth, high-quality video clips from text prompts or images."
+  },
+  {
+    "file": "_tools/magnific.md",
+    "slug": "magnific",
+    "name": "Magnific AI",
+    "website": "https://magnific.ai",
+    "description": "Magnific AI \u2014 AI image upscaler & enhancer adding realistic detail at 4K-16K. Upscale, creativity slider & prompt-guided. Paid, API."
+  },
+  {
+    "file": "_tools/manus.md",
+    "slug": "manus",
+    "name": "Manus",
+    "website": "https://manus.im",
+    "description": "Autonomous AI agent that executes end-to-end tasks including research, coding, browser automation, and file creation."
+  },
+  {
+    "file": "_tools/mem.md",
+    "slug": "mem",
+    "name": "Mem",
+    "website": "https://mem.ai",
+    "description": "AI note-taking with automatic organization, linking, and search across personal knowledge."
+  },
+  {
+    "file": "_tools/meshy.md",
+    "slug": "meshy",
+    "name": "Meshy",
+    "website": "https://meshy.ai",
+    "description": "AI 3D model generator that creates fully textured 3D assets from text descriptions or reference images in minutes."
+  },
+  {
+    "file": "_tools/meta-ai.md",
+    "slug": "meta-ai",
+    "name": "Meta AI",
+    "website": "https://dev.meta.ai/",
+    "description": "Meta's developer platform for building with Llama and Muse Spark via Model API, SDKs, and playground."
+  },
+  {
+    "file": "_tools/meta-llama.md",
+    "slug": "meta-llama",
+    "name": "Meta Llama",
+    "website": "https://llama.meta.com",
+    "description": "Meta's open-source large language model family for local deployment, research, and commercial use under a permissive license."
+  },
+  {
+    "file": "_tools/microsoft-copilot.md",
+    "slug": "microsoft-copilot",
+    "name": "Microsoft Copilot",
+    "website": "https://copilot.microsoft.com",
+    "description": "Microsoft's AI assistant powered by GPT-4, integrated across Windows, Office 365, Edge, and Bing for productivity."
+  },
+  {
+    "file": "_tools/microsoft-designer.md",
+    "slug": "microsoft-designer",
+    "name": "Microsoft Designer",
+    "website": "https://designer.microsoft.com",
+    "description": "AI-powered design tool that generates images and layouts from text using DALL-E 3 technology."
+  },
+  {
+    "file": "_tools/midjourney.md",
+    "slug": "midjourney",
+    "name": "Midjourney",
+    "website": "https://www.midjourney.com",
+    "description": "AI image generation tool known for high-quality, artistic outputs from text prompts."
+  },
+  {
+    "file": "_tools/mistral-ai.md",
+    "slug": "mistral-ai",
+    "name": "Mistral AI",
+    "website": "https://mistral.ai",
+    "description": "European AI company offering open-weight and commercial LLMs via API, including Mistral 7B, Mixtral, and Mistral Large."
+  },
+  {
+    "file": "_tools/mistral-le-chat.md",
+    "slug": "mistral-le-chat",
+    "name": "Le Chat",
+    "website": "https://chat.mistral.ai",
+    "description": "Official chat interface by Mistral AI for its Mistral Large, Medium, and Small models with document understanding."
+  },
+  {
+    "file": "_tools/modal.md",
+    "slug": "modal",
+    "name": "Modal",
+    "website": "https://modal.com",
+    "description": "Serverless AI infrastructure for running inference, training, and batch jobs with GPUs and sub-second scaling."
+  },
+  {
+    "file": "_tools/murf.md",
+    "slug": "murf",
+    "name": "Murf",
+    "website": "https://murf.ai",
+    "description": "AI voice generator with studio-quality text-to-speech, voice cloning, and voiceover tools for videos and presentations."
+  },
+  {
+    "file": "_tools/n8n.md",
+    "slug": "n8n",
+    "name": "n8n",
+    "website": "https://n8n.io",
+    "description": "Open-source workflow automation platform with AI nodes for connecting apps and building automations."
+  },
+  {
+    "file": "_tools/nightcafe.md",
+    "slug": "nightcafe",
+    "name": "NightCafe",
+    "website": "https://nightcafe.studio",
+    "description": "AI art generator and community platform for creating, sharing, and remixing images from text prompts."
+  },
+  {
+    "file": "_tools/notebooklm.md",
+    "slug": "notebooklm",
+    "name": "NotebookLM",
+    "website": "https://notebooklm.google.com",
+    "description": "Google's AI research assistant that analyzes your documents and generates conversational audio overviews."
+  },
+  {
+    "file": "_tools/notion-ai.md",
+    "slug": "notion-ai",
+    "name": "Notion AI",
+    "website": "https://notion.so/product/ai",
+    "description": "AI writing and productivity features built into Notion for summarizing, drafting, translating, and editing pages and notes."
+  },
+  {
+    "file": "_tools/ollama.md",
+    "slug": "ollama",
+    "name": "Ollama",
+    "website": "https://ollama.com",
+    "description": "Local LLM runner that makes it easy to download and run open-source models on your own machine."
+  },
+  {
+    "file": "_tools/oobabooga-text-generation-webui.md",
+    "slug": "oobabooga-text-generation-webui",
+    "name": "Text Generation WebUI",
+    "website": "https://github.com/oobabooga/text-generation-webui",
+    "description": "Popular local LLM interface (Oobabooga) with chat, extensions, and support for many model formats."
+  },
+  {
+    "file": "_tools/open-webui.md",
+    "slug": "open-webui",
+    "name": "Open WebUI",
+    "website": "https://openwebui.com",
+    "description": "Self-hosted AI chat interface that connects to Ollama, OpenAI, Anthropic, and any compatible model."
+  },
+  {
+    "file": "_tools/openai-api.md",
+    "slug": "openai-api",
+    "name": "OpenAI API",
+    "website": "https://platform.openai.com",
+    "description": "Developer platform and API for GPT models, embeddings, DALL-E, and Whisper for building AI applications."
+  },
+  {
+    "file": "_tools/openai-chatgpt.md",
+    "slug": "openai-chatgpt",
+    "name": "ChatGPT",
+    "website": "https://chat.openai.com",
+    "description": "AI-powered conversational assistant for tasks, coding, writing, and analysis by OpenAI."
+  },
+  {
+    "file": "_tools/openai-codex.md",
+    "slug": "openai-codex",
+    "name": "Codex",
+    "website": "https://openai.com/index/openai-codex/",
+    "description": "OpenAI's autonomous coding agent that runs in your terminal to write, refactor, and debug code across entire repositories."
+  },
+  {
+    "file": "_tools/openai-dall-e.md",
+    "slug": "openai-dall-e",
+    "name": "DALL-E",
+    "website": "https://openai.com/index/dall-e/",
+    "description": "OpenAI's AI image generation model for creating and editing images from natural language descriptions."
+  },
+  {
+    "file": "_tools/openai-operator.md",
+    "slug": "openai-operator",
+    "name": "Operator",
+    "website": "https://operator.chatgpt.com",
+    "description": "OpenAI's AI agent that uses a browser to complete real-world tasks like booking, shopping, and form filling on your behalf."
+  },
+  {
+    "file": "_tools/openai-sora.md",
+    "slug": "openai-sora",
+    "name": "Sora",
+    "website": "https://sora.com",
+    "description": "OpenAI's text-to-video model for generating realistic and imaginative video scenes up to a minute long from text or images."
+  },
+  {
+    "file": "_tools/openai-whisper.md",
+    "slug": "openai-whisper",
+    "name": "Whisper",
+    "website": "https://openai.com/index/whisper/",
+    "description": "OpenAI's open-source automatic speech recognition model for accurate transcription and translation across 100 languages."
+  },
+  {
+    "file": "_tools/openrouter.md",
+    "slug": "openrouter",
+    "name": "OpenRouter",
+    "website": "https://openrouter.ai",
+    "description": "Unified API gateway providing access to 200+ LLMs from OpenAI, Anthropic, Google, and open-source providers in one endpoint."
+  },
+  {
+    "file": "_tools/opusclip.md",
+    "slug": "opusclip",
+    "name": "OpusClip",
+    "website": "https://opus.pro",
+    "description": "AI video clipping tool that turns long-form videos into viral short clips for YouTube, TikTok, and social."
+  },
+  {
+    "file": "_tools/otter-ai.md",
+    "slug": "otter-ai",
+    "name": "Otter.ai",
+    "website": "https://otter.ai",
+    "description": "AI meeting assistant that transcribes conversations in real time and generates summaries, action items, and follow-up emails."
+  },
+  {
+    "file": "_tools/perplexity.md",
+    "slug": "perplexity",
+    "name": "Perplexity",
+    "website": "https://www.perplexity.ai",
+    "description": "AI-powered search engine that provides cited, conversational answers to questions."
+  },
+  {
+    "file": "_tools/phind.md",
+    "slug": "phind",
+    "name": "Phind",
+    "website": "https://www.phind.com",
+    "description": "AI-powered search engine for developers that delivers technical answers and code solutions in seconds."
+  },
+  {
+    "file": "_tools/photoroom.md",
+    "slug": "photoroom",
+    "name": "Photoroom",
+    "website": "https://www.photoroom.com",
+    "description": "AI-powered photo editing platform for creating professional product photos with background removal and generation."
+  },
+  {
+    "file": "_tools/pi-inflection.md",
+    "slug": "pi-inflection",
+    "name": "Pi",
+    "website": "https://pi.ai",
+    "description": "Conversational AI by Inflection AI focused on emotional intelligence, supportive dialogue, and natural conversation."
+  },
+  {
+    "file": "_tools/pictory.md",
+    "slug": "pictory",
+    "name": "Pictory",
+    "website": "https://pictory.ai",
+    "description": "AI video generator that turns text, URLs, scripts, and audio into professional videos with automated editing."
+  },
+  {
+    "file": "_tools/pieces.md",
+    "slug": "pieces",
+    "name": "Pieces",
+    "website": "https://pieces.app",
+    "description": "AI code snippet manager with context awareness, search, and reuse across projects."
+  },
+  {
+    "file": "_tools/pika.md",
+    "slug": "pika",
+    "name": "Pika",
+    "website": "https://pika.art",
+    "description": "AI video creation platform for generating and editing videos from text and image prompts with creative effects."
+  },
+  {
+    "file": "_tools/pinecone.md",
+    "slug": "pinecone",
+    "name": "Pinecone",
+    "website": "https://www.pinecone.io",
+    "description": "Managed vector database for building high-performance AI applications with similarity search and RAG capabilities."
+  },
+  {
+    "file": "_tools/play-ht.md",
+    "slug": "play-ht",
+    "name": "Play.ht",
+    "website": "https://play.ht",
+    "description": "Play.ht \u2014 free AI voice generator & voice cloning with 200+ voices. Text-to-speech, playht voice generator & real-time API. Free tier."
+  },
+  {
+    "file": "_tools/playground-ai.md",
+    "slug": "playground-ai",
+    "name": "Playground AI",
+    "website": "https://playground.com",
+    "description": "Playground AI \u2014 free AI image generator & editor by playground ai. Text-to-image with v3, image expansion, eraser & 50 free designs. API + commercial rights."
+  },
+  {
+    "file": "_tools/podcastle.md",
+    "slug": "podcastle",
+    "name": "Podcastle",
+    "website": "https://podcastle.ai",
+    "description": "AI-powered podcast and audio creation platform for recording, editing, and enhancing shows in the browser."
+  },
+  {
+    "file": "_tools/poe.md",
+    "slug": "poe",
+    "name": "Poe",
+    "website": "https://poe.com",
+    "description": "Multi-model chat platform by Quora with access to Claude, GPT-4, Llama, and dozens of AI models in one interface."
+  },
+  {
+    "file": "_tools/promptbase.md",
+    "slug": "promptbase",
+    "name": "PromptBase",
+    "website": "https://promptbase.com",
+    "description": "Marketplace for buying and selling prompts for DALL-E, Midjourney, ChatGPT, and other AI tools."
+  },
+  {
+    "file": "_tools/promptperfect.md",
+    "slug": "promptperfect",
+    "name": "PromptPerfect",
+    "website": "https://promptperfect.jina.ai",
+    "description": "AI prompt optimization platform that improves prompts for better outputs across models."
+  },
+  {
+    "file": "_tools/qdrant.md",
+    "slug": "qdrant",
+    "name": "Qdrant",
+    "website": "https://qdrant.io",
+    "description": "Open-source vector database and cloud service for high-performance similarity search in AI applications."
+  },
+  {
+    "file": "_tools/quillbot.md",
+    "slug": "quillbot",
+    "name": "QuillBot",
+    "website": "https://quillbot.com",
+    "description": "AI writing suite for paraphrasing, grammar checking, summarization, translation, and plagiarism detection."
+  },
+  {
+    "file": "_tools/quizlet-ai.md",
+    "slug": "quizlet-ai",
+    "name": "Quizlet (AI Features)",
+    "website": "https://quizlet.com",
+    "description": "Study platform with AI-powered tutoring, practice, and explanations layered on top of flashcards and practice sets."
+  },
+  {
+    "file": "_tools/qwen.md",
+    "slug": "qwen",
+    "name": "Qwen",
+    "website": "https://qwenlm.github.io",
+    "description": "Alibaba Cloud's open-weight large language model family with competitive performance across text, code, vision, and audio."
+  },
+  {
+    "file": "_tools/raycast-ai.md",
+    "slug": "raycast-ai",
+    "name": "Raycast AI",
+    "website": "https://raycast.com",
+    "description": "AI-powered launcher for Mac with search, commands, and AI assistance built into the command palette."
+  },
+  {
+    "file": "_tools/recapo-ai.md",
+    "slug": "recapo-ai",
+    "name": "Recapo.ai",
+    "website": "https://recapo.ai",
+    "description": "AI video editing platform that turns long-form video into publish-ready short clips with auto scripts, subtitles, and voiceover."
+  },
+  {
+    "file": "_tools/reclaim-ai.md",
+    "slug": "reclaim-ai",
+    "name": "Reclaim AI",
+    "website": "https://reclaim.ai",
+    "description": "AI scheduling assistant that auto-schedules tasks, habits, meetings, and breaks to optimize your calendar."
+  },
+  {
+    "file": "_tools/recraft.md",
+    "slug": "recraft",
+    "name": "Recraft",
+    "website": "https://recraft.ai",
+    "description": "Professional AI image and vector generation for brands, with native vector output and style control for logos and illustrations."
+  },
+  {
+    "file": "_tools/remove-bg.md",
+    "slug": "remove-bg",
+    "name": "Remove.bg",
+    "website": "https://remove.bg",
+    "description": "AI-powered background removal tool that automatically removes backgrounds from photos in seconds with high precision."
+  },
+  {
+    "file": "_tools/replicate.md",
+    "slug": "replicate",
+    "name": "Replicate",
+    "website": "https://replicate.com",
+    "description": "Cloud platform for running open-source AI models via a simple API with pay-per-second pricing and no infrastructure setup."
+  },
+  {
+    "file": "_tools/replit.md",
+    "slug": "replit",
+    "name": "Replit",
+    "website": "https://replit.com",
+    "description": "Cloud-based coding platform with an AI agent that can build and deploy full applications from prompts."
+  },
+  {
+    "file": "_tools/resemble-ai.md",
+    "slug": "resemble-ai",
+    "name": "Resemble AI",
+    "website": "https://www.resemble.ai",
+    "description": "AI voice generation platform with zero-shot voice cloning, deepfake detection, and enterprise watermarking."
+  },
+  {
+    "file": "_tools/roocode.md",
+    "slug": "roocode",
+    "name": "RooCode",
+    "website": "https://roocode.com",
+    "description": "AI coding agent for VS Code focused on reliability and large-scale code changes with customizable modes and MCP support."
+  },
+  {
+    "file": "_tools/runway.md",
+    "slug": "runway",
+    "name": "Runway",
+    "website": "https://runwayml.com",
+    "description": "Runway \u2014 AI creative suite for video generation & editing. Gen-3 text-to-video, image-to-video, green screen, motion tracking & VFX. Freemium + API."
+  },
+  {
+    "file": "_tools/rytr.md",
+    "slug": "rytr",
+    "name": "Rytr",
+    "website": "https://rytr.me",
+    "description": "AI writing assistant for creating marketing copy, blogs, emails, and more with tone matching and plagiarism checks."
+  },
+  {
+    "file": "_tools/scale-ai.md",
+    "slug": "scale-ai",
+    "name": "Scale AI",
+    "website": "https://scale.com",
+    "description": "Data platform for labeling, evaluating, and managing datasets that power production AI systems."
+  },
+  {
+    "file": "_tools/scispace.md",
+    "slug": "scispace",
+    "name": "SciSpace",
+    "website": "https://scispace.com",
+    "description": "AI research assistant for discovering, reading, and summarizing scientific papers and literature."
+  },
+  {
+    "file": "_tools/scite.md",
+    "slug": "scite",
+    "name": "Scite",
+    "website": "https://scite.ai",
+    "description": "Smart citations for research that show how papers are cited and whether findings are supported or contradicted."
+  },
+  {
+    "file": "_tools/seedance.md",
+    "slug": "seedance",
+    "name": "Seedance",
+    "website": "https://seedance.ai",
+    "description": "ByteDance's AI video generator with unified audio-video synthesis, lip-sync, and multi-shot storytelling from text or image prompts."
+  },
+  {
+    "file": "_tools/semantic-scholar.md",
+    "slug": "semantic-scholar",
+    "name": "Semantic Scholar",
+    "website": "https://semanticscholar.org",
+    "description": "AI-powered academic search engine with paper analysis, citations, and impact metrics."
+  },
+  {
+    "file": "_tools/sharpniq.md",
+    "slug": "sharpniq",
+    "name": "Sharpniq",
+    "website": "https://unblurimage.me",
+    "description": "AI image restoration tool that sharpens blurry photos with free browser processing and optional cloud enhancement."
+  },
+  {
+    "file": "_tools/snack-prompt.md",
+    "slug": "snack-prompt",
+    "name": "Snack Prompt",
+    "website": "https://snackprompt.com",
+    "description": "Snack Prompt \u2014 free community for discovering and sharing snack prompts for ChatGPT, Midjourney & more. Vote, remix, and find top prompts curated by Vocino."
+  },
+  {
+    "file": "_tools/sourcegraph-cody.md",
+    "slug": "sourcegraph-cody",
+    "name": "Sourcegraph Cody",
+    "website": "https://sourcegraph.com/cody",
+    "description": "Enterprise AI code assistant with codebase-wide context, explain, edit, and answer across repositories."
+  },
+  {
+    "file": "_tools/speechify.md",
+    "slug": "speechify",
+    "name": "Speechify",
+    "website": "https://speechify.com",
+    "description": "Text-to-speech app that turns articles, PDFs, and documents into natural-sounding audio you can listen to anywhere."
+  },
+  {
+    "file": "_tools/spline-ai.md",
+    "slug": "spline-ai",
+    "name": "Spline AI",
+    "website": "https://spline.design",
+    "description": "Spline AI \u2014 AI 3D design tool for text-to-3D, AI texture generation & real-time collaboration. Browser-based spline ai editor for interactive 3D on the web."
+  },
+  {
+    "file": "_tools/stability-stable-audio.md",
+    "slug": "stability-stable-audio",
+    "name": "Stable Audio",
+    "website": "https://stableaudio.com",
+    "description": "AI audio and music generation by Stability AI from text prompts with timing and style control."
+  },
+  {
+    "file": "_tools/stable-diffusion.md",
+    "slug": "stable-diffusion",
+    "name": "Stable Diffusion",
+    "website": "https://stability.ai",
+    "description": "Stable Diffusion \u2014 open-source AI image generation model. Run locally or in cloud, ControlNet, inpainting & LoRA. Self-hosted, extensible community."
+  },
+  {
+    "file": "_tools/sudowrite.md",
+    "slug": "sudowrite",
+    "name": "Sudowrite",
+    "website": "https://www.sudowrite.com",
+    "description": "AI writing tool designed specifically for fiction authors with story generation, editing, and worldbuilding features."
+  },
+  {
+    "file": "_tools/suno.md",
+    "slug": "suno",
+    "name": "Suno",
+    "website": "https://suno.com",
+    "description": "AI music generation platform that creates original full songs with lyrics and vocals from simple text prompts."
+  },
+  {
+    "file": "_tools/superagi.md",
+    "slug": "superagi",
+    "name": "SuperAGI",
+    "website": "https://superagi.com",
+    "description": "Open-source autonomous AI framework for building and running multi-agent systems."
+  },
+  {
+    "file": "_tools/superhuman.md",
+    "slug": "superhuman",
+    "name": "Superhuman",
+    "website": "https://superhuman.com",
+    "description": "AI-powered email client with auto-drafting, instant reply suggestions, and email summarization for maximum productivity."
+  },
+  {
+    "file": "_tools/supermaven.md",
+    "slug": "supermaven",
+    "name": "Supermaven",
+    "website": "https://supermaven.com",
+    "description": "Fast AI code completion with large context and deep understanding for rapid development."
+  },
+  {
+    "file": "_tools/surfer-seo.md",
+    "slug": "surfer-seo",
+    "name": "Surfer",
+    "website": "https://surferseo.com",
+    "description": "SEO content optimization platform with AI writing that analyzes top results to guide structure and on-page improvements."
+  },
+  {
+    "file": "_tools/synthesia.md",
+    "slug": "synthesia",
+    "name": "Synthesia",
+    "website": "https://synthesia.io",
+    "description": "AI video generation platform for creating studio-quality training and marketing videos with lifelike digital avatars."
+  },
+  {
+    "file": "_tools/tabby.md",
+    "slug": "tabby",
+    "name": "Tabby",
+    "website": "https://www.tabbyml.com",
+    "description": "Open-source, self-hosted AI coding assistant server for code completion and IDE integration."
+  },
+  {
+    "file": "_tools/tabnine.md",
+    "slug": "tabnine",
+    "name": "Tabnine",
+    "website": "https://tabnine.com",
+    "description": "AI code completion tool supporting 70+ languages across all major IDEs, with privacy-focused local model options for teams."
+  },
+  {
+    "file": "_tools/taskade.md",
+    "slug": "taskade",
+    "name": "Taskade",
+    "website": "https://www.taskade.com",
+    "description": "AI-native workspace where you build apps, agents, and automations for tasks, projects, and workflows."
+  },
+  {
+    "file": "_tools/together-ai.md",
+    "slug": "together-ai",
+    "name": "Together AI",
+    "website": "https://together.ai",
+    "description": "Cloud platform for fast open-source LLM inference, fine-tuning, and deployment with 100+ models and competitive pricing."
+  },
+  {
+    "file": "_tools/tome.md",
+    "slug": "tome",
+    "name": "Tome",
+    "website": "https://tome.app",
+    "description": "AI-native presentation and storytelling tool for creating decks, docs, and product narratives from prompts."
+  },
+  {
+    "file": "_tools/topaz-ai.md",
+    "slug": "topaz-ai",
+    "name": "Topaz Labs",
+    "website": "https://www.topazlabs.com",
+    "description": "Suite of AI tools for enhancing, denoising, and upscaling photos and videos for professional workflows."
+  },
+  {
+    "file": "_tools/trae.md",
+    "slug": "trae",
+    "name": "Trae",
+    "website": "https://www.trae.ai",
+    "description": "AI-native IDE from ByteDance with built-in models, project generation, and chat assistance for faster development."
+  },
+  {
+    "file": "_tools/tripo.md",
+    "slug": "tripo",
+    "name": "Tripo AI",
+    "website": "https://www.tripo3d.ai",
+    "description": "AI-powered 3D model generation from text prompts and images with animation and rigging capabilities."
+  },
+  {
+    "file": "_tools/typeface.md",
+    "slug": "typeface",
+    "name": "Typeface",
+    "website": "https://www.typeface.ai",
+    "description": "Enterprise generative AI platform for creating personalized, on-brand marketing content at scale."
+  },
+  {
+    "file": "_tools/udio.md",
+    "slug": "udio",
+    "name": "Udio",
+    "website": "https://udio.com",
+    "description": "AI music generation platform for creating fully produced songs in any genre from text descriptions and lyric inputs."
+  },
+  {
+    "file": "_tools/uizard.md",
+    "slug": "uizard",
+    "name": "Uizard",
+    "website": "https://uizard.io",
+    "description": "AI UI/UX design tool for wireframes, mockups, and prototypes from sketches or prompts."
+  },
+  {
+    "file": "_tools/v0.md",
+    "slug": "v0",
+    "name": "v0",
+    "website": "https://v0.dev",
+    "description": "Vercel's AI-powered UI generation tool that creates React components and pages from text prompts."
+  },
+  {
+    "file": "_tools/vapi.md",
+    "slug": "vapi",
+    "name": "Vapi",
+    "website": "https://vapi.ai",
+    "description": "Platform for building and deploying voice AI agents with multilingual support and tool calling."
+  },
+  {
+    "file": "_tools/variant.md",
+    "slug": "variant",
+    "name": "Variant",
+    "website": "https://variant.com",
+    "description": "AI design tool that generates endless visual directions from your ideas in a scrollable feed."
+  },
+  {
+    "file": "_tools/vedic-astrology-chart.md",
+    "slug": "vedic-astrology-chart",
+    "name": "Vedic Astrology Chart",
+    "website": "https://vedicastrologychart.net",
+    "description": "Generate a Vedic birth chart with planetary positions, houses, and interpretive details."
+  },
+  {
+    "file": "_tools/vercel-ai-sdk.md",
+    "slug": "vercel-ai-sdk",
+    "name": "Vercel AI SDK",
+    "website": "https://sdk.vercel.ai",
+    "description": "TypeScript toolkit for building AI-powered web applications with streaming, tool calling, and multi-model support."
+  },
+  {
+    "file": "_tools/video-upscaler.md",
+    "slug": "video-upscaler",
+    "name": "Video Upscaler",
+    "website": "https://videoupscaler.video",
+    "description": "Upscale and enhance video resolution online with AI processing and downloadable results."
+  },
+  {
+    "file": "_tools/viggle.md",
+    "slug": "viggle",
+    "name": "Viggle",
+    "website": "https://viggle.ai",
+    "description": "AI character animation and movement from static images and text prompts for memes and short clips."
+  },
+  {
+    "file": "_tools/vllm.md",
+    "slug": "vllm",
+    "name": "vLLM",
+    "website": "https://docs.vllm.ai",
+    "description": "Fast, high-throughput inference engine for serving LLMs with PagedAttention, continuous batching, and OpenAI-compatible API."
+  },
+  {
+    "file": "_tools/wan-video.md",
+    "slug": "wan-video",
+    "name": "Wan Video",
+    "website": "https://github.com/Wan-AI/Wan2.2",
+    "description": "Alibaba's open-source AI video generation models using Mixture-of-Experts architecture for text-to-video and image-to-video synthesis."
+  },
+  {
+    "file": "_tools/wandb.md",
+    "slug": "wandb",
+    "name": "Weights & Biases",
+    "website": "https://wandb.ai",
+    "description": "ML experiment tracking, model management, and LLM evaluation platform for AI teams."
+  },
+  {
+    "file": "_tools/weaviate.md",
+    "slug": "weaviate",
+    "name": "Weaviate",
+    "website": "https://weaviate.io",
+    "description": "Open-source vector database and cloud service for building semantic search, RAG, and AI applications."
+  },
+  {
+    "file": "_tools/windsurf.md",
+    "slug": "windsurf",
+    "name": "Windsurf",
+    "website": "https://windsurf.com",
+    "description": "AI-powered code editor with deep agentic capabilities for autonomous multi-file coding workflows."
+  },
+  {
+    "file": "_tools/wordtune.md",
+    "slug": "wordtune",
+    "name": "Wordtune",
+    "website": "https://www.wordtune.com",
+    "description": "AI writing assistant for paraphrasing, proofreading, tone switching, and generating context-aware suggestions."
+  },
+  {
+    "file": "_tools/writer.md",
+    "slug": "writer",
+    "name": "Writer",
+    "website": "https://writer.com",
+    "description": "Enterprise AI platform for on-brand content, knowledge, and workflows across teams."
+  },
+  {
+    "file": "_tools/writesonic.md",
+    "slug": "writesonic",
+    "name": "WriteSonic",
+    "website": "https://writesonic.com",
+    "description": "AI platform for content creation, SEO, and Generative Engine Optimization to rank in AI and traditional search."
+  },
+  {
+    "file": "_tools/xai-grok.md",
+    "slug": "xai-grok",
+    "name": "Grok",
+    "website": "https://x.ai/grok",
+    "description": "xAI's conversational AI assistant with real-time web and X data access, available to X Premium subscribers and via API."
+  },
+  {
+    "file": "_tools/youcom.md",
+    "slug": "youcom",
+    "name": "You.com",
+    "website": "https://you.com",
+    "description": "AI-powered search engine with chat, code, and research modes offering cited answers and privacy controls."
+  },
+  {
+    "file": "_tools/zapier-central.md",
+    "slug": "zapier-central",
+    "name": "Zapier Central",
+    "website": "https://zapier.com/central",
+    "description": "AI automation assistant that connects apps and executes tasks through natural language."
+  },
+  {
+    "file": "_tools/zed.md",
+    "slug": "zed",
+    "name": "Zed",
+    "website": "https://zed.dev",
+    "description": "High-performance code editor with built-in AI assistant, real-time collaboration, and multi-model LLM support."
+  },
+  {
+    "file": "_tools/zendesk-ai.md",
+    "slug": "zendesk-ai",
+    "name": "Zendesk AI",
+    "website": "https://www.zendesk.com/ai/",
+    "description": "AI-powered customer service automation built into the Zendesk platform for ticket routing, resolution, and agent assistance."
+  }
+]

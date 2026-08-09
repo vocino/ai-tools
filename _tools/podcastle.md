@@ -1,7 +1,7 @@
 ---
 name: Podcastle
 slug: podcastle
-website: https://podcastle.ai
+website: https://async.com
 description: AI-powered podcast and audio creation platform for recording, editing, and enhancing shows in the browser.
 categories:
   - audio-generation

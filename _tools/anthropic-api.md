@@ -1,7 +1,7 @@
 ---
 name: Anthropic API
 slug: anthropic-api
-website: https://docs.anthropic.com
+website: https://platform.claude.com
 description: Developer platform and API for Claude models with long context, tool use, and enterprise features.
 categories:
   - api-platform

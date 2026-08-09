@@ -1,7 +1,7 @@
 ---
 name: Flux
 slug: flux
-website: https://blackforestlabs.ai
+website: https://bfl.ai
 description: Open-weight image generation models by Black Forest Labs known for photorealism and prompt adherence.
 categories:
   - image-generation

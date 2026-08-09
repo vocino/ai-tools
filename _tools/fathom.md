@@ -1,7 +1,7 @@
 ---
 name: Fathom
 slug: fathom
-website: https://fathom.video
+website: https://www.fathom.ai
 description: AI meeting recorder and note-taker that joins calls, transcribes, and summarizes automatically.
 categories:
   - productivity

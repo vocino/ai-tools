@@ -1,7 +1,7 @@
 ---
 name: Runway
 slug: runway
-website: https://runwayml.com
+website: https://runway.com
 description: Runway — AI creative suite for video generation & editing. Gen-3 text-to-video, image-to-video, green screen, motion tracking & VFX. Freemium + API.
 categories:
   - video-generation

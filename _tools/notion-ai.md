@@ -1,7 +1,7 @@
 ---
 name: Notion AI
 slug: notion-ai
-website: https://notion.so/product/ai
+website: https://www.notion.com/product/ai
 description: AI writing and productivity features built into Notion for summarizing, drafting, translating, and editing pages and notes.
 categories:
   - writing

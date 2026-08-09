@@ -1,7 +1,7 @@
 ---
 name: AnythingLLM
 slug: anything-llm
-website: https://useanything.com
+website: https://anythingllm.com
 description: Full-stack local AI assistant with RAG, document ingestion, and multiple LLM backends.
 categories:
   - chat
