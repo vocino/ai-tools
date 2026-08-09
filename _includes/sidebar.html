@@ -1,9 +1,9 @@
 <div class="filter-overlay" id="filterOverlay"></div>
-<aside class="filter-sidebar" id="filterSidebar" role="complementary" aria-label="Filters curated by Vocino" aria-modal="false">
+<aside class="filter-sidebar" id="filterSidebar" role="complementary" aria-label="Filters for open directory" aria-modal="false">
   <div class="sidebar-content">
   <div class="search-box-wrap">
     <iconify-icon icon="tabler:search" class="search-box__icon" aria-hidden="true"></iconify-icon>
-    <input type="text" class="search-box" id="searchBox" placeholder="Search {{ site.tools | size }} tools — try coding, video, agents…" aria-label="Search tools curated by Vocino">
+    <input type="text" class="search-box" id="searchBox" placeholder="Search {{ site.tools | size }} tools — try coding, video, agents…" aria-label="Search third-party tools">
     <span class="search-box__hint" aria-hidden="true">Press <kbd>/</kbd> or <kbd>⌘K</kbd></span>
   </div>
 
@@ -20,7 +20,7 @@
           <span>{{ cat.label }}</span>
           <span class="filter-count" data-count-for="categories:{{ cat.slug }}"></span>
         </label>
-        <a href="{{ '/category/' | append: cat.slug | append: '/' | relative_url }}" class="filter-row__link" aria-label="Browse {{ cat.label }} category — curated by Vocino" title="Browse {{ cat.label }} — curated by Vocino">↗</a>
+        <a href="{{ '/category/' | append: cat.slug | append: '/' | relative_url }}" class="filter-row__link" aria-label="Browse {{ cat.label }} category" title="Browse {{ cat.label }}">↗</a>
       </li>
       {% endfor %}
     </ul>

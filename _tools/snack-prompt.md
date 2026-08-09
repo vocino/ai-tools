@@ -2,7 +2,7 @@
 name: Snack Prompt
 slug: snack-prompt
 website: https://snackprompt.com
-description: Snack Prompt — free community for discovering and sharing snack prompts for ChatGPT, Midjourney & more. Vote, remix, and find top prompts curated by Vocino.
+description: Snack Prompt — free community for discovering and sharing snack prompts for ChatGPT, Midjourney & more. Vote, remix, and find top prompts curated by community.
 categories:
   - prompt-tools
 use_cases:

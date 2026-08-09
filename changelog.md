@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Changelog — New AI Tools Added | AI Tools by Vocino"
-description: "Changelog of new AI tools added to ai.vocino.com — curated by Vocino. See what's new each week."
+title: "Changelog — New AI Tools Added | AI Tools Open Directory"
+description: "Changelog of new AI tools added to ai.vocino.com — open directory maintained by Vocino. See what's new each week."
 permalink: /changelog/
 ---
 <div class="category-page">
-  <div class="category-page__eyebrow"><span style="color:var(--brand)">//</span> Changelog — curated by Vocino</div>
+  <div class="category-page__eyebrow"><span style="color:var(--brand)">//</span> Changelog — open directory</div>
   <h1 class="category-page__title">Changelog — what's new</h1>
   <p class="category-page__description">Every tool added to <strong>ai.vocino.com</strong> with its added date. Newest first — freshness signal for builders and crawlers. Curated by <a href="https://vocino.com" style="color:var(--brand)">Vocino</a>.</p>
 

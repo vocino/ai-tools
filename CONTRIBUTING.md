@@ -1,6 +1,6 @@
-# Contributing to AI Tools by Vocino
+# Contributing to AI Tools — Open Directory
 
-Thanks for contributing to **ai.vocino.com** — a curated directory by **[Vocino](https://vocino.com)**.
+Thanks for contributing to **ai.vocino.com** — an open directory maintained by **[Vocino](https://vocino.com)** for his coding agents. These are third-party tools, not mine.
 
 This is community-driven but curated with taste. I include tools that help you ship something real — not SEO filler.
 
@@ -8,7 +8,7 @@ This is community-driven but curated with taste. I include tools that help you s
 
 Every tool should **help you do something useful**. We list AI tools that enable a productive outcome — coding, creating, designing, researching, automating. We exclude passive entertainment (character chat with no work outcome). Ask: does this tool help someone accomplish a task?
 
-Curated by Vocino = you get my filter. I build AI products daily, I live in Claude Code. If it's on here, it's worth tracking.
+Maintained by Vocino = you get my filter for my agents. I build AI products daily, I live in Claude Code. These are not my products — I just list useful third-party tools. If it's on here, it's worth tracking for building.
 
 ## Adding a New Tool
 
@@ -48,7 +48,7 @@ Required fields:
 Use Claude/ChatGPT to draft:
 
 ```
-I'm contributing to ai.vocino.com (https://github.com/vocino/ai-tools) — curated by Vocino.
+I'm contributing to ai.vocino.com (https://github.com/vocino/ai-tools) — an open directory maintained by Vocino for his agents (third-party tools, not his).
 
 Create tool listing for:
 - Name: [Name]

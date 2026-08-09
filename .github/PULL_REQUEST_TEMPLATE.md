@@ -1,4 +1,4 @@
-## New Tool Submission — ai.vocino.com by Vocino
+## New Tool Submission — ai.vocino.com open directory
 
 **Tool name:**
 

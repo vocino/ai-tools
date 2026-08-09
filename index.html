@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "AI Tools by Vocino — ai.vocino.com"
-description: "200+ AI tools curated by Vocino. The directory for builders who ship — coding, video, writing, agents. Part of vocino.com"
+title: "AI Tools — Open Directory for Builders — ai.vocino.com"
+description: "An open directory of 200+ AI tools I maintain for my coding agents — not my products, just useful tools. Open to contributions at vocino/ai-tools."
 ---
 <div class="page-layout">
   {% include sidebar.html %}
@@ -12,10 +12,10 @@ description: "200+ AI tools curated by Vocino. The directory for builders who sh
     </button>
 
     <section class="home-hero" aria-labelledby="home-hero-title">
-      <p class="home-hero__eyebrow">// curated by <a href="https://vocino.com" style="color:var(--brand)">Vocino</a> — {{ site.tools | size }} tools</p>
-      <h1 id="home-hero-title" class="home-hero__title">AI Tools by Vocino — 200+ tools that ship</h1>
-      <p class="home-hero__intro">The directory for builders who ship — <strong>coding, video, writing, agents, chat, design, and research</strong>. Every tool is curated by Vocino (AI builder, investor, Claude Code daily), filtered by category, use case, pricing, API and self-hosted. No affiliate spam, just signal.</p>
-      <nav class="category-pills" aria-label="Browse categories — curated by Vocino">
+      <p class="home-hero__eyebrow">// open directory · {{ site.tools | size }} tools · maintained by <a href="https://vocino.com" style="color:var(--brand)">Vocino</a> for my agents</p>
+      <h1 id="home-hero-title" class="home-hero__title">AI Tools — open directory for builders who ship</h1>
+      <p class="home-hero__intro">I maintain this list for my own coding agents — <strong>coding, video, writing, agents, chat, design, and research</strong>. These aren’t my products; they’re third-party tools worth tracking. Open directory you can contribute to, filtered by category, use case, pricing, API and self-hosted. No affiliate spam, just signal.</p>
+      <nav class="category-pills" aria-label="Browse categories">
         {% for cat in site.data.categories %}
           {% assign cat_count = site.tools | where_exp: "t", "t.categories contains cat.slug" | size %}
           {% if cat_count > 0 %}
@@ -23,16 +23,16 @@ description: "200+ AI tools curated by Vocino. The directory for builders who sh
           {% endif %}
         {% endfor %}
       </nav>
-      <p class="home-hero__sub">Prefer to filter? Use the sidebar — or jump to a category above. Updated {{ site.time | date: "%Y-%m-%d" }} · <a href="https://github.com/vocino/ai-tools?tab=contributing-ov-file" style="color:var(--brand)">Add a tool</a> →</p>
+      <p class="home-hero__sub">I keep this for my agents, sharing because you might find it useful. Prefer to filter? Use the sidebar — or jump to a category. Updated {{ site.time | date: "%Y-%m-%d" }} · <a href="https://github.com/vocino/ai-tools?tab=contributing-ov-file" style="color:var(--brand)">Add a tool</a> is welcome →</p>
     </section>
 
-    <section class="results-shell" aria-label="AI tools directory by Vocino">
+    <section class="results-shell" aria-label="AI tools open directory maintained by Vocino">
       <div class="results-shell__panel">
         <h2 class="results-shell__heading">All tools — filter by what you build</h2>
         <div class="results-header">
           <span class="results-count-wrap">
             <span class="results-count" id="resultsCount">
-              Showing <strong>{{ site.tools | size }}</strong> of <strong>{{ site.tools | size }}</strong> tools curated by Vocino
+              Showing <strong>{{ site.tools | size }}</strong> of <strong>{{ site.tools | size }}</strong> third-party tools in this open directory
             </span>
             <button type="button" class="results-clear" id="clearFiltersBtn" aria-label="Clear all filters" style="display:none">Clear filters</button>
           </span>
@@ -43,7 +43,7 @@ description: "200+ AI tools curated by Vocino. The directory for builders who sh
           </select>
         </div>
 
-        <p class="results-helper" id="resultsHelper">Built by Vocino — {{ site.tools | size }} tools that help you ship. Keep scrolling to reveal more, or filter by what you build.</p>
+        <p class="results-helper" id="resultsHelper">Open directory I maintain for my agents — {{ site.tools | size }} third-party tools that help you ship. These aren’t my products. Keep scrolling or filter by what you build.</p>
         <div class="applied-filters" id="appliedFilters" aria-live="polite" aria-label="Active filters"></div>
       </div>
 
@@ -55,7 +55,7 @@ description: "200+ AI tools curated by Vocino. The directory for builders who sh
 
       <div class="tools-reveal" id="toolsReveal" aria-live="polite" style="display:none">
         <div class="tools-reveal__fade" aria-hidden="true"></div>
-        <p class="tools-reveal__eyebrow">Keep exploring — curated by Vocino</p>
+        <p class="tools-reveal__eyebrow">Keep exploring — open directory</p>
         <p class="tools-reveal__summary" id="toolsRevealSummary"></p>
         <button type="button" class="tools-reveal__button" id="showMoreToolsBtn">Show more tools</button>
         <div class="tools-reveal__sentinel" id="toolsRevealSentinel" aria-hidden="true"></div>

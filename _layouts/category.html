@@ -6,7 +6,7 @@ layout: default
 {% assign cat_count = cat_tools | size %}
 {% assign breadcrumb_cats = page.category_slug | split: "," %}
 <div class="category-page">
-  <div class="category-page__eyebrow"><span style="color:var(--brand)">//</span> Category — curated by Vocino</div>
+  <div class="category-page__eyebrow"><span style="color:var(--brand)">//</span> Category — open directory</div>
   {% include breadcrumbs.html name=page.title categories=breadcrumb_cats current_item=page.url %}
 
   <h1 class="category-page__title">{{ page.title }}</h1>
@@ -75,7 +75,7 @@ layout: default
   </div>
 
   <div style="margin-top:2rem;padding:1.5rem;border:1px solid var(--border);background:var(--surface-1);border-radius:12px" class="hud-corners">
-    <p style="margin:0;color:var(--text-secondary)">Missing a tool in {{ page.title }}? <a href="https://github.com/vocino/ai-tools?tab=contributing-ov-file" target="_blank" rel="noopener noreferrer" style="color:var(--brand)">Add it — curated by Vocino</a> →</p>
+    <p style="margin:0;color:var(--text-secondary)">Missing a tool in {{ page.title }}? <a href="https://github.com/vocino/ai-tools?tab=contributing-ov-file" target="_blank" rel="noopener noreferrer" style="color:var(--brand)">Add it — open directory</a> →</p>
   </div>
 </div>
 

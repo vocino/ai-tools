@@ -1,4 +1,4 @@
-# AI Tools by Vocino — ai.vocino.com
+# AI Tools — Open Directory — ai.vocino.com
 
 [![Website](https://img.shields.io/badge/Website-ai.vocino.com-00CCFF?style=flat-square&labelColor=161B22)](https://ai.vocino.com)
 [![Tools](https://img.shields.io/badge/Tools-200%2B-4DA3FF?style=flat-square&labelColor=161B22)](https://ai.vocino.com)
@@ -6,7 +6,7 @@
 [![Built with Jekyll](https://img.shields.io/badge/Built%20with-Jekyll-%23CC0000?style=flat-square&labelColor=161B22)](https://jekyllrb.com/)
 [![Curated by Vocino](https://img.shields.io/badge/Curated%20by-Vocino-00CCFF?style=flat-square&labelColor=161B22)](https://vocino.com)
 
-A curated directory of **200+ AI tools** — built and maintained by **[Vocino](https://vocino.com)**. Part of the [vocino.com](https://vocino.com) ecosystem.
+An open directory of **200+ AI tools** — I maintain this list for my own coding agents, shared because you might find it useful. These are third-party tools, not mine.
 
 **[Browse at ai.vocino.com →](https://ai.vocino.com)**
 
@@ -14,9 +14,9 @@ A curated directory of **200+ AI tools** — built and maintained by **[Vocino](
 
 ## What is this?
 
-`ai.vocino.com` is where I collect the best AI tools worth using. One file per tool, no database, no bullshit. If it helps you ship something useful — writing, coding, designing, researching, automating — it belongs here.
+`ai.vocino.com` is an open directory I keep for my agents. One file per tool, no database, no bullshit. These are all third-party products (not mine) — if it helps you ship something useful — writing, coding, designing, researching, automating — it belongs here. Contributions welcome.
 
-Built with Jekyll, hosted on GitHub Pages. Community-driven, curated by me.
+Built with Jekyll, hosted on GitHub Pages. Open directory, community contributions welcome. I maintain it for my own use.
 
 This is the successor to **8ai.ac** — same spirit, more *Vocino*.
 
@@ -41,7 +41,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for full instructions, AI-assisted prompt
 - **Jekyll + GitHub Pages** — static, fast, free
 - **Client-side filtering** — JS sidebar filters (categories, use cases, modalities, pricing)
 - **200+ tools validated** — `node validate.js` on every PR
-- **Vocino design system** — `--bg #0F1419 / --brand #00CCFF` dark hacker theme, HUD corners, V brandmark
+- **Vocino-ish design** — `--bg #0F1419 / --brand #00CCFF` dark hacker theme, HUD corners, V brandmark
 
 ## Local Development
 

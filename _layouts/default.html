@@ -8,7 +8,7 @@
   {% comment %} Tool pages — use per-tool OG if exists, else category OG, else site OG {% endcomment %}
   {% if page.collection == "tools" and page.categories %}
     {% assign _tool_cat = page.categories | first %}
-    <meta property="og:image:alt" content="{{ page.name }} — {{ _tool_cat }} AI tool curated by Vocino">
+    <meta property="og:image:alt" content="{{ page.name }} — {{ _tool_cat }} AI tool in open directory maintained by Vocino">
   {% endif %}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +16,7 @@
   <link rel="preload" href="/assets/css/style.css" as="style">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.github.build_revision | default: site.time | date: '%s' }}">
   <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ '/sitemap.xml' | absolute_url }}">
-  <link rel="alternate" type="application/rss+xml" title="AI Tools by Vocino — RSS" href="{{ '/feed.xml' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="AI Tools Open Directory — RSS" href="{{ '/feed.xml' | absolute_url }}">
   <link rel="alternate" type="text/plain" title="LLMs.txt" href="{{ '/llms.txt' | absolute_url }}">
   {% if page.json_ld %}
   <script type="application/ld+json">{{ page.json_ld }}</script>
