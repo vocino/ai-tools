@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "AI Tools Directory — For Builders"
-description: "200+ AI tools I keep for my coding agents. Third-party products, not mine. Open directory, PRs welcome."
+title: "AI Tools Directory — 209 Tools for Coding, Video, Writing & More"
+description: "Open directory of 209 AI tools I keep for my coding agents. Find coding, video, writing, chat, design & research tools by category, pricing, API & self-hosted."
 ---
 <div class="page-layout">
   {% include sidebar.html %}
@@ -14,7 +14,7 @@ description: "200+ AI tools I keep for my coding agents. Third-party products, n
     <section class="home-hero" aria-labelledby="home-hero-title">
       <p class="home-hero__eyebrow">// {{ site.tools | size }} tools I keep for my agents — maintained by <a href="https://vocino.com" style="color:var(--brand)">Vocino</a></p>
       <h1 id="home-hero-title" class="home-hero__title">AI Tools Directory</h1>
-      <p class="home-hero__intro">I keep this list for my agents. <strong>Coding, video, writing, agents, chat, design, research</strong>. Not my tools — third-party products worth tracking. Filter by category, pricing, API, self-hosted. No affiliate spam.</p>
+      <p class="home-hero__intro">I maintain this list so my coding agents have options. <strong>Coding, video, writing, AI agents, chat, design, research</strong> — all third-party tools, not mine. Search 209 tools by category, pricing, API access, and self-hosted options.</p>
       <nav class="category-pills" aria-label="Browse categories">
         {% for cat in site.data.categories %}
           {% assign cat_count = site.tools | where_exp: "t", "t.categories contains cat.slug" | size %}
@@ -23,12 +23,12 @@ description: "200+ AI tools I keep for my coding agents. Third-party products, n
           {% endif %}
         {% endfor %}
       </nav>
-      <p class="home-hero__sub">built for how i ship. updated {{ site.time | date: "%Y-%m-%d" }} · <a href="https://github.com/vocino/ai-tools?tab=contributing-ov-file" style="color:var(--brand)">add a tool</a> if you’ve got one →</p>
+      <p class="home-hero__sub">Updated {{ site.time | date: "%Y-%m-%d" }} · Filter by use case, pricing, or API. <a href="https://github.com/vocino/ai-tools?tab=contributing-ov-file" style="color:var(--brand)">Add a tool</a> — PRs welcome →</p>
     </section>
 
     <section class="results-shell" aria-label="AI tools open directory maintained by Vocino">
       <div class="results-shell__panel">
-        <h2 class="results-shell__heading">All tools — filter by what you build</h2>
+        <h2 class="results-shell__heading">All AI Tools — Filter by Category, Pricing & Features</h2>
         <div class="results-header">
           <span class="results-count-wrap">
             <span class="results-count" id="resultsCount">
@@ -43,7 +43,7 @@ description: "200+ AI tools I keep for my coding agents. Third-party products, n
           </select>
         </div>
 
-        <p class="results-helper" id="resultsHelper">{{ site.tools | size }} tools. Not mine — third-party. Scroll or filter to find what you need.</p>
+        <p class="results-helper" id="resultsHelper">{{ site.tools | size }} AI tools, all third-party. I track these for my agents — scroll or filter to find coding, video, writing & more.</p>
         <div class="applied-filters" id="appliedFilters" aria-live="polite" aria-label="Active filters"></div>
       </div>
 
