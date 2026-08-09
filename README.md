@@ -1,4 +1,4 @@
-# AI Tools — Open Directory — ai.vocino.com
+# ai tools — open directory — ai.vocino.com
 
 [![Website](https://img.shields.io/badge/Website-ai.vocino.com-00CCFF?style=flat-square&labelColor=161B22)](https://ai.vocino.com)
 [![Tools](https://img.shields.io/badge/Tools-200%2B-4DA3FF?style=flat-square&labelColor=161B22)](https://ai.vocino.com)
@@ -6,7 +6,7 @@
 [![Built with Jekyll](https://img.shields.io/badge/Built%20with-Jekyll-%23CC0000?style=flat-square&labelColor=161B22)](https://jekyllrb.com/)
 [![Curated by Vocino](https://img.shields.io/badge/Curated%20by-Vocino-00CCFF?style=flat-square&labelColor=161B22)](https://vocino.com)
 
-An open directory of **200+ AI tools** — I maintain this list for my own coding agents, shared because you might find it useful. These are third-party tools, not mine.
+open directory of 200+ ai tools i keep for my agents. not my products. shared because it's useful.
 
 **[Browse at ai.vocino.com →](https://ai.vocino.com)**
 
@@ -14,9 +14,9 @@ An open directory of **200+ AI tools** — I maintain this list for my own codin
 
 ## What is this?
 
-`ai.vocino.com` is an open directory I keep for my agents. One file per tool, no database, no bullshit. These are all third-party products (not mine) — if it helps you ship something useful — writing, coding, designing, researching, automating — it belongs here. Contributions welcome.
+`ai.vocino.com` is one file per tool, no db. third-party products, not mine. if it ships — writing, coding, designing, researching, automating — it goes here. prs welcome.
 
-Built with Jekyll, hosted on GitHub Pages. Open directory, community contributions welcome. I maintain it for my own use.
+jekyll + github pages. i use this with my agents daily.
 
 This is the successor to **8ai.ac** — same spirit, more *Vocino*.
 

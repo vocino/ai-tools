@@ -1,6 +1,6 @@
-# Contributing to AI Tools — Open Directory
+# contributing
 
-Thanks for contributing to **ai.vocino.com** — an open directory maintained by **[Vocino](https://vocino.com)** for his coding agents. These are third-party tools, not mine.
+thanks for contributing — open dir i keep for my agents. third-party tools, not mine.
 
 This is community-driven but curated with taste. I include tools that help you ship something real — not SEO filler.
 
@@ -8,7 +8,7 @@ This is community-driven but curated with taste. I include tools that help you s
 
 Every tool should **help you do something useful**. We list AI tools that enable a productive outcome — coding, creating, designing, researching, automating. We exclude passive entertainment (character chat with no work outcome). Ask: does this tool help someone accomplish a task?
 
-Maintained by Vocino = you get my filter for my agents. I build AI products daily, I live in Claude Code. These are not my products — I just list useful third-party tools. If it's on here, it's worth tracking for building.
+i build ai stuff daily, live in claude code. if it's here, i use it or my agents do.
 
 ## Adding a New Tool
 
