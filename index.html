@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "ai tools directory — for builders"
-description: "200+ ai tools i keep for my agents. third-party products, not mine. open dir, prs welcome."
+title: "AI Tools Directory — For Builders"
+description: "200+ AI tools I keep for my coding agents. Third-party products, not mine. Open directory, PRs welcome."
 ---
 <div class="page-layout">
   {% include sidebar.html %}
@@ -12,9 +12,9 @@ description: "200+ ai tools i keep for my agents. third-party products, not mine
     </button>
 
     <section class="home-hero" aria-labelledby="home-hero-title">
-      <p class="home-hero__eyebrow">// {{ site.tools | size }} tools i use with my agents — maintained by <a href="https://vocino.com" style="color:var(--brand)">vocino</a></p>
-      <h1 id="home-hero-title" class="home-hero__title">ai tools i actually use</h1>
-      <p class="home-hero__intro">i keep this for my agents. <strong>coding, video, writing, agents, chat, design, research</strong>. not my tools — third-party stuff worth tracking. filter by category, pricing, api, self-hosted. no affiliate spam.</p>
+      <p class="home-hero__eyebrow">// {{ site.tools | size }} tools I keep for my agents — maintained by <a href="https://vocino.com" style="color:var(--brand)">Vocino</a></p>
+      <h1 id="home-hero-title" class="home-hero__title">AI Tools Directory</h1>
+      <p class="home-hero__intro">I keep this list for my agents. <strong>Coding, video, writing, agents, chat, design, research</strong>. Not my tools — third-party products worth tracking. Filter by category, pricing, API, self-hosted. No affiliate spam.</p>
       <nav class="category-pills" aria-label="Browse categories">
         {% for cat in site.data.categories %}
           {% assign cat_count = site.tools | where_exp: "t", "t.categories contains cat.slug" | size %}
@@ -43,7 +43,7 @@ description: "200+ ai tools i keep for my agents. third-party products, not mine
           </select>
         </div>
 
-        <p class="results-helper" id="resultsHelper">{{ site.tools | size }} tools. not mine — third-party. scroll or filter to find what you need.</p>
+        <p class="results-helper" id="resultsHelper">{{ site.tools | size }} tools. Not mine — third-party. Scroll or filter to find what you need.</p>
         <div class="applied-filters" id="appliedFilters" aria-live="polite" aria-label="Active filters"></div>
       </div>
 

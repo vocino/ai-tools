@@ -1,4 +1,4 @@
-# ai tools — open directory — ai.vocino.com
+# AI Tools — Open Directory — ai.vocino.com
 
 [![Website](https://img.shields.io/badge/Website-ai.vocino.com-00CCFF?style=flat-square&labelColor=161B22)](https://ai.vocino.com)
 [![Tools](https://img.shields.io/badge/Tools-200%2B-4DA3FF?style=flat-square&labelColor=161B22)](https://ai.vocino.com)
