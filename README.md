@@ -85,7 +85,12 @@ Part of my path to building great AI-tools in public — Karpathy-style deep div
 <!-- readme: contributors -start -->
 <div style="display:flex;flex-wrap:wrap;gap:6px;align-items:center">
 <a href="https://github.com/vocino" title="Vocino — curator"><img src="https://avatars.githubusercontent.com/u/65593?v=4" width="36" alt="Vocino" style="border-radius:50%"/></a>
+<a href="https://github.com/BlueSkyID666" title="BlueSkyID666"><img src="https://avatars.githubusercontent.com/u/280636370?v=4" width="36" alt="BlueSkyID666" style="border-radius:50%"/></a>
+<a href="https://github.com/Lucas-CX" title="Lucas-CX"><img src="https://avatars.githubusercontent.com/u/57147405?v=4" width="36" alt="Lucas-CX" style="border-radius:50%"/></a>
 <a href="https://github.com/fuyunzhishang" title="fuyunzhishang"><img src="https://avatars.githubusercontent.com/u/19215394?v=4" width="36" alt="fuyunzhishang" style="border-radius:50%"/></a>
+<a href="https://github.com/juxinzhang200-cell" title="juxinzhang200-cell"><img src="https://avatars.githubusercontent.com/u/244686833?v=4" width="36" alt="juxinzhang200-cell" style="border-radius:50%"/></a>
+<a href="https://github.com/leokadieff-codes" title="leokadieff-codes"><img src="https://avatars.githubusercontent.com/u/244400445?v=4" width="36" alt="leokadieff-codes" style="border-radius:50%"/></a>
+<a href="https://github.com/runshouse" title="runshouse"><img src="https://avatars.githubusercontent.com/u/23641679?v=4" width="36" alt="runshouse" style="border-radius:50%"/></a>
 </div>
 <!-- readme: contributors -end -->
 
