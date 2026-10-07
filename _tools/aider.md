@@ -2,7 +2,7 @@
 name: Aider
 slug: aider
 website: https://aider.chat
-description: Open-source AI pair programming tool that runs in your terminal and edits code in your local git repository using any LLM.
+description: AI pair programming tool that runs in your terminal and edits code in your local git repository using any LLM.
 categories:
   - coding
   - agents
@@ -21,7 +21,6 @@ features:
   - Map of entire repository for context-aware edits
   - Runs entirely in your terminal, no IDE required
 launch_date: 2023-06
-verified: false
 title: Aider — Coding AI Tool
 image: /assets/images/og/tools/aider.png
 ---

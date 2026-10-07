@@ -23,7 +23,6 @@ features:
   - GitHub sync and one-click deploy
   - Visual editing alongside AI chat
 launch_date: 2024-02
-verified: false
 title: Lovable — Coding AI Tool
 image: /assets/images/og/tools/lovable.png
 ---

@@ -22,7 +22,6 @@ features:
   - Extend and remix generated songs
   - Stems export for professional use (paid plans)
 launch_date: 2024-04
-verified: false
 title: Udio — Audio & Music Generation AI Tool
 image: /assets/images/og/tools/udio.png
 ---

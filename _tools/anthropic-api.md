@@ -22,7 +22,6 @@ features:
   - Streaming and batch APIs
   - Enterprise compliance
 launch_date: 2023-03
-verified: false
 title: Anthropic API — APIs AI Tool
 image: /assets/images/og/tools/anthropic-api.png
 ---

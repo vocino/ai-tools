@@ -22,8 +22,7 @@ features:
   - Inpainting and editing of generated images
   - Canvas for multi-region image composition
 launch_date: 2023-09
-verified: false
 title: Ideogram — Image Generation AI Tool
 image: /assets/images/og/tools/ideogram.png
 ---
-Ideogram is an AI image generation platform founded by former Google Brain researchers, best known for its ability to accurately render readable text within images — a historically difficult problem for generative models. It supports photorealistic, anime, illustration, and design styles, and includes tools like Magic Prompt enhancement and a canvas editor for composing complex images.
+Ideogram is an AI image generation platform founded by former Google Brain researchers, best known for its ability to accurately render readable text within images, a historically difficult problem for generative models. It supports photorealistic, anime, illustration, and design styles, and includes tools like Magic Prompt enhancement and a canvas editor for composing complex images.

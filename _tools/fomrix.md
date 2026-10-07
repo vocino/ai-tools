@@ -15,7 +15,6 @@ modalities:
 pricing: paid
 api: false
 self_hosted: false
-verified: false
 ---
 
 Fomrix creates GLB 3D assets from text prompts or reference images. It also provides browser-based STL, GLB and OBJ viewers, GLB-to-STL conversion, and STL mesh analysis and cleanup. AI generation requires an account and credits; the browser utilities are free. Generated geometry should be checked for scale, wall thickness and print preparation rather than assumed to be manufacturing-ready.

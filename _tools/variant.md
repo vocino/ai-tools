@@ -19,7 +19,6 @@ features:
   - Endless scroll of generated design options from prompts
   - Surprise me mode for rapid visual ideation
   - Web app with Google or email account access
-verified: false
 title: Variant — Design AI Tool
 image: /assets/images/og/tools/variant.png
 ---

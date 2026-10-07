@@ -22,7 +22,6 @@ features:
   - Mobile and web apps
   - Chat with multiple models side by side
 launch_date: 2022-12
-verified: false
 title: Poe — Chat & Conversational AI Tool
 image: /assets/images/og/tools/poe.png
 ---

@@ -25,7 +25,6 @@ features:
   - Artifacts for rich content
   - Constitutional AI safety approach
 launch_date: 2023-03
-verified: false
 title: Claude — Chat & Conversational AI Tool
 image: /assets/images/og/tools/anthropic-claude.png
 ---

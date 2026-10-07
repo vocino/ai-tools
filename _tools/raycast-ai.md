@@ -20,7 +20,6 @@ features:
   - Clipboard and snippet management
   - Window management
 launch_date: 2020-09
-verified: false
 title: Raycast AI — Productivity AI Tool
 image: /assets/images/og/tools/raycast-ai.png
 ---

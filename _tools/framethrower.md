@@ -22,6 +22,5 @@ features:
   - Organise cinematography references into lookbooks
   - Export reference boards as PDF or ZIP files
   - REST API, MCP server, npm SDK, and ComfyUI integration
-verified: false
 ---
 FrameThrower helps filmmakers and advertising creatives find film stills and movie screenshots using AI-powered visual search. Search for cinematography references in natural language, explore lighting and composition, and organise selected frames into lookbooks for pitches and production. Export reference boards as PDFs or ZIP files, or bring search into creative workflows through the REST API, MCP server, npm SDK, and ComfyUI node.

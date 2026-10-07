@@ -21,7 +21,6 @@ features:
   - Available on Hugging Face, Kaggle, and Google AI Studio
   - Fine-tuning support with LoRA and QLoRA
 launch_date: 2024-02
-verified: false
 title: Google Gemma — APIs AI Tool
 image: /assets/images/og/tools/google-gemma.png
 ---

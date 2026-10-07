@@ -23,7 +23,6 @@ features:
   - Video extension and scene transition tools
   - Sound effects and voiceover generation
 launch_date: 2023-11
-verified: false
 title: Pika — Video Generation AI Tool
 image: /assets/images/og/tools/pika.png
 ---

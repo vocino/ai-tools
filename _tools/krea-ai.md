@@ -22,7 +22,6 @@ features:
   - Style transfer and motion tools for consistent characters
   - High-resolution upscaling and enhancement
   - Workspace for organizing projects and iterations
-verified: false
 title: Krea AI — Image Generation AI Tool
 image: /assets/images/og/tools/krea-ai.png
 ---

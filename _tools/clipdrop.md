@@ -21,7 +21,6 @@ features:
   - Stable Diffusion-powered image reimagining
   - Remove text and unwanted objects from photos
 launch_date: 2020-07
-verified: false
 title: Clipdrop — Image Editing AI Tool
 image: /assets/images/og/tools/clipdrop.png
 ---

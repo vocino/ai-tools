@@ -19,7 +19,6 @@ features:
   - Chat workspace with codebase-aware assistance
   - Support for multiple frontier models and multimodal inputs
   - VS Code compatibility with familiar keybindings and extensions
-verified: false
 title: Trae — Coding AI Tool
 image: /assets/images/og/tools/trae.png
 ---

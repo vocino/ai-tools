@@ -23,7 +23,6 @@ features:
   - Function calling and JSON mode support
   - On-premise deployment for enterprise
 launch_date: 2023-09
-verified: false
 title: Mistral AI — Chat & Conversational AI Tool
 image: /assets/images/og/tools/mistral-ai.png
 ---

@@ -24,7 +24,6 @@ features:
   - Permissive community license for commercial use
   - Fine-tunable and deployable on-premise
 launch_date: 2023-07
-verified: false
 title: Meta Llama — APIs AI Tool
 image: /assets/images/og/tools/meta-llama.png
 ---

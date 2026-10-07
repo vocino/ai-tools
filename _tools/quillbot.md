@@ -23,7 +23,6 @@ features:
   - AI humanizer and translator
   - Chrome extension and Word integration
 launch_date: 2017-01
-verified: false
 title: QuillBot — Writing AI Tool
 image: /assets/images/og/tools/quillbot.png
 ---

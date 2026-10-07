@@ -2,7 +2,7 @@
 name: Snack Prompt
 slug: snack-prompt
 website: https://snackprompt.com
-description: Snack Prompt — free community for discovering and sharing snack prompts for ChatGPT, Midjourney & more. Vote, remix, and find top prompts curated by community.
+description: Snack Prompt, free community for discovering and sharing snack prompts for ChatGPT, Midjourney & more. Vote, remix, and find top prompts curated by community.
 categories:
   - prompt-tools
 use_cases:
@@ -20,7 +20,6 @@ features:
   - Multi-tool support
   - Free to use
 launch_date: 2023-04
-verified: false
 title: Snack Prompt — Prompt Engineering AI Tool
 image: /assets/images/og/tools/snack-prompt.png
 ---

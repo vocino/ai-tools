@@ -22,7 +22,6 @@ features:
   - API for external tools
   - LoRA and fine-tuning support
 launch_date: 2023-02
-verified: false
 title: Text Generation WebUI — Chat & Conversational AI Tool
 image: /assets/images/og/tools/oobabooga-text-generation-webui.png
 ---

@@ -22,7 +22,6 @@ features:
   - Available to ChatGPT Plus and Pro subscribers
   - Remix, blend, loop, and cut tools
 launch_date: 2024-12
-verified: false
 title: Sora — Video Generation AI Tool
 image: /assets/images/og/tools/openai-sora.png
 ---

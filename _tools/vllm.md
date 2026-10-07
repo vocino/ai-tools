@@ -21,8 +21,7 @@ features:
   - NVIDIA, AMD, Intel, and more backends
   - Hugging Face model integration
 launch_date: 2023-06
-verified: false
 title: vLLM — APIs AI Tool
 image: /assets/images/og/tools/vllm.png
 ---
-vLLM is a fast and easy-to-use library for LLM inference and serving, originally from UC Berkeley. It delivers state-of-the-art throughput through PagedAttention, continuous batching, speculative decoding, and optimized CUDA kernels. vLLM exposes an OpenAI-compatible API, supports NVIDIA and AMD GPUs, and integrates seamlessly with Hugging Face models. It's widely used for production LLM serving, inference endpoints, and high-performance local deployment of open-source models.
+vLLM is a fast and easy-to-use library for LLM inference and serving, originally from UC Berkeley. It delivers high throughput through PagedAttention, continuous batching, speculative decoding, and optimized CUDA kernels. vLLM exposes an OpenAI-compatible API, supports NVIDIA and AMD GPUs, and integrates seamlessly with Hugging Face models. It's widely used for production LLM serving, inference endpoints, and high-performance local deployment of open-source models.

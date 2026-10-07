@@ -22,7 +22,6 @@ features:
   - Support for 50+ programming languages
   - Built-in deployment and databases
 launch_date: 2016-01
-verified: false
 title: Replit — Coding AI Tool
 image: /assets/images/og/tools/replit.png
 ---

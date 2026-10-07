@@ -20,7 +20,6 @@ features:
   - Voice conversation option
   - Personal assistant use cases
 launch_date: 2023-05
-verified: false
 title: Pi — Chat & Conversational AI Tool
 image: /assets/images/og/tools/pi-inflection.png
 ---

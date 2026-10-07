@@ -21,7 +21,6 @@ features:
   - AI texture generation for existing 3D models
   - Game-ready assets suitable for Unity and Unreal Engine
 launch_date: 2023-04
-verified: false
 title: Meshy — 3D AI Tool
 image: /assets/images/og/tools/meshy.png
 ---

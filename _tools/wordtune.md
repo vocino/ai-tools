@@ -24,7 +24,6 @@ features:
   - Smart translate and synonym generator
   - Chrome extension and mobile apps
 launch_date: 2020-10
-verified: false
 title: Wordtune — Writing AI Tool
 image: /assets/images/og/tools/wordtune.png
 ---

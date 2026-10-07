@@ -2,7 +2,7 @@
 name: Play.ht
 slug: play-ht
 website: https://play.ht
-description: Play.ht — free AI voice generator & voice cloning with 200+ voices. Text-to-speech, playht voice generator & real-time API. Free tier.
+description: Play.ht, free AI voice generator & voice cloning with 200+ voices. Text-to-speech, playht voice generator & real-time API. Free tier.
 categories:
   - speech
   - audio-generation
@@ -23,7 +23,6 @@ features:
   - Real-time voice generation API
   - Free tier available
 launch_date: 2019-01
-verified: false
 title: Play.ht — Speech & Voice AI Tool
 image: /assets/images/og/tools/play-ht.png
 ---

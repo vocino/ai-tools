@@ -2,7 +2,7 @@
 name: Google Veo
 slug: google-veo
 website: https://deepmind.google/technologies/veo/
-description: Google DeepMind's state-of-the-art AI video generation model for creating high-fidelity, realistic video from text and image prompts.
+description: Google DeepMind's AI video generation model for creating high-fidelity, realistic video from text and image prompts.
 categories:
   - video-generation
 use_cases:
@@ -22,7 +22,6 @@ features:
   - Available via Google AI Studio and Gemini API
   - Image-to-video and video extension capabilities
 launch_date: 2024-12
-verified: false
 title: Google Veo — Video Generation AI Tool
 image: /assets/images/og/tools/google-veo.png
 ---

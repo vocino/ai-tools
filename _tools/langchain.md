@@ -2,7 +2,7 @@
 name: LangChain
 slug: langchain
 website: https://langchain.com
-description: Open-source framework for building LLM-powered applications with chains, agents, memory, and retrieval-augmented generation.
+description: framework for building LLM-powered applications with chains, agents, memory, and retrieval-augmented generation.
 categories:
   - agents
   - api-platform
@@ -22,7 +22,6 @@ features:
   - LangGraph for stateful, multi-agent orchestration
   - Integrations with 100+ LLMs, vector stores, and data sources
 launch_date: 2022-10
-verified: false
 title: LangChain — Agents AI Tool
 image: /assets/images/og/tools/langchain.png
 ---

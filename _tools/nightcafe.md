@@ -19,7 +19,6 @@ features:
   - Style presets and settings for fine-tuned results
   - Credit-based system with free daily usage and paid top-ups
   - Web-based studio accessible from desktop and mobile
-verified: false
 title: NightCafe — Image Generation AI Tool
 image: /assets/images/og/tools/nightcafe.png
 ---

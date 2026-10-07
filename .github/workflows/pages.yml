@@ -8,6 +8,11 @@ on:
     branches:
       - main
 
+# Only one Pages deployment can be in flight at a time; rapid merges used to
+# collide in the deploy step. Queued runs now wait their turn.
+concurrency:
+  group: pages-deploy
+
 jobs:
   build:
     runs-on: ubuntu-latest

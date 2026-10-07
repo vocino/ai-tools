@@ -24,7 +24,6 @@ features:
   - Inbound and outbound calls
   - A/B testing and automated testing
 launch_date: 2022-01
-verified: false
 title: Vapi — Speech & Voice AI Tool
 image: /assets/images/og/tools/vapi.png
 ---

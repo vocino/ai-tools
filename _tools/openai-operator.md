@@ -22,8 +22,7 @@ features:
   - Human-in-the-loop for sensitive actions like payments
   - Available to ChatGPT Pro subscribers
 launch_date: 2025-01
-verified: false
 title: Operator — Agents AI Tool
 image: /assets/images/og/tools/openai-operator.png
 ---
-Operator is OpenAI's browser-using AI agent that can navigate websites and complete tasks on your behalf. Powered by the Computer-Using Agent (CUA) model, it can interact with web pages visually — clicking buttons, filling forms, and navigating menus. Operator is designed for real-world tasks like booking reservations, ordering groceries, and filling out applications. It pauses for human confirmation on sensitive actions like payments.
+Operator is OpenAI's browser-using AI agent that can navigate websites and complete tasks on your behalf. Powered by the Computer-Using Agent (CUA) model, it can interact with web pages visually, clicking buttons, filling forms, and navigating menus. Operator is designed for real-world tasks like booking reservations, ordering groceries, and filling out applications. It pauses for human confirmation on sensitive actions like payments.

@@ -23,7 +23,6 @@ features:
   - Free tier with boosted generations
   - Greeting cards, flyers, posters, and more
 launch_date: 2022-10
-verified: false
 title: Microsoft Designer — Image Generation AI Tool
 image: /assets/images/og/tools/microsoft-designer.png
 ---

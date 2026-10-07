@@ -21,7 +21,6 @@ features:
   - OpenAI-compatible API
   - Large ecosystem of community nodes and workflows
 launch_date: 2023-04
-verified: false
 title: ComfyUI — Image Generation AI Tool
 image: /assets/images/og/tools/comfyui.png
 ---

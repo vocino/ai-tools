@@ -22,7 +22,6 @@ features:
   - High Motion mode for dynamic scenes
   - Camera movement controls for cinematic shots
 launch_date: 2024-06
-verified: false
 title: Kling AI — Video Generation AI Tool
 image: /assets/images/og/tools/kling-ai.png
 ---

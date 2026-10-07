@@ -24,7 +24,6 @@ features:
   - Multilingual support
   - Official Mistral interface
 launch_date: 2024-02
-verified: false
 title: Le Chat — Chat & Conversational AI Tool
 image: /assets/images/og/tools/mistral-le-chat.png
 ---

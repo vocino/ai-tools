@@ -23,7 +23,6 @@ features:
   - Multi-source notebooks
   - Supports PDFs, Google Docs, websites, and more
 launch_date: 2023-07
-verified: false
 title: NotebookLM — Research & Analysis AI Tool
 image: /assets/images/og/tools/notebooklm.png
 ---

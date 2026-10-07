@@ -2,7 +2,7 @@
 name: InvokeAI
 slug: invokeai
 website: https://invoke.ai
-description: Free, open-source AI creative engine for image generation with a WebUI, node-based workflows, and layer-based canvas editing.
+description: AI creative engine for image generation with a WebUI, node-based workflows, and layer-based canvas editing.
 categories:
   - image-generation
 use_cases:
@@ -21,7 +21,6 @@ features:
   - Stable Diffusion, SDXL, and other models
   - Active community and Discord
 launch_date: 2022-10
-verified: false
 title: InvokeAI — Image Generation AI Tool
 image: /assets/images/og/tools/invokeai.png
 ---

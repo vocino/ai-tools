@@ -25,7 +25,6 @@ features:
   - Python and JavaScript SDKs with streaming
   - Fine-tuning and evaluation tools
 launch_date: 2025-04
-verified: false
 title: Meta AI — APIs AI Tool
 image: /assets/images/og/tools/meta-ai.png
 ---

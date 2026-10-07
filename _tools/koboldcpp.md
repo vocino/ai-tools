@@ -22,7 +22,6 @@ features:
   - SillyTavern and other frontends
   - Single executable
 launch_date: 2023-04
-verified: false
 title: KoboldCpp — APIs AI Tool
 image: /assets/images/og/tools/koboldcpp.png
 ---

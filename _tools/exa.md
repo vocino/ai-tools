@@ -23,7 +23,6 @@ features:
   - Zero data retention and SOC 2 certified
   - MCP server for AI integrations
 launch_date: 2023-01
-verified: false
 title: Exa — Search & Discovery AI Tool
 image: /assets/images/og/tools/exa.png
 ---

@@ -25,7 +25,6 @@ features:
   - Available on Hugging Face and ModelScope
   - Qwen-Agent framework for tool use and planning
 launch_date: 2023-08
-verified: false
 title: Qwen — Chat & Conversational AI Tool
 image: /assets/images/og/tools/qwen.png
 ---

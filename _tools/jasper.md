@@ -22,7 +22,6 @@ features:
   - Campaign planner for multi-channel marketing
   - Integrations with Surfer SEO, Grammarly, and Copyscape
 launch_date: 2021-01
-verified: false
 title: Jasper — Writing AI Tool
 image: /assets/images/og/tools/jasper.png
 ---

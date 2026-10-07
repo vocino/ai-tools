@@ -22,7 +22,6 @@ features:
   - Multilingual support in 50+ languages
   - Analytics and performance measurement
 launch_date: 2016-01
-verified: false
 title: Ada — Customer Service AI Tool
 image: /assets/images/og/tools/ada.png
 ---

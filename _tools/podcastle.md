@@ -21,7 +21,6 @@ features:
   - Text-based editing, transcription, and filler-word removal
   - Voice cloning and AI-generated host or guest voices
   - Publishing tools for exporting and distributing episodes
-verified: false
 title: Podcastle — Audio & Music Generation AI Tool
 image: /assets/images/og/tools/podcastle.png
 ---

@@ -2,7 +2,7 @@
 name: n8n
 slug: n8n
 website: https://n8n.io
-description: Open-source workflow automation platform with AI nodes for connecting apps and building automations.
+description: workflow automation platform with AI nodes for connecting apps and building automations.
 categories:
   - agents
 use_cases:
@@ -21,7 +21,6 @@ features:
   - Self-hosted option
   - Code and HTTP nodes
 launch_date: 2019-10
-verified: false
 title: n8n — Agents AI Tool
 image: /assets/images/og/tools/n8n.png
 ---

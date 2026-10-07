@@ -2,7 +2,7 @@
 name: Jan
 slug: jan
 website: https://jan.ai
-description: Open-source ChatGPT alternative that runs locally with support for local and remote models.
+description: ChatGPT alternative that runs locally with support for local and remote models.
 categories:
   - chat
 use_cases:
@@ -22,7 +22,6 @@ features:
   - Cross-platform desktop app
   - Model management
 launch_date: 2023-06
-verified: false
 title: Jan — Chat & Conversational AI Tool
 image: /assets/images/og/tools/jan.png
 ---

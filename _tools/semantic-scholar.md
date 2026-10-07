@@ -21,7 +21,6 @@ features:
   - Author and venue information
   - Free API for developers
 launch_date: 2015-11
-verified: false
 title: Semantic Scholar — Research & Analysis AI Tool
 image: /assets/images/og/tools/semantic-scholar.png
 ---

@@ -18,8 +18,7 @@ features:
   - Explanations and guidance tailored to each study set
   - Smart suggestions for what to review next
   - Mobile and web apps used by millions of learners
-  - Premium plans that unlock advanced AI-powered study tools
-verified: false
+  - Premium plans with advanced AI-powered study tools
 title: Quizlet (AI Features) — Education AI Tool
 image: /assets/images/og/tools/quizlet-ai.png
 ---

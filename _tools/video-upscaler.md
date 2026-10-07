@@ -16,7 +16,6 @@ self_hosted: false
 features:
   - AI video upscaling
   - Video clarity enhancement
-verified: false
 title: Video Upscaler — Video Editing AI Tool
 image: /assets/images/og/tools/video-upscaler.png
 ---

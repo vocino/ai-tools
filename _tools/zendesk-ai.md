@@ -22,7 +22,6 @@ features:
   - Intent and sentiment detection
   - Trained on billions of customer service interactions
 launch_date: 2023-05
-verified: false
 title: Zendesk AI — Customer Service AI Tool
 image: /assets/images/og/tools/zendesk-ai.png
 ---

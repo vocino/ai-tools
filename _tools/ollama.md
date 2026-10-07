@@ -23,7 +23,6 @@ features:
   - GPU acceleration (NVIDIA, Apple Silicon)
   - Modelfile customization
 launch_date: 2023-08
-verified: false
 title: Ollama — APIs AI Tool
 image: /assets/images/og/tools/ollama.png
 ---

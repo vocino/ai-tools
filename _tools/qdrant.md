@@ -2,7 +2,7 @@
 name: Qdrant
 slug: qdrant
 website: https://qdrant.io
-description: Open-source vector database and cloud service for high-performance similarity search in AI applications.
+description: vector database and cloud service for high-performance similarity search in AI applications.
 categories:
   - api-platform
   - data-analysis
@@ -21,7 +21,6 @@ features:
   - Support for quantization, sharding, and multi-tenant setups
   - REST and gRPC APIs with client libraries for major languages
   - Integrations with popular embedding models and AI frameworks
-verified: false
 title: Qdrant — APIs AI Tool
 image: /assets/images/og/tools/qdrant.png
 ---

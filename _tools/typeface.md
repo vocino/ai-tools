@@ -22,7 +22,6 @@ features:
   - Agents and spaces for planning, approvals, and publishing
   - Connectors and APIs to integrate with existing martech stacks
   - Governance, compliance, and security controls for large organizations
-verified: false
 title: Typeface — Writing AI Tool
 image: /assets/images/og/tools/typeface.png
 ---

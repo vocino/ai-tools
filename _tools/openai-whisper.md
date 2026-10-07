@@ -23,7 +23,6 @@ features:
   - Available via OpenAI API and as open-source model
   - Runs locally on consumer hardware
 launch_date: 2022-09
-verified: false
 title: Whisper — Speech & Voice AI Tool
 image: /assets/images/og/tools/openai-whisper.png
 ---

@@ -21,7 +21,6 @@ features:
   - Design system and components
   - Collaboration features
 launch_date: 2018-05
-verified: false
 title: Uizard — Design AI Tool
 image: /assets/images/og/tools/uizard.png
 ---

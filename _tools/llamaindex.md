@@ -2,7 +2,7 @@
 name: LlamaIndex
 slug: llamaindex
 website: https://www.llamaindex.ai
-description: Open-source data framework for building RAG and LLM-powered applications that connect to custom data sources.
+description: data framework for building RAG and LLM-powered applications that connect to custom data sources.
 categories:
   - agents
   - api-platform
@@ -23,7 +23,6 @@ features:
   - LlamaCloud managed service for production RAG
   - Supports all major LLM providers
 launch_date: 2022-11
-verified: false
 title: LlamaIndex — Agents AI Tool
 image: /assets/images/og/tools/llamaindex.png
 ---

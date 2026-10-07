@@ -2,7 +2,7 @@
 name: Chroma
 slug: chroma
 website: https://www.trychroma.com
-description: Open-source AI-native embedding database for building LLM applications with simple APIs for storage and retrieval.
+description: AI-native embedding database for building LLM applications with simple APIs for storage and retrieval.
 categories:
   - api-platform
   - data-analysis
@@ -21,7 +21,6 @@ features:
   - Runs in-memory, on-disk, or as a server
   - Python and JavaScript client libraries
 launch_date: 2022-10
-verified: false
 title: Chroma — APIs AI Tool
 image: /assets/images/og/tools/chroma.png
 ---

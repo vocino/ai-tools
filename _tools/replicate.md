@@ -23,7 +23,6 @@ features:
   - Cog open-source tool for packaging models
   - Pay only for compute time used
 launch_date: 2021-01
-verified: false
 title: Replicate — APIs AI Tool
 image: /assets/images/og/tools/replicate.png
 ---

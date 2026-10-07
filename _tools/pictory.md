@@ -25,7 +25,6 @@ features:
   - PPT to video conversion
   - AI avatars
 launch_date: 2021-06
-verified: false
 title: Pictory — Video Generation AI Tool
 image: /assets/images/og/tools/pictory.png
 ---

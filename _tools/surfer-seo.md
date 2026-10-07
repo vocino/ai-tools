@@ -20,7 +20,6 @@ features:
   - Topic and keyword research based on competing pages
   - Internal linking and content auditing tools
   - Team collaboration and workspace management for agencies
-verified: false
 title: Surfer — Marketing & Sales AI Tool
 image: /assets/images/og/tools/surfer-seo.png
 ---

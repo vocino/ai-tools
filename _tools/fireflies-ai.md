@@ -23,7 +23,6 @@ features:
   - Search across meetings
   - Team collaboration
 launch_date: 2019-06
-verified: false
 title: Fireflies.ai — Productivity AI Tool
 image: /assets/images/og/tools/fireflies-ai.png
 ---

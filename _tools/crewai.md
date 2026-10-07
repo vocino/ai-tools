@@ -22,7 +22,6 @@ features:
   - Python framework
   - Cloud and self-hosted
 launch_date: 2023-10
-verified: false
 title: CrewAI — Agents AI Tool
 image: /assets/images/og/tools/crewai.png
 ---

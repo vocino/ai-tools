@@ -20,7 +20,6 @@ features:
   - Video and voice-based conversation features for select languages
   - Adaptive difficulty aligned with your course progress
   - Integrated into the main Duolingo app experience
-verified: false
 title: Duolingo Max — Education AI Tool
 image: /assets/images/og/tools/duolingo-max.png
 ---

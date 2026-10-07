@@ -20,6 +20,5 @@ features:
   - Step-by-step explanations for typed math questions
   - Photo upload for solving problems from images
   - Coverage for algebra, calculus, geometry, trigonometry, and statistics
-verified: false
 ---
 Math AI is a browser-based math assistant for students and independent learners. Type a problem or upload a photo to get a structured explanation that shows the reasoning process rather than only the final answer. It supports common school and university topics and offers free credits without requiring registration.

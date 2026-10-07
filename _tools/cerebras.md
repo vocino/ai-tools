@@ -19,7 +19,6 @@ features:
   - Optimized infrastructure for lower cost per token
   - Support for multiple model sizes and capabilities
   - Monitoring, logging, and quota controls for production workloads
-verified: false
 title: Cerebras Inference — APIs AI Tool
 image: /assets/images/og/tools/cerebras.png
 ---

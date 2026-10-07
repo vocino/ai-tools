@@ -24,7 +24,6 @@ features:
   - On-premises deployment
   - 23+ languages
 launch_date: 2020-01
-verified: false
 title: Resemble AI — Speech & Voice AI Tool
 image: /assets/images/og/tools/resemble-ai.png
 ---

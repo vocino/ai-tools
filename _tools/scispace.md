@@ -20,7 +20,6 @@ features:
   - Tools for literature reviews, topic discovery, and citation management
   - AI writing assistance tuned for academic workflows
   - Browser extension and apps to bring tools into existing workflows
-verified: false
 title: SciSpace — Research & Analysis AI Tool
 image: /assets/images/og/tools/scispace.png
 ---

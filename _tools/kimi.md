@@ -22,7 +22,6 @@ features:
   - Websites, docs, slides, sheets integration
   - Deep Research mode
 launch_date: 2023-10
-verified: false
 title: Kimi — Chat & Conversational AI Tool
 image: /assets/images/og/tools/kimi.png
 ---

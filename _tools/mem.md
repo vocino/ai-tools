@@ -20,7 +20,6 @@ features:
   - Email and calendar integration
   - Second brain concept
 launch_date: 2020-05
-verified: false
 title: Mem — Productivity AI Tool
 image: /assets/images/og/tools/mem.png
 ---

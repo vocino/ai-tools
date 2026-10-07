@@ -22,7 +22,6 @@ features:
   - Team collaboration
   - Brand consistency
 launch_date: 2015-11
-verified: false
 title: Beautiful.ai — Design AI Tool
 image: /assets/images/og/tools/beautiful-ai.png
 ---

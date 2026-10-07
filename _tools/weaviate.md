@@ -2,7 +2,7 @@
 name: Weaviate
 slug: weaviate
 website: https://weaviate.io
-description: Open-source vector database and cloud service for building semantic search, RAG, and AI applications.
+description: vector database and cloud service for building semantic search, RAG, and AI applications.
 categories:
   - api-platform
 use_cases:
@@ -22,7 +22,6 @@ features:
   - Support for multi-tenant and high-scale deployments
   - SDKs and clients for popular languages and frameworks
   - Integrations with major LLM and embedding providers
-verified: false
 title: Weaviate — APIs AI Tool
 image: /assets/images/og/tools/weaviate.png
 ---

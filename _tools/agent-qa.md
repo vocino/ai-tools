@@ -21,7 +21,6 @@ features:
   - CLI, MCP, and agent-skill interfaces
   - Retained steps, screenshots, logs, and pass/fail results
   - Execution memory for adapting subsequent runs to UI changes
-verified: false
 ---
 Agent QA is an application-testing agent and harness for running repeatable regression journeys from local development, CI, or post-deployment workflows. The package has no software fee for permitted use, while configured model, browser, or device providers may charge separately.
 

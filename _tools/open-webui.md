@@ -24,7 +24,6 @@ features:
   - Enterprise SSO, RBAC, audit logs
   - Open-source on GitHub
 launch_date: 2023-08
-verified: false
 title: Open WebUI — Chat & Conversational AI Tool
 image: /assets/images/og/tools/open-webui.png
 ---

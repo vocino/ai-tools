@@ -23,7 +23,6 @@ features:
   - Share clips and notes
   - Free for individuals
 launch_date: 2021-03
-verified: false
 title: Fathom — Productivity AI Tool
 image: /assets/images/og/tools/fathom.png
 ---

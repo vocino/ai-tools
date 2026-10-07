@@ -20,7 +20,6 @@ features:
   - Study Snapshot with key details at a glance
   - Copilot for synthesizing evidence on complex questions
 launch_date: 2022-02
-verified: false
 title: Consensus — Search & Discovery AI Tool
 image: /assets/images/og/tools/consensus.png
 ---

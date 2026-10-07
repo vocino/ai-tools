@@ -21,7 +21,6 @@ features:
   - Motion for generating short video clips from images
   - 150 free tokens daily on the free plan
 launch_date: 2023-03
-verified: false
 title: Leonardo.ai — Image Generation AI Tool
 image: /assets/images/og/tools/leonardo-ai.png
 ---

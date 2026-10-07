@@ -22,7 +22,6 @@ features:
   - Direct connections to data warehouses and databases
   - Scheduled reports and interactive dashboards
 launch_date: 2020-01
-verified: false
 title: Hex — Data & Analytics AI Tool
 image: /assets/images/og/tools/hex.png
 ---

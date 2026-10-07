@@ -20,7 +20,6 @@ features:
   - IDE integrations (VS Code, JetBrains, Neovim)
   - Pull request summaries
 launch_date: 2021-10
-verified: false
 title: GitHub Copilot — Coding AI Tool
 image: /assets/images/og/tools/github-copilot.png
 ---

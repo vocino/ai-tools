@@ -21,7 +21,6 @@ features:
   - Tool calling and agent framework
   - Built-in support for RAG patterns
 launch_date: 2023-06
-verified: false
 title: Vercel AI SDK — APIs AI Tool
 image: /assets/images/og/tools/vercel-ai-sdk.png
 ---

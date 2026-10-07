@@ -22,7 +22,6 @@ features:
   - Large context understanding across entire codebases
   - Supports Claude Opus and Sonnet models
 launch_date: 2025-02
-verified: false
 title: Claude Code — Coding AI Tool
 image: /assets/images/og/tools/claude-code.png
 ---

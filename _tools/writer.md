@@ -21,7 +21,6 @@ features:
   - Playbooks and workflows for repeatable business processes
   - Integrations with productivity, CRM, and support tools
   - Governance, security, and compliance controls for large organizations
-verified: false
 title: Writer — Writing AI Tool
 image: /assets/images/og/tools/writer.png
 ---

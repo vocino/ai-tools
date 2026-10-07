@@ -18,7 +18,6 @@ features:
   - Real-time collaboration and commenting
   - Version history and publishing with shareable links
   - Access to advanced models on paid plans
-verified: false
 title: Lex — Writing AI Tool
 image: /assets/images/og/tools/lex.png
 ---

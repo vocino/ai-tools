@@ -23,7 +23,6 @@ features:
   - Raster and vector output
   - V3 model for photorealistic images
 launch_date: 2023-06
-verified: false
 title: Recraft — Image Generation AI Tool
 image: /assets/images/og/tools/recraft.png
 ---

@@ -25,7 +25,6 @@ features:
   - Research and document creation
   - Sandboxed virtual machine environment with internet access
 launch_date: 2025-03
-verified: false
 title: Manus — Agents AI Tool
 image: /assets/images/og/tools/manus.png
 ---

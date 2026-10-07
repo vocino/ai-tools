@@ -19,7 +19,6 @@ features:
   - Works across major languages and IDEs
   - Lightweight extension
 launch_date: 2024-01
-verified: false
 title: Supermaven — Coding AI Tool
 image: /assets/images/og/tools/supermaven.png
 ---

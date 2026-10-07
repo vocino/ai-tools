@@ -22,7 +22,6 @@ features:
   - Available via OpenAI API for developers
   - Style and composition control through natural language
 launch_date: 2021-01
-verified: false
 title: DALL-E — Image Generation AI Tool
 image: /assets/images/og/tools/openai-dall-e.png
 ---

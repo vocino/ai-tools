@@ -2,7 +2,7 @@
 name: Spline AI
 slug: spline-ai
 website: https://spline.design
-description: Spline AI — AI 3D design tool for text-to-3D, AI texture generation & real-time collaboration. Browser-based spline ai editor for interactive 3D on the web.
+description: Spline AI, AI 3D design tool for text-to-3D, AI texture generation & real-time collaboration. Browser-based spline ai editor for interactive 3D on the web.
 categories:
   - 3d
   - design
@@ -23,7 +23,6 @@ features:
   - Interactive 3D embeds for websites
   - Animation and physics simulation
 launch_date: 2020-01
-verified: false
 title: Spline AI — 3D AI Tool
 image: /assets/images/og/tools/spline-ai.png
 ---

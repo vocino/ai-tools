@@ -23,8 +23,7 @@ features:
   - Brand kit, templates, and screen recording
   - Expressive Avatars with full-body gestures
 launch_date: 2019-09
-verified: false
 title: Synthesia — Video Generation AI Tool
 image: /assets/images/og/tools/synthesia.png
 ---
-Synthesia is a pioneering AI video generation platform founded in 2019, focused on enterprise use cases like employee training, product demos, and marketing content. It allows users to create professional videos by typing a script — no cameras, studios, or actors required. Synthesia's AI avatars are known for their lifelike quality and natural expressions, and it supports scripts in 140+ languages.
+Synthesia is a pioneering AI video generation platform founded in 2019, focused on enterprise use cases like employee training, product demos, and marketing content. It allows users to create professional videos by typing a script, no cameras, studios, or actors required. Synthesia's AI avatars are known for their lifelike quality and natural expressions, and it supports scripts in 140+ languages.

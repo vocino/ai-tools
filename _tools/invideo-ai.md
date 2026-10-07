@@ -24,7 +24,6 @@ features:
   - AI script and storyboard
   - Social media formats
 launch_date: 2023-04
-verified: false
 title: InVideo AI — Video Generation AI Tool
 image: /assets/images/og/tools/invideo-ai.png
 ---

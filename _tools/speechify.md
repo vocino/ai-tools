@@ -20,7 +20,6 @@ features:
   - Adjustable playback speed and cross-device sync
   - Mobile, desktop, and browser extension support
   - API access for developers and enterprise integrations
-verified: false
 title: Speechify — Speech & Voice AI Tool
 image: /assets/images/og/tools/speechify.png
 ---

@@ -22,7 +22,6 @@ features:
   - Responsive layouts
   - Hosting and domains
 launch_date: 2012-01
-verified: false
 title: Framer AI — Design AI Tool
 image: /assets/images/og/tools/framer-ai.png
 ---

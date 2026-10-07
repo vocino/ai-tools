@@ -22,7 +22,6 @@ features:
   - Dataset management for testing and fine-tuning
   - Works with any LLM framework (not just LangChain)
 launch_date: 2023-07
-verified: false
 title: LangSmith — APIs AI Tool
 image: /assets/images/og/tools/langsmith.png
 ---

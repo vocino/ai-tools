@@ -22,7 +22,6 @@ features:
   - Draft meeting notes, action items, and documents
   - Available on all Notion plans
 launch_date: 2023-02
-verified: false
 title: Notion AI — Writing AI Tool
 image: /assets/images/og/tools/notion-ai.png
 ---

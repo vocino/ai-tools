@@ -21,7 +21,6 @@ features:
   - Open weights for self-hosting
   - Available via Replicate, fal.ai, and other platforms
 launch_date: 2024-08
-verified: false
 title: Flux — Image Generation AI Tool
 image: /assets/images/og/tools/flux.png
 ---

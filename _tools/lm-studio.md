@@ -22,7 +22,6 @@ features:
   - Chat UI for testing
   - GGUF and other formats
 launch_date: 2023-08
-verified: false
 title: LM Studio — Chat & Conversational AI Tool
 image: /assets/images/og/tools/lm-studio.png
 ---

@@ -22,7 +22,6 @@ features:
   - Parental controls and moderation
   - Free for teachers, $4/month for learners
 launch_date: 2023-03
-verified: false
 title: Khanmigo — Education AI Tool
 image: /assets/images/og/tools/khanmigo.png
 ---

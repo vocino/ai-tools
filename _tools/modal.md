@@ -22,7 +22,6 @@ features:
   - Built-in storage and multi-cloud capacity
   - $30/month free compute
 launch_date: 2022-01
-verified: false
 title: Modal — APIs AI Tool
 image: /assets/images/og/tools/modal.png
 ---

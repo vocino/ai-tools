@@ -57,9 +57,6 @@ features:
 
 # Optional: Launch date (YYYY-MM format)
 launch_date: "2024-01"
-
-# Optional: Has this tool been verified by a maintainer?
-verified: false
 ---
 Optional longer description in Markdown. Use this space for additional details,
 use cases, comparisons, or notes. This content appears on the tool's detail page

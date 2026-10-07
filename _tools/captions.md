@@ -21,7 +21,6 @@ features:
   - Dubbing, voice enhancement, and audio cleanup
   - Templates and tools for short-form, social, and UGC content
   - Mobile and desktop apps with cloud sync
-verified: false
 title: Captions — Video Editing AI Tool
 image: /assets/images/og/tools/captions.png
 ---

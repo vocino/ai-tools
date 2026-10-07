@@ -24,7 +24,6 @@ features:
   - Magic Resize for adapting designs across formats
   - Dream Lab for advanced image generation
 launch_date: 2013-08
-verified: false
 title: Canva — Design AI Tool
 image: /assets/images/og/tools/canva.png
 ---

@@ -21,7 +21,6 @@ features:
   - Influence feature to guide composition with reference tracks
   - Commercial licensing on paid plans
 launch_date: 2016-02
-verified: false
 title: AIVA — Audio & Music Generation AI Tool
 image: /assets/images/og/tools/aiva.png
 ---

@@ -22,7 +22,6 @@ features:
   - Code integration and contextual analysis
   - Pro tier with GPT-4o and Claude 3.5 Sonnet access
 launch_date: 2022-01
-verified: false
 title: Phind — Search & Discovery AI Tool
 image: /assets/images/og/tools/phind.png
 ---

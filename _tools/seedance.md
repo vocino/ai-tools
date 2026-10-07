@@ -23,7 +23,6 @@ features:
   - Motion editing controls for cinematic direction
   - Identity verification for avatar creation
 launch_date: 2025-10
-verified: false
 title: Seedance — Video Generation AI Tool
 image: /assets/images/og/tools/seedance.png
 ---

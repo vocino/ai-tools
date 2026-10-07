@@ -20,7 +20,6 @@ features:
   - Integration with Google Calendar and project tools
   - Team scheduling and workload balancing
 launch_date: 2020-01
-verified: false
 title: Reclaim AI — Productivity AI Tool
 image: /assets/images/og/tools/reclaim-ai.png
 ---

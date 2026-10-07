@@ -25,7 +25,6 @@ features:
   - REST API with sync and async modes
   - Pay-per-output and dedicated GPU options
 launch_date: 2023-01
-verified: false
 title: fal.ai — APIs AI Tool
 image: /assets/images/og/tools/fal-ai.png
 ---

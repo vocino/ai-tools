@@ -2,7 +2,7 @@
 name: LocalAI
 slug: localai
 website: https://localai.io
-description: Free, open-source drop-in replacement for OpenAI and Anthropic APIs that runs LLMs, image models, and audio locally.
+description: drop-in replacement for OpenAI and Anthropic APIs that runs LLMs, image models, and audio locally.
 categories:
   - api-platform
   - chat
@@ -25,7 +25,6 @@ features:
   - Docker, Kubernetes, and binary deployment
   - Model Context Protocol (MCP) support
 launch_date: 2023-05
-verified: false
 title: LocalAI — APIs AI Tool
 image: /assets/images/og/tools/localai.png
 ---

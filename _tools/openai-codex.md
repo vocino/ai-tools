@@ -22,7 +22,6 @@ features:
   - Cloud-based parallel task execution
   - Integrated with OpenAI API and ChatGPT Pro
 launch_date: 2025-05
-verified: false
 title: Codex — Coding AI Tool
 image: /assets/images/og/tools/openai-codex.png
 ---

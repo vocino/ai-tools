@@ -21,7 +21,6 @@ features:
   - High-quality output
   - API for developers
 launch_date: 2023-09
-verified: false
 title: Stable Audio — Audio & Music Generation AI Tool
 image: /assets/images/og/tools/stability-stable-audio.png
 ---

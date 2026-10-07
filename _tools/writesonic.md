@@ -23,7 +23,6 @@ features:
   - Automated technical SEO fixes
   - 100+ source-backed articles with fact-checking
 launch_date: 2021-02
-verified: false
 title: WriteSonic — Writing AI Tool
 image: /assets/images/og/tools/writesonic.png
 ---

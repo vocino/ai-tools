@@ -23,7 +23,6 @@ features:
   - Workflows, quality controls, and analytics for large datasets
   - APIs and SDKs to integrate labeling and evaluation into pipelines
   - Support for enterprise security, compliance, and governance
-verified: false
 title: Scale AI — APIs AI Tool
 image: /assets/images/og/tools/scale-ai.png
 ---

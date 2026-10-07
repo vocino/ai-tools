@@ -23,7 +23,6 @@ features:
   - Built-in monitoring and usage analytics
   - Network optimization for Chinese developers
 launch_date: 2025-12
-verified: false
 title: CoderPlan — APIs AI Tool
 image: /assets/images/og/tools/coderplan.png
 ---

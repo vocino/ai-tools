@@ -23,7 +23,6 @@ features:
   - Reference-image workflows
   - Natural-language editing and refinement
   - Aspect-ratio and resolution controls
-verified: false
 title: PixMind — AI Image and Video Creation Tool
 ---
 PixMind combines image and video generation with editing in a browser-based workspace. Creators can work from prompts or reference images, choose aspect ratio and resolution, and refine outputs with natural-language edits. It is useful for campaign visuals, product imagery, storyboards, and short-form video concepts.

@@ -23,7 +23,6 @@ features:
   - Code execution in sandboxed environments
   - Integration with any LLM provider
 launch_date: 2023-09
-verified: false
 title: AutoGen — Agents AI Tool
 image: /assets/images/og/tools/autogen.png
 ---

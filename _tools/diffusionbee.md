@@ -22,7 +22,6 @@ features:
   - Image upscaling and video tools
   - Stable Diffusion and Flux support
 launch_date: 2022-08
-verified: false
 title: DiffusionBee — Image Generation AI Tool
 image: /assets/images/og/tools/diffusionbee.png
 ---

@@ -20,7 +20,6 @@ features:
   - Install and run npm packages live
   - One-click deploy to Netlify or other hosts
 launch_date: 2024-10
-verified: false
 title: Bolt.new — Coding AI Tool
 image: /assets/images/og/tools/bolt.png
 ---

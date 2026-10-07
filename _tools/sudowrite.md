@@ -20,7 +20,6 @@ features:
   - Tone and style customization
   - Brainstorming and plot development assistance
 launch_date: 2021-01
-verified: false
 title: Sudowrite — Writing AI Tool
 image: /assets/images/og/tools/sudowrite.png
 ---

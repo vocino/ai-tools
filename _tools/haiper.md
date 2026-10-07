@@ -2,7 +2,7 @@
 name: Haiper
 slug: haiper
 website: https://haiper.ai
-description: Free AI video generation from text and image prompts with high-quality output and easy sharing.
+description: AI video generation from text and image prompts with high-quality output and easy sharing.
 categories:
   - video-generation
 use_cases:
@@ -22,7 +22,6 @@ features:
   - Free tier with daily credits
   - Web-based interface
 launch_date: 2024-01
-verified: false
 title: Haiper — Video Generation AI Tool
 image: /assets/images/og/tools/haiper.png
 ---

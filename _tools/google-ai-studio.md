@@ -24,7 +24,6 @@ features:
   - One-click export to Python, JavaScript, or curl
   - Access to Gemini 1.5 Pro with 1M token context
 launch_date: 2023-12
-verified: false
 title: Google AI Studio — APIs AI Tool
 image: /assets/images/og/tools/google-ai-studio.png
 ---

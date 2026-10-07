@@ -22,8 +22,7 @@ features:
   - Style guides for team-wide consistency
   - Works in 500,000+ apps via browser extension
 launch_date: 2009-07
-verified: false
 title: Grammarly — Writing AI Tool
 image: /assets/images/og/tools/grammarly.png
 ---
-Grammarly is an AI-powered writing assistant that helps over 30 million people write with confidence every day. Originally focused on grammar and spelling correction, it now offers comprehensive suggestions for clarity, engagement, and tone, along with GrammarlyGO — a generative AI feature for drafting, rewriting, and summarizing text. It works across browsers, Microsoft Office, Google Docs, and mobile.
+Grammarly is an AI-powered writing assistant that helps over 30 million people write with confidence every day. Originally focused on grammar and spelling correction, it now offers comprehensive suggestions for clarity, engagement, and tone, along with GrammarlyGO, a generative AI feature for drafting, rewriting, and summarizing text. It works across browsers, Microsoft Office, Google Docs, and mobile.

@@ -2,7 +2,7 @@
 name: DeepSeek
 slug: deepseek
 website: https://www.deepseek.com
-description: Open-source AI lab offering powerful reasoning and coding models with competitive performance at low cost.
+description: AI lab offering powerful reasoning and coding models with competitive performance at low cost.
 categories:
   - chat
   - coding
@@ -24,7 +24,6 @@ features:
   - Web-based chat interface
   - API compatible with OpenAI format
 launch_date: 2023-11
-verified: false
 title: DeepSeek — Chat & Conversational AI Tool
 image: /assets/images/og/tools/deepseek.png
 ---

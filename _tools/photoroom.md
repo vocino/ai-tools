@@ -23,7 +23,6 @@ features:
   - AI retouching and shadow generation
   - API for e-commerce platform integration
 launch_date: 2020-01
-verified: false
 title: Photoroom — Image Editing AI Tool
 image: /assets/images/og/tools/photoroom.png
 ---

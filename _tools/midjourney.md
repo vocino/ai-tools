@@ -20,7 +20,6 @@ features:
   - Image variation and upscaling
   - Community gallery and prompts
 launch_date: 2022-07
-verified: false
 title: Midjourney — Image Generation AI Tool
 image: /assets/images/og/tools/midjourney.png
 ---

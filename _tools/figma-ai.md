@@ -21,7 +21,6 @@ features:
   - Automation and plugins
   - Collaborative design platform
 launch_date: 2016-09
-verified: false
 title: Figma AI — Design AI Tool
 image: /assets/images/og/tools/figma-ai.png
 ---

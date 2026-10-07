@@ -2,7 +2,7 @@
 name: SuperAGI
 slug: superagi
 website: https://superagi.com
-description: Open-source autonomous AI framework for building and running multi-agent systems.
+description: autonomous AI framework for building and running multi-agent systems.
 categories:
   - agents
 use_cases:
@@ -21,7 +21,6 @@ features:
   - Self-hosted deployment
   - Enterprise features
 launch_date: 2023-06
-verified: false
 title: SuperAGI — Agents AI Tool
 image: /assets/images/og/tools/superagi.png
 ---

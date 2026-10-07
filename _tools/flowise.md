@@ -2,7 +2,7 @@
 name: Flowise
 slug: flowise
 website: https://flowiseai.com
-description: Open-source visual platform for building AI agents, chatbots, and LangChain workflows with drag-and-drop.
+description: visual platform for building AI agents, chatbots, and LangChain workflows with drag-and-drop.
 categories:
   - agents
   - api-platform
@@ -24,7 +24,6 @@ features:
   - APIs, SDKs, and embeddable chat widget
   - Cloud and on-premises deployment
 launch_date: 2023-05
-verified: false
 title: Flowise — Agents AI Tool
 image: /assets/images/og/tools/flowise.png
 ---

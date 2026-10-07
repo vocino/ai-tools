@@ -21,7 +21,6 @@ features:
   - Free tier with select open-source models
   - Real-time pricing comparison across providers
 launch_date: 2023-06
-verified: false
 title: OpenRouter — APIs AI Tool
 image: /assets/images/og/tools/openrouter.png
 ---

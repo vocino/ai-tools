@@ -3,7 +3,7 @@ published: true
 name: Classify Agent Pixel
 slug: classify-agent-pixel
 website: https://tryclassify.com
-description: Free pixel that detects AI agent traffic on your site and estimates revenue potential from monetizing it.
+description: pixel that detects AI agent traffic on your site and estimates revenue potential from monetizing it.
 categories:
   - agents
   - marketing
@@ -23,7 +23,6 @@ features:
   - Revenue potential calculator based on your traffic volume and content vertical
   - Segments agent vs. human traffic
 launch_date: 2026-02
-verified: false
 title: Classify Agent Pixel — Agents AI Tool
 image: /assets/images/og/tools/classify-agent-pixel.png
 ---

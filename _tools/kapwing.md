@@ -21,7 +21,6 @@ features:
   - Smart resizing, clipping, and repurposing for multiple platforms
   - Collaborative workspaces for teams and agencies
   - Exports up to 4K with brand assets and style presets
-verified: false
 title: Kapwing — Video Editing AI Tool
 image: /assets/images/og/tools/kapwing.png
 ---

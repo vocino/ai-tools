@@ -22,7 +22,6 @@ features:
   - Real-time index updates at scale
   - Free tier with 2GB storage
 launch_date: 2021-01
-verified: false
 title: Pinecone — APIs AI Tool
 image: /assets/images/og/tools/pinecone.png
 ---

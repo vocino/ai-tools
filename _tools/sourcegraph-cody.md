@@ -21,7 +21,6 @@ features:
   - Self-hosted option for enterprises
   - Works with private repos
 launch_date: 2023-03
-verified: false
 title: Sourcegraph Cody — Coding AI Tool
 image: /assets/images/og/tools/sourcegraph-cody.png
 ---

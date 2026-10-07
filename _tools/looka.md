@@ -19,7 +19,6 @@ features:
   - Logo files in multiple formats and resolutions
   - Website and brand collateral options on subscription plans
   - Simple guided flow for non-designers starting a brand
-verified: false
 title: Looka — Design AI Tool
 image: /assets/images/og/tools/looka.png
 ---

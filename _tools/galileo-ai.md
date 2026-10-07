@@ -23,7 +23,6 @@ features:
   - Rapid concept exploration
   - Free tier with 150 credits
 launch_date: 2023-06
-verified: false
 title: Galileo AI — Design AI Tool
 image: /assets/images/og/tools/galileo-ai.png
 ---

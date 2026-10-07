@@ -22,7 +22,6 @@ features:
   - Open-source and extensible with tool plugins
   - MCP (Model Context Protocol) support
 launch_date: 2025-06
-verified: false
 title: Gemini CLI — Coding AI Tool
 image: /assets/images/og/tools/gemini-cli.png
 ---

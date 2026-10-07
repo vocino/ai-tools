@@ -20,7 +20,6 @@ features:
   - APIs, webhooks, and embeddings for deep integrations
   - Human-in-the-loop approvals and audit trails
   - Templates for sales, support, recruiting, and operations
-verified: false
 title: Lindy — Agents AI Tool
 image: /assets/images/og/tools/lindy-ai.png
 ---

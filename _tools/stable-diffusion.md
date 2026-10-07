@@ -2,7 +2,7 @@
 name: Stable Diffusion
 slug: stable-diffusion
 website: https://stability.ai
-description: Stable Diffusion — open-source AI image generation model. Run locally or in cloud, ControlNet, inpainting & LoRA. Self-hosted, extensible community.
+description: Stable Diffusion, open-source AI image generation model. Run locally or in cloud, ControlNet, inpainting & LoRA. Self-hosted, extensible community.
 categories:
   - image-generation
 use_cases:
@@ -21,7 +21,6 @@ features:
   - Inpainting and outpainting
   - Active community and extensions
 launch_date: 2022-08
-verified: false
 title: Stable Diffusion — Image Generation AI Tool
 image: /assets/images/og/tools/stable-diffusion.png
 ---

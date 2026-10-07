@@ -23,7 +23,6 @@ features:
   - Collaborative dashboards and reports
   - Sweeps for hyperparameter optimization
 launch_date: 2018-01
-verified: false
 title: Weights & Biases — Data & Analytics AI Tool
 image: /assets/images/og/tools/wandb.png
 ---

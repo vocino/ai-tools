@@ -21,7 +21,6 @@ features:
   - Split inbox with AI-powered triage
   - Keyboard-first design for speed
 launch_date: 2017-01
-verified: false
 title: Superhuman — Productivity AI Tool
 image: /assets/images/og/tools/superhuman.png
 ---

@@ -21,7 +21,6 @@ features:
   - Cross-platform desktop app
   - Python bindings
 launch_date: 2023-03
-verified: false
 title: GPT4All — Chat & Conversational AI Tool
 image: /assets/images/og/tools/gpt4all.png
 ---

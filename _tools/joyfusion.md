@@ -2,7 +2,7 @@
 name: JoyFusion
 slug: joyfusion
 website: https://joyfusion.app
-description: JoyFusion AI — native Mac/iPad app running Stable Diffusion on Apple Silicon. 60+ templates, text-to-image, ControlNet & private on-device.
+description: JoyFusion AI, native Mac/iPad app running Stable Diffusion on Apple Silicon. 60+ templates, text-to-image, ControlNet & private on-device.
 categories:
   - image-generation
 use_cases:
@@ -22,7 +22,6 @@ features:
   - ControlNet and high-resolution rendering
   - Core ML optimized for Apple Silicon
 launch_date: 2023-06
-verified: false
 title: JoyFusion — Image Generation AI Tool
 image: /assets/images/og/tools/joyfusion.png
 ---

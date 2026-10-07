@@ -24,7 +24,6 @@ features:
   - Docker deployment
   - Workspace organization
 launch_date: 2023-09
-verified: false
 title: AnythingLLM — Chat & Conversational AI Tool
 image: /assets/images/og/tools/anything-llm.png
 ---

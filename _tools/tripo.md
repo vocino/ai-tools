@@ -22,7 +22,6 @@ features:
   - Texture and material generation
   - API for integration into 3D workflows
 launch_date: 2024-01
-verified: false
 title: Tripo AI — 3D AI Tool
 image: /assets/images/og/tools/tripo.png
 ---

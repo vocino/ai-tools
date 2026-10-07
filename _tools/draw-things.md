@@ -2,7 +2,7 @@
 name: Draw Things
 slug: draw-things
 website: https://drawthings.ai
-description: Free local AI image generation app for Mac, iPhone, and iPad that runs Stable Diffusion entirely offline on your device.
+description: local AI image generation app for Mac, iPhone, and iPad that runs Stable Diffusion entirely offline on your device.
 categories:
   - image-generation
 use_cases:
@@ -22,7 +22,6 @@ features:
   - LoRA training and ControlNet support
   - Image-to-video generation
 launch_date: 2022-11
-verified: false
 title: Draw Things — Image Generation AI Tool
 image: /assets/images/og/tools/draw-things.png
 ---

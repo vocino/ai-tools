@@ -23,7 +23,6 @@ features:
   - Video translation and dubbing with lip-sync
   - Streaming Avatar API for real-time interactive videos
 launch_date: 2022-11
-verified: false
 title: HeyGen — Video Generation AI Tool
 image: /assets/images/og/tools/heygen.png
 ---

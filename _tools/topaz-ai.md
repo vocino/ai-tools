@@ -21,7 +21,6 @@ features:
   - Desktop apps for photographers and editors
   - Cloud tools and APIs for batch and enterprise use cases
   - Integrations with popular editing workflows
-verified: false
 title: Topaz Labs — Image Editing AI Tool
 image: /assets/images/og/tools/topaz-ai.png
 ---

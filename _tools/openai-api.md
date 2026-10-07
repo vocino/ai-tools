@@ -23,7 +23,6 @@ features:
   - Embeddings and fine-tuning
   - Function calling and tools
 launch_date: 2020-06
-verified: false
 title: OpenAI API — APIs AI Tool
 image: /assets/images/og/tools/openai-api.png
 ---

@@ -24,7 +24,6 @@ features:
   - Image generation and search integration
   - Collaborative editing and sharing
 launch_date: 2022-08
-verified: false
 title: Gamma — Design AI Tool
 image: /assets/images/og/tools/gamma.png
 ---

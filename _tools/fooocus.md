@@ -2,7 +2,7 @@
 name: Fooocus
 slug: fooocus
 website: https://github.com/lllyasviel/Fooocus
-description: Open-source Stable Diffusion UI focused on simplicity and quality with minimal configuration.
+description: Stable Diffusion UI focused on simplicity and quality with minimal configuration.
 categories:
   - image-generation
 use_cases:
@@ -21,7 +21,6 @@ features:
   - Based on Stable Diffusion
   - Inpaint and outpainting support
 launch_date: 2023-08
-verified: false
 title: Fooocus — Image Generation AI Tool
 image: /assets/images/og/tools/fooocus.png
 ---

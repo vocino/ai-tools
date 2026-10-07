@@ -24,7 +24,6 @@ features:
   - Chrome extension
   - 40+ languages
 launch_date: 2021-04
-verified: false
 title: Rytr — Writing AI Tool
 image: /assets/images/og/tools/rytr.png
 ---

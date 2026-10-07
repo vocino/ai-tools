@@ -2,7 +2,7 @@
 name: Dify
 slug: dify
 website: https://dify.ai
-description: Open-source platform for building and deploying agentic AI workflows, RAG pipelines, and autonomous agents.
+description: platform for building and deploying agentic AI workflows, RAG pipelines, and autonomous agents.
 categories:
   - agents
   - api-platform
@@ -23,7 +23,6 @@ features:
   - Self-hosted or cloud deployment
   - Open-source on GitHub
 launch_date: 2023-08
-verified: false
 title: Dify — Agents AI Tool
 image: /assets/images/og/tools/dify.png
 ---

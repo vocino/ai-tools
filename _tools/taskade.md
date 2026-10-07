@@ -20,7 +20,6 @@ features:
   - Multi-agent automations that connect to many SaaS tools
   - Real-time collaboration across web, desktop, and mobile
   - Integrations and API access on higher-tier plans
-verified: false
 title: Taskade — Productivity AI Tool
 image: /assets/images/og/tools/taskade.png
 ---

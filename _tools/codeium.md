@@ -2,7 +2,7 @@
 name: Codeium
 slug: codeium
 website: https://devin.ai/desktop
-description: Free AI code completion and in-editor chat for developers, supporting 70+ programming languages and all major IDEs.
+description: AI code completion and in-editor chat for developers, supporting 70+ programming languages and all major IDEs.
 categories:
   - coding
 use_cases:
@@ -20,7 +20,6 @@ features:
   - Works in VS Code, JetBrains, Vim, Neovim, Emacs, and more
   - Enterprise self-hosted deployment available
 launch_date: 2022-12
-verified: false
 title: Codeium — Coding AI Tool
 image: /assets/images/og/tools/codeium.png
 ---

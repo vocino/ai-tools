@@ -23,7 +23,6 @@ features:
   - On-premise and private cloud deployment
   - Fine-tuning support for custom models
 launch_date: 2021-09
-verified: false
 title: Cohere — APIs AI Tool
 image: /assets/images/og/tools/cohere.png
 ---

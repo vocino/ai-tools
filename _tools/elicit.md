@@ -19,7 +19,6 @@ features:
   - Concept maps linking related research
   - Systematic review workflow support
 launch_date: 2021-10
-verified: false
 title: Elicit — Research & Analysis AI Tool
 image: /assets/images/og/tools/elicit.png
 ---

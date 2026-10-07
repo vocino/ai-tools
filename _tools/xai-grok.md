@@ -24,7 +24,6 @@ features:
   - Unfiltered personality with humor
   - Available in X app and standalone at x.ai
 launch_date: 2023-11
-verified: false
 title: Grok — Chat & Conversational AI Tool
 image: /assets/images/og/tools/xai-grok.png
 ---

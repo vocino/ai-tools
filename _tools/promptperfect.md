@@ -20,7 +20,6 @@ features:
   - API for integration
   - Prompt analysis
 launch_date: 2023-05
-verified: false
 title: PromptPerfect — Prompt Engineering AI Tool
 image: /assets/images/og/tools/promptperfect.png
 ---

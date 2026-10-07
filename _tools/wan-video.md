@@ -23,7 +23,6 @@ features:
   - Spatiotemporal variational autoencoder for motion quality
   - 720p to 1080p output resolution
 launch_date: 2025-11
-verified: false
 title: Wan Video — Video Generation AI Tool
 image: /assets/images/og/tools/wan-video.png
 ---

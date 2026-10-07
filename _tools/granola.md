@@ -21,7 +21,6 @@ features:
   - Works with any meeting platform (Zoom, Meet, Teams)
   - One-click sharing and CRM integration
 launch_date: 2024-06
-verified: false
 title: Granola — Productivity AI Tool
 image: /assets/images/og/tools/granola.png
 ---

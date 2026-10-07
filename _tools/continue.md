@@ -2,7 +2,7 @@
 name: Continue
 slug: continue
 website: https://continue.dev
-description: Open-source AI code assistant for VS Code and JetBrains with local model support and deep IDE integration.
+description: AI code assistant for VS Code and JetBrains with local model support and deep IDE integration.
 categories:
   - coding
 use_cases:
@@ -20,7 +20,6 @@ features:
   - Inline edit and chat in IDE
   - Tab completion and code generation
 launch_date: 2023-05
-verified: false
 title: Continue — Coding AI Tool
 image: /assets/images/og/tools/continue.png
 ---

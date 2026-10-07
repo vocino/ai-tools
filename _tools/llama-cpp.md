@@ -23,7 +23,6 @@ features:
   - OpenAI-compatible server mode
   - Docker and package manager installs
 launch_date: 2023-03
-verified: false
 title: llama.cpp — APIs AI Tool
 image: /assets/images/og/tools/llama-cpp.png
 ---

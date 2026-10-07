@@ -21,7 +21,6 @@ features:
   - Multilingual support across 45 languages
   - Analytics dashboard for resolution tracking
 launch_date: 2023-06
-verified: false
 title: Intercom Fin — Customer Service AI Tool
 image: /assets/images/og/tools/intercom-fin.png
 ---

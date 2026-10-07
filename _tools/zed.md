@@ -20,7 +20,6 @@ features:
   - Real-time multiplayer collaboration
   - Agent panel for autonomous coding tasks
 launch_date: 2024-01
-verified: false
 title: Zed — Coding AI Tool
 image: /assets/images/og/tools/zed.png
 ---

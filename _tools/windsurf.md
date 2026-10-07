@@ -20,7 +20,6 @@ features:
   - Built on VS Code
   - Autonomous multi-step task execution
 launch_date: 2024-11
-verified: false
 title: Windsurf — Coding AI Tool
 image: /assets/images/og/tools/windsurf.png
 ---

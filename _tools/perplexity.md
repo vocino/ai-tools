@@ -21,7 +21,6 @@ features:
   - Collections for organizing research
   - API for developers
 launch_date: 2022-12
-verified: false
 title: Perplexity — Search & Discovery AI Tool
 image: /assets/images/og/tools/perplexity.png
 ---

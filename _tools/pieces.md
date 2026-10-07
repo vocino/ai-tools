@@ -22,7 +22,6 @@ features:
   - Code reuse and organization
   - Integrations with IDE and browser
 launch_date: 2022-03
-verified: false
 title: Pieces — Coding AI Tool
 image: /assets/images/og/tools/pieces.png
 ---

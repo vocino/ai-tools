@@ -20,7 +20,6 @@ features:
   - Prompt discovery
   - Category browsing
 launch_date: 2022-06
-verified: false
 title: PromptBase — Prompt Engineering AI Tool
 image: /assets/images/og/tools/promptbase.png
 ---

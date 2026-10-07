@@ -23,7 +23,6 @@ features:
   - AI social media agent for automated posting
   - Breeze Copilot for CRM task assistance
 launch_date: 2023-09
-verified: false
 title: HubSpot AI — Marketing & Sales AI Tool
 image: /assets/images/og/tools/hubspot-ai.png
 ---

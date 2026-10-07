@@ -2,7 +2,7 @@
 name: LibreChat
 slug: librechat
 website: https://www.librechat.ai
-description: Open-source, self-hosted AI chat platform that connects to many model providers in a single interface.
+description: self-hosted AI chat platform that connects to many model providers in a single interface.
 categories:
   - chat
   - agents
@@ -20,7 +20,6 @@ features:
   - Support for tools, plugins, and advanced capabilities like code execution
   - Web, Docker, and cloud deployment options
   - Extensible via APIs, custom endpoints, and Model Context Protocol
-verified: false
 title: LibreChat — Chat & Conversational AI Tool
 image: /assets/images/og/tools/librechat.png
 ---

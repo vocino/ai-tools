@@ -23,7 +23,6 @@ features:
   - Sync voiceovers with video and slides
   - Studio editor with timeline for multi-voice projects
 launch_date: 2020-12
-verified: false
 title: Murf — Speech & Voice AI Tool
 image: /assets/images/og/tools/murf.png
 ---

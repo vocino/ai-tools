@@ -20,7 +20,6 @@ features:
   - Statistical analysis and regression modeling
   - Shareable dashboards and reports
 launch_date: 2023-06
-verified: false
 title: Julius AI — Data & Analytics AI Tool
 image: /assets/images/og/tools/julius-ai.png
 ---

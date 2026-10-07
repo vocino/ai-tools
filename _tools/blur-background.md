@@ -17,7 +17,6 @@ self_hosted: false
 features:
   - Local browser processing for Free Basic
   - Adjustable background blur and edge controls
-verified: false
 title: Blur Background — Image Editing AI Tool
 image: /assets/images/og/tools/blur-background.png
 ---

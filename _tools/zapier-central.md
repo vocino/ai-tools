@@ -21,7 +21,6 @@ features:
   - No-code setup
   - Built on Zapier infrastructure
 launch_date: 2024-06
-verified: false
 title: Zapier Central — Agents AI Tool
 image: /assets/images/og/tools/zapier-central.png
 ---

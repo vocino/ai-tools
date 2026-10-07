@@ -22,7 +22,6 @@ features:
   - Meme and short-form content
   - Discord community
 launch_date: 2024-02
-verified: false
 title: Viggle — Video Generation AI Tool
 image: /assets/images/og/tools/viggle.png
 ---

@@ -21,7 +21,6 @@ features:
   - Endpoint management
   - Enterprise deployment
 launch_date: 2021-06
-verified: false
 title: Anyscale — APIs AI Tool
 image: /assets/images/og/tools/anyscale.png
 ---

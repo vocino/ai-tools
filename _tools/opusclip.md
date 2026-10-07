@@ -23,7 +23,6 @@ features:
   - Brand templates and team workspace
   - Multi-platform support (YouTube, TikTok, etc.)
 launch_date: 2022-06
-verified: false
 title: OpusClip — Video Editing AI Tool
 image: /assets/images/og/tools/opusclip.png
 ---

@@ -20,7 +20,6 @@ features:
   - Custom background replacement
   - Integrations with Photoshop, Figma, and Canva
 launch_date: 2018-11
-verified: false
 title: Remove.bg — Image Editing AI Tool
 image: /assets/images/og/tools/remove-bg.png
 ---

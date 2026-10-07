@@ -25,7 +25,6 @@ features:
   - AI chat with web browsing
   - Simple APIs for developers
 launch_date: 2016-12
-verified: false
 title: DeepAI — Image Generation AI Tool
 image: /assets/images/og/tools/deepai.png
 ---

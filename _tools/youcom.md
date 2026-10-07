@@ -24,7 +24,6 @@ features:
   - Privacy mode with no tracking or personalization
   - Custom AI agents for specialized tasks
 launch_date: 2021-11
-verified: false
 title: You.com — Search & Discovery AI Tool
 image: /assets/images/og/tools/youcom.png
 ---

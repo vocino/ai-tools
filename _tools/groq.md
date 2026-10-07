@@ -22,7 +22,6 @@ features:
   - Free tier with rate-limited API access
   - Whisper large-v3 for fast speech transcription
 launch_date: 2024-02
-verified: false
 title: Groq — APIs AI Tool
 image: /assets/images/og/tools/groq.png
 ---

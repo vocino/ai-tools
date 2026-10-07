@@ -24,7 +24,6 @@ features:
   - Scholar AI for academic research
   - Browser extension for Gmail and Docs
 launch_date: 2021-01
-verified: false
 title: HyperWrite — Writing AI Tool
 image: /assets/images/og/tools/hyperwrite.png
 ---

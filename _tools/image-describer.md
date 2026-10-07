@@ -20,7 +20,6 @@ features:
   - Generates detailed natural-language image descriptions
   - Helps draft accessible alt text and content summaries
   - Supports visual analysis for creative and marketing workflows
-verified: false
 title: Image Describer — Image Editing AI Tool
 image: /assets/images/og/tools/image-describer.png
 ---

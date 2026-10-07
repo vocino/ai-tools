@@ -20,7 +20,6 @@ features:
   - Built on VS Code
   - Multiple AI model support
 launch_date: 2023-03
-verified: false
 title: Cursor — Coding AI Tool
 image: /assets/images/og/tools/cursor.png
 ---

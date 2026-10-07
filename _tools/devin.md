@@ -22,7 +22,6 @@ features:
   - Integrates with GitHub for PR creation and review
   - Slack-based collaboration for task assignment
 launch_date: 2024-03
-verified: false
 title: Devin — Coding AI Tool
 image: /assets/images/og/tools/devin.png
 ---

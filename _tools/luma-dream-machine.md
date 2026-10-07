@@ -22,7 +22,6 @@ features:
   - Ray2 model with photorealistic quality
   - API access for developers
 launch_date: 2024-06
-verified: false
 title: Luma Dream Machine — Video Generation AI Tool
 image: /assets/images/og/tools/luma-dream-machine.png
 ---

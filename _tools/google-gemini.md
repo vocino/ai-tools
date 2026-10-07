@@ -26,7 +26,6 @@ features:
   - Native code execution and Google Flights/Hotels integration
   - Available on Android as default assistant
 launch_date: 2023-12
-verified: false
 title: Google Gemini — Chat & Conversational AI Tool
 image: /assets/images/og/tools/google-gemini.png
 ---

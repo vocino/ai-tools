@@ -23,7 +23,6 @@ features:
   - Firefly API for enterprise workflows
   - Commercially safe outputs with Content Credentials
 launch_date: 2023-09
-verified: false
 title: Adobe Firefly — Image Generation AI Tool
 image: /assets/images/og/tools/adobe-firefly.png
 ---

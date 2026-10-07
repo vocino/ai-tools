@@ -25,7 +25,6 @@ features:
   - Magic edit for auto-subtitles and b-roll
   - Stock media library
 launch_date: 2022-01
-verified: false
 title: Fliki — Video Generation AI Tool
 image: /assets/images/og/tools/fliki.png
 ---

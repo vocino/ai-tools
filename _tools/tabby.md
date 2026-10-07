@@ -2,7 +2,7 @@
 name: Tabby
 slug: tabby
 website: https://www.tabbyml.com
-description: Open-source, self-hosted AI coding assistant server for code completion and IDE integration.
+description: self-hosted AI coding assistant server for code completion and IDE integration.
 categories:
   - coding
 use_cases:
@@ -19,7 +19,6 @@ features:
   - Supports popular open-source coding models
   - Organization-level control over data and deployment
   - HTTP and WebSocket APIs for custom integrations
-verified: false
 title: Tabby — Coding AI Tool
 image: /assets/images/og/tools/tabby.png
 ---

@@ -21,7 +21,6 @@ features:
   - Team learning from private codebases
   - SOC 2 compliant with no code retention option
 launch_date: 2019-08
-verified: false
 title: Tabnine — Coding AI Tool
 image: /assets/images/og/tools/tabnine.png
 ---
