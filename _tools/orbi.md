@@ -2,7 +2,7 @@
 name: Orbi
 slug: orbi
 website: https://orbi.build
-description: Open-source coding agent that turns a labeled GitHub issue into a pull request, has a second AI session review it, then merges it.
+description: Open-source coding agent that turns a labeled GitHub issue into reviewed, merged code and a tagged release.
 categories:
   - coding
   - agents
@@ -24,4 +24,4 @@ features:
   - Works with any OpenAI-compatible model endpoint, including a local llama.cpp server
 launch_date: "2026-08"
 ---
-Orbi is licensed AGPL-3.0 and the source is at [github.com/orbi-build/orbi](https://github.com/orbi-build/orbi). It is free to self-host with your own model key. There is also a hosted version, Orbi Cloud, where your first 3 merged deliveries (merged PRs) are free and paid plans start at US$24/month billed yearly.
+Orbi is licensed AGPL-3.0 and the source is at [github.com/orbi-build/orbi](https://github.com/orbi-build/orbi). It is free to self-host with your own model key. There is also a hosted version, Orbi Cloud, with a 14-day free trial (no credit card) and paid plans starting at US$29/month (founding members 50% off).
